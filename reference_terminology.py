@@ -1068,7 +1068,8 @@ def enhance_translation(source: str, translated: str) -> str:
             result = _apply_edits(result, edits)
 
     result = re.sub(r"\s+([,.;:!?])", r"\1", result)
-    result = re.sub(r"\s{2,}", " ", result).strip()
+    # Paragraph/list boundaries are meaningful in the native reader.
+    result = re.sub(r"[ \t]{2,}", " ", result).strip()
     if result:
         result = result[0].upper() + result[1:]
     return result

@@ -6,8 +6,16 @@
 
 ## Скачать
 
-- [Golf IV / Bora 7.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-7.apk)
-- [BFQ 1.6 6.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-6.apk)
+- [Golf IV / Bora 8.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-8.apk)
+- [BFQ 1.6 7.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-7.apk)
+
+В этих версиях заголовки, шаги, примечания и обозначения к рисункам получили
+отдельное оформление. Восстановлены переносы пунктов списков по исходному тексту.
+В разделе 4D вручную сверены страницы 221–223: исправлены маркеры, полное
+примечание про AGR, обозначения деталей и границы трёх иллюстраций.
+Повторяемая обработка: `python format_article_layout.py`; неоднозначные номера
+автоматически не изменяются. Проверенные вручную исключения хранятся в
+`reviewed_diesel_turbo.py` и `reviewed_layout_fixes.py`.
 
 Эту версию нужно один раз установить поверх прежнего APK. Следующие версии
 можно получать через кнопку «Обновления». Приложения имеют разные package ID

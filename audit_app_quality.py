@@ -194,7 +194,7 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
                 issues.append(Issue("format", location, "повторяющаяся пунктуация", stripped[:220]))
             if re.search(r"\b[А-Яа-яЁё]{2,}\([А-Яа-яЁё]{1,4}\)", stripped):
                 issues.append(Issue("format", location, "OCR-нотация вариантного окончания", stripped[:220]))
-            bracket_text = re.sub(r"^[a-zа-я]\)\s+", "", stripped, flags=re.I)
+            bracket_text = re.sub(r"^[a-zа-я]\)\s+", "", stripped, flags=re.I | re.M)
             if bracket_text.count("(") != bracket_text.count(")") or bracket_text.count("[") != bracket_text.count("]"):
                 issues.append(Issue("format", location, "несбалансированные скобки", stripped[:220]))
             if len(stripped) > 1800:

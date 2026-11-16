@@ -6419,10 +6419,10 @@
       "asset": "media/emissions_diesel_0223_01.webp",
       "page": 223,
       "box": [
-        498,
-        28,
-        792,
-        272
+        520,
+        70,
+        802,
+        282
       ],
       "sourceAsset": "media/source/haynes_0223.webp"
     },
@@ -6431,9 +6431,9 @@
       "page": 223,
       "box": [
         0,
-        38,
-        532,
-        512
+        70,
+        515,
+        515
       ],
       "sourceAsset": "media/source/haynes_0223.webp"
     },
@@ -6441,10 +6441,10 @@
       "asset": "media/emissions_diesel_0223_03.webp",
       "page": 223,
       "box": [
-        498,
-        608,
-        802,
-        702
+        520,
+        635,
+        805,
+        1070
       ],
       "sourceAsset": "media/source/haynes_0223.webp"
     },

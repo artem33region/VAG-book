@@ -388,6 +388,7 @@ def translatable_blocks(payload: dict):
             block.get("type") != "image"
             and not block.get("curated")
             and "translationPart" not in block
+            and not block.get("role") and not block.get("layoutReviewed")
             and counts[(block.get("page"), source)] == 1
             and len(re.findall(r"[A-Za-z]", source)) >= 3
         ):

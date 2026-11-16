@@ -768,13 +768,14 @@ def remove_unmatched_parentheses(text: str) -> str:
     chars = list(text)
     stack: list[int] = []
     remove: set[int] = set()
+    list_closings = {match.end() - 1 for match in re.finditer(r"(?<!\w)(?:[a-zа-я]|\d{1,3})\)(?=\s)", text, re.I)}
     for index, char in enumerate(chars):
         if char == "(":
             stack.append(index)
         elif char == ")":
             if stack:
                 stack.pop()
-            else:
+            elif index not in list_closings:
                 remove.add(index)
     remove.update(stack)
     return "".join(char for index, char in enumerate(chars) if index not in remove)
@@ -822,7 +823,7 @@ def clean_text(source: str, translated: str, kind: str) -> str:
     text = re.sub(r"([.!?])(?=[А-ЯЁ])", r"\1 ", text)
     text = re.sub(r"([,.;:!?])(?:\s*[,.!?]){1,}", r"\1", text)
     text = re.sub(r"\s*/\s*", "/", text)
-    text = re.sub(r"\s{2,}", " ", text).strip(" \t,;:")
+    text = re.sub(r"[ \t]{2,}", " ", text).strip(" \t,;:")
     if kind == "heading":
         text = clean_heading(text)
     if text:
@@ -934,7 +935,7 @@ def polish(assets: Path, selected_slugs: set[str] | None = None) -> dict[str, in
             blocks: list[dict[str, object]] = []
             for block in original:
                 if (
-                    block.get("type") == "image" or block.get("curated")
+                    block.get("type") == "image" or block.get("curated") or block.get("role") or block.get("layoutReviewed")
                     or "translationPart" in block
                     or (block.get("source") and source_counts[(block.get("page"), block.get("source"))] > 1)
                 ):

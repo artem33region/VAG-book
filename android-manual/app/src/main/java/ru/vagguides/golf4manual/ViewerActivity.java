@@ -205,7 +205,8 @@ public final class ViewerActivity extends Activity {
                     String description = row.optString("description", "Иллюстрация из справочника");
                     if ("image".equals(type) ? !asset.isEmpty() : !text.isEmpty()) {
                         blocks.add(new ArticleBlock(type, text, asset, description,
-                                row.optString("sourceAsset", "")));
+                                row.optString("sourceAsset", ""), row.optString("role", ""),
+                                row.optString("label", "")));
                     }
                 }
                 runOnUiThread(() -> showArticle(blocks));
@@ -428,36 +429,11 @@ public final class ViewerActivity extends Activity {
                 text = (TextView) convertView.getTag();
             }
 
-            if (type == TYPE_HEADING) {
-                text.setTextSize(20);
-                text.setTextColor(Ui.NAVY_DARK);
-                text.setTypeface(text.getTypeface(), android.graphics.Typeface.BOLD);
-                text.setPadding(Ui.dp(ViewerActivity.this, 2), Ui.dp(ViewerActivity.this, 12),
-                        Ui.dp(ViewerActivity.this, 2), Ui.dp(ViewerActivity.this, 7));
-                text.setBackgroundColor(Color.TRANSPARENT);
-            } else if (type == TYPE_NOTE) {
-                text.setTextSize(15);
-                text.setTextColor(Ui.NAVY_DARK);
-                text.setTypeface(text.getTypeface(), android.graphics.Typeface.BOLD);
-                text.setPadding(Ui.dp(ViewerActivity.this, 14), Ui.dp(ViewerActivity.this, 12),
-                        Ui.dp(ViewerActivity.this, 14), Ui.dp(ViewerActivity.this, 12));
-                text.setBackground(Ui.outlined(0xFFFFF6D9, 0xFFE2C15C, 11, ViewerActivity.this));
-            } else if (type == TYPE_CAPTION) {
-                text.setTextSize(14);
-                text.setTextColor(Ui.MUTED);
-                text.setTypeface(text.getTypeface(), android.graphics.Typeface.ITALIC);
-                text.setPadding(Ui.dp(ViewerActivity.this, 12), Ui.dp(ViewerActivity.this, 5),
-                        Ui.dp(ViewerActivity.this, 12), Ui.dp(ViewerActivity.this, 9));
-                text.setBackgroundColor(0xFFF0EFEB);
-            } else {
-                text.setTextSize(16);
-                text.setTextColor(Ui.INK);
-                text.setTypeface(text.getTypeface(), android.graphics.Typeface.NORMAL);
-                text.setPadding(Ui.dp(ViewerActivity.this, 2), Ui.dp(ViewerActivity.this, 7),
-                        Ui.dp(ViewerActivity.this, 2), Ui.dp(ViewerActivity.this, 9));
-                text.setBackgroundColor(Color.TRANSPARENT);
-            }
-            text.setText(block.text);
+            View shell = (View) text.getParent();
+            shell.setPadding(Ui.dp(ViewerActivity.this, 16),
+                    Ui.dp(ViewerActivity.this, type == TYPE_HEADING ? 22 : 5),
+                    Ui.dp(ViewerActivity.this, 16), Ui.dp(ViewerActivity.this, 6));
+            ArticleTypography.bind(ViewerActivity.this, text, block.type, block.role, block.label, block.text);
             return convertView;
         }
     }
@@ -480,13 +456,17 @@ public final class ViewerActivity extends Activity {
         final String asset;
         final String description;
         final String sourceAsset;
+        final String role;
+        final String label;
 
-        ArticleBlock(String type, String text, String asset, String description, String sourceAsset) {
+        ArticleBlock(String type, String text, String asset, String description, String sourceAsset, String role, String label) {
             this.type = type;
             this.text = text;
             this.asset = asset;
             this.description = description;
             this.sourceAsset = sourceAsset;
+            this.role = role;
+            this.label = label;
         }
     }
 }
