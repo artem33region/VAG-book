@@ -38,7 +38,7 @@
       "title": "Бензиновые модели",
       "startPage": 21,
       "endPage": 40,
-      "blockCount": 391,
+      "blockCount": 393,
       "imageCount": 36
     },
     {
@@ -58,7 +58,7 @@
       "title": "Бензиновый двигатель SOHC",
       "startPage": 59,
       "endPage": 78,
-      "blockCount": 537,
+      "blockCount": 538,
       "imageCount": 51
     },
     {
@@ -68,7 +68,7 @@
       "title": "Бензиновый двигатель DOHC",
       "startPage": 79,
       "endPage": 110,
-      "blockCount": 829,
+      "blockCount": 831,
       "imageCount": 117
     },
     {
@@ -78,7 +78,7 @@
       "title": "Дизельный двигатель",
       "startPage": 111,
       "endPage": 132,
-      "blockCount": 571,
+      "blockCount": 573,
       "imageCount": 75
     },
     {
@@ -88,7 +88,7 @@
       "title": "Снятие и капитальный ремонт двигателя",
       "startPage": 133,
       "endPage": 160,
-      "blockCount": 674,
+      "blockCount": 675,
       "imageCount": 87
     },
     {
@@ -98,7 +98,7 @@
       "title": "Охлаждение, отопление и кондиционер",
       "startPage": 161,
       "endPage": 172,
-      "blockCount": 301,
+      "blockCount": 302,
       "imageCount": 31
     },
     {
@@ -118,7 +118,7 @@
       "title": "Топливная система дизельных двигателей",
       "startPage": 191,
       "endPage": 204,
-      "blockCount": 360,
+      "blockCount": 362,
       "imageCount": 43
     },
     {
@@ -218,7 +218,7 @@
       "title": "Тормозная система",
       "startPage": 265,
       "endPage": 278,
-      "blockCount": 434,
+      "blockCount": 435,
       "imageCount": 40
     },
     {
@@ -228,7 +228,7 @@
       "title": "Подвеска и рулевое управление",
       "startPage": 279,
       "endPage": 302,
-      "blockCount": 632,
+      "blockCount": 633,
       "imageCount": 90
     },
     {
@@ -238,7 +238,7 @@
       "title": "Кузов и наружное оборудование",
       "startPage": 303,
       "endPage": 328,
-      "blockCount": 686,
+      "blockCount": 687,
       "imageCount": 133
     },
     {

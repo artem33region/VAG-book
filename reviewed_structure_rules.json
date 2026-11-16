@@ -1,0 +1,2172 @@
+[
+  {
+    "slug": "bodywork",
+    "page": 304,
+    "source": "2 Maintenance bodywork and underframe",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "2 Уход за кузовом и днищем"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 304,
+    "source": "3 Maintenance upholstery and carpets",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "3 Уход за обивкой и ковровыми покрытиями"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 304,
+    "source": "4 Minor body damage repair Scratches",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "4 Ремонт небольших повреждений кузова"
+      },
+      {
+        "type": "heading",
+        "text": "Царапины"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 306,
+    "source": "5 Major body damage repair",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "5 Ремонт серьёзных повреждений кузова"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 307,
+    "source": "8 Bonnet and adjustment removal, refitting",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "8 Капот — снятие, установка и регулировка"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 330,
+    "source": "2 Electrical fault finding general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "2 Поиск неисправностей электрооборудования — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 331,
+    "source": "1 Fuses are designed to break a circuit when a predetermined current is reached, in order to protect the components and wiring which could be damaged by excessive current flow. Any excessive current flow will be due to a fault in the circuit, usually a short-circuit (see Section 2)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Предохранители предназначены для разрыва цепи при достижении заданного тока, чтобы защитить компоненты и проводку, которые могут быть повреждены чрезмерным потоком тока. Любой чрезмерный ток будет вызван неисправностью в цепи, обычно коротким замыканием (см. раздел 2).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 331,
+    "source": "11 Most of the relays are located on the relay plate behind the driver's side facia",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "11. Большинство реле расположены на пластине реле за панелью со стороны водителя.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 331,
+    "source": "12 Access to the relays can be obtained after removing the driver’s side lower facia panel as described in Chapter 11, Section 28, then removing the two relay plate retaining screws (one at either end), and lowering the plate complete with relays (see illustration). Identification details of the relays are given at the start of the wiring diagrams",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "12. Доступ к реле можно получить, сняв нижнюю лицевую панель со стороны водителя, как описано в Главе 11, Раздел 28, затем открутив два винта крепления пластины реле (по одному с каждого конца) и опустив пластину с реле (см. рисунок). Идентификационные данные реле приведены в начале электрических схем.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 341,
+    "source": "9 Headlight beam alignment general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "9 Регулировка света фар — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 341,
+    "source": "1 Accurate adjustment of the headlight beam is only possible using optical beam setting equipment and this work should therefore be carried out by a VW dealer or suitablyequipped workshop",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Точная регулировка луча фар возможна только с использованием оптического устройства регулировки луча, поэтому эту работу должен выполнять дилер VW или мастерская с соответствующим оборудованием.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 342,
+    "source": "12 Service interval indicator general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "12 Индикатор сервисного интервала — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 342,
+    "source": "1 All Golf and Bora models are equipped with a service interval indicator. After all necessary maintenance work has been completed (see the relevant part of Chapter 1), the service interval display code must be reset. If more than one service schedule is carried out, note that the relevant display intervals must be reset individually",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Все модели Golf и Bora оснащены индикатором интервала технического обслуживания. После завершения всех необходимых работ по техническому обслуживанию (см. соответствующую часть Главы 1) код дисплея интервала обслуживания необходимо сбросить. Если выполняется более одного графика обслуживания, обратите внимание, что соответствующие интервалы отображения необходимо сбрасывать индивидуально.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 344,
+    "source": "15 Still holding the washer jet, lift the securing clip slightly, and pull the jet from the lift cylinder (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "15. Продолжая удерживать жиклер омывателя, слегка приподнимите крепежный зажим и вытащите жиклер из подъемного цилиндра (см. рисунок).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "body_electrical",
+    "page": 347,
+    "source": "24 Parking aid components general information, removal and refitting",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "24 Система помощи при парковке — общие сведения, снятие и установка"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 267,
+    "source": "3 Hydraulic pipes and hoses renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "3 Гидравлические трубки и шланги — замена"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 269,
+    "source": "31 New pads will not give full braking efficiency until they have bedded-in. Be prepared for this and avoid hard braking (where possible) in the first hundred miles or so after pad renewal",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "31. Новые колодки не обеспечат полную эффективность торможения, пока не притерты. Будьте к этому готовы и избегайте резкого торможения (где это возможно) примерно в первые сто миль после замены колодок.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 271,
+    "source": "8 Rear brake pads and refitting removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "8 Задние тормозные колодки — снятие, проверка и установка"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 272,
+    "source": "18 New pads will not give full braking efficiency until they have bedded-in. Be prepared for this, and avoid hard braking as far as possible for the first hundred miles or so after pad renewal removal, overhaul and refitting x",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "18. Новые колодки не обеспечат полную эффективность торможения, пока не притерты. Будьте к этому готовы и избегайте резкого торможения, насколько это возможно, в течение первых ста миль или около того после снятия, капитального ремонта и установки колодок.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 274,
+    "source": "11 Servo unit testing, removal and refitting WH Testing",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "11 Вакуумный усилитель тормозов — проверка, снятие и установка"
+      },
+      {
+        "type": "heading",
+        "text": "Проверка"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 274,
+    "source": "12 Servo non-return valve testing, removal and refitting",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "12 Обратный клапан вакуумного усилителя — проверка, снятие и установка"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 275,
+    "source": "14 Handbrake adjustment",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "14 Стояночный тормоз — регулировка"
+      }
+    ]
+  },
+  {
+    "slug": "brakes",
+    "page": 275,
+    "source": "2 Applying normal moderate pressure, pull the handbrake lever to the fully-applied position, counting the number of clicks from handbrake adjustment is correct, there should be approximately 4 to 7 clicks before the handbrake is fully applied. If this is not the case, adjust as follows",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Применяя нормальное умеренное усилие, потяните рычаг стояночный тормоз до полностью зажатого положения, считая количество щелчков. Если регулировка стояночный тормоз выполнена правильно, должно быть примерно 4–7 щелчков до полного зажатия стояночный тормоз. Если это не так, выполните регулировку следующим образом",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 240,
+    "source": "2 Hydraulic system bleeding",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "2 Гидропривод сцепления — прокачка"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 241,
+    "source": "DOANDAAWNH- 10 Clutch bleed valve 171 Dust cap 12 Slave cylinder connection",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Клапан прокачки сцепления\n11. Пылезащитный колпачок\n12. Соединение рабочего цилиндра",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 241,
+    "source": "15 No spare parts are available from VW for the master cylinder. If the master cylinder is faulty or worn, the complete assembly must be renewed",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "15. Запасные части для главного цилиндра у VW недоступны. Если главный цилиндр неисправен или изношен, необходимо заменить весь узел.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 244,
+    "source": "19 Centre the friction disc using vernier calipers; ensure that there is a uniform gap between outer edge of the friction disc and the inner edge of the flywheel, around the whole circumference (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "19. Центрируйте ведомый диск с помощью штангенциркуля; убедитесь, что по всей окружности имеется равномерный зазор между внешним краем ведомого диска и внутренним краем маховика (см. иллюстрацию).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 244,
+    "source": "22 Access to the clutch is obtained by removing the transmission as described in Chapter 7A",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "22. Доступ к сцеплению обеспечивается снятием трансмиссии, как описано в Главе 7A",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "clutch",
+    "page": 246,
+    "source": "5 Transmission housing",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Корпус трансмиссии",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "cooling",
+    "page": 165,
+    "source": "5 Electric cooling fan testing, removal and refitting Models without air conditioning",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "5 Электрический вентилятор охлаждения — проверка, снятие и установка"
+      },
+      {
+        "type": "heading",
+        "text": "Модели без кондиционера"
+      }
+    ]
+  },
+  {
+    "slug": "cooling",
+    "page": 167,
+    "source": "3 Cold air enters the system through the grille at the rear of the engine compartment. On some models (depending on specification) a pollen filter is fitted to the ventilation inlet to filter out dust, soot, pollen and spores from the air entering the vehicle",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Холодный воздух поступает в систему через решетку на задней части моторного отсека. На некоторых моделях (в зависимости от комплектации) на вход вентиляции устанавливается фильтр от пыльцы, который удаляет пыль, сажу, пыльцу и споры из воздуха, поступающего в автомобиль.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "cooling",
+    "page": 170,
+    "source": "11 Air conditioning system general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "11 Система кондиционирования — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "driveshafts",
+    "page": 258,
+    "source": "3 Driveshaft rubber gaiters renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "3 Защитные чехлы приводных валов — замена"
+      }
+    ]
+  },
+  {
+    "slug": "driveshafts",
+    "page": 261,
+    "source": "22 Drive ascrewdriver through the side of the metal cap over the end of the joint outer member, and use the screwdriver to lever the cap off the outer member. If the cap cannot be levered off, drive a second screwdriver through the opposite side of the cap, and use the two screwdrivers to lever off the cap",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "22. Вбейте отвертку через боковую часть металлической крышки на конце наружного элемента шарнира и используйте отвертку, чтобы отжать крышку с наружного элемента. Если крышку не удается отжать, вбейте вторую отвертку с противоположной стороны крышки и используйте обе отвертки, чтобы снять крышку.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 220,
+    "source": "1 Inlet manifold lower section 2 Gasket 3 EGR valve 4 EGR valve mounting bolts/nuts 5 Clamp 6 Clamp bolt 7 Connecting pipe 8 Exhaust manifold",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Нижняя часть впускного коллектора \n2. Прокладка \n3. Клапан EGR \n4. Болты/гайки крепления клапана EGR \n5. Хомут \n6. Болт хомута \n7. Соединительная труба \n8. Выпускной коллектор",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 224,
+    "source": "5 Valve lever 6 Wastegate",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Рычаг клапана \n6. перепускной клапан турбокомпрессора",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 224,
+    "source": "2 Access to the exhaust manifold (at least from above) is greatly improved if the inlet manifold is removed first, as described in Part B of this Chapter",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Доступ к выпускному коллектору (по крайней мере сверху) значительно улучшается, если сначала снять впускной коллектор, как описано в Части B этой главы.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 225,
+    "source": "2 Only non-turbo models have a centre silencer; turbo models have a centre pipe between the catalyst and rear silencer",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Только модели без турбонаддува имеют средний глушитель; турбированные модели имеют среднюю трубу между катализатором и задним глушителем",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 226,
+    "source": "15 Each section is refitted by a reversal of the removal sequence, noting the following",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "15. Каждая секция устанавливается обратно в обратной последовательности снятия с учетом следующих",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_diesel",
+    "page": 226,
+    "source": "10 Catalytic converter general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "10 Каталитический нейтрализатор — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 208,
+    "source": "6 Oxygen sensor connection 7 Mounting bolt 8 Oxygen sensor wiring clip 9 Oxygen sensor 10 Oxygen sensor wiring plug 11 EGR pipe union",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "6. Подключение датчика концентрации кислорода \n7. Крепежный болт \n8. Зажим проводки датчика концентрации кислорода \n9. датчик концентрации кислорода \n10. разъём проводки датчика концентрации кислорода \n11. Соединение трубы EGR",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 210,
+    "source": "16 Inlet manifold lower section 17 To union on exhaust manifold 18 Union nut 19 Secondary air pipe 20 Warm-air collector plate 21 Gasket",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "16. Нижняя часть впускного коллектора \n17. К соединению на выпускном коллекторе \n18. Гайка соединения \n19. Трубка вторичного воздуха \n20. Пластина коллектора теплого воздуха \n21. Прокладка",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 212,
+    "source": "11 Access to the coolant supply pipe union is particularly poor — it may be found easier to unscrew the pipe union bolt at the other end, and remove the turbocharger with the supply pipe. Depending on the extent of dismantling required, it may be advisable in any case to",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "11. Доступ к соединению трубки подачи охлаждающей жидкости особенно затруднен — может быть удобнее отвинтить болт соединения трубки с другой стороны и снять турбокомпрессор вместе с трубкой подачи. В зависимости от объема требуемой разборки, в любом случае может быть целесообразно",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 214,
+    "source": "171 Flexible section 12 Manifold-to-downpipe nut 13 Downpipe gasket 14 Oxygen sensor 1 15 Wiring harness guide tube",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "11. Гибкая секция\n12. Гайка крепления приёмной трубы к коллектору\n13. Прокладка приёмной трубы\n14. Датчик кислорода № 1\n15. Направляющая трубка жгута проводов",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 217,
+    "source": "16 Each section is refitted by a reversal of the removal sequence, noting the following",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "16. Каждая секция устанавливается обратно в порядке, обратном снятию, с учетом следующих",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 218,
+    "source": "10 Catalytic converter general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "10 Каталитический нейтрализатор — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 116,
+    "source": "easily. 19 Using a spanner or socket on the crankshaft sprocket bolt, turn the crankshaft in the normal direction of rotation (clockwise) until the alignment mark on the face of the sprocket is almost vertical (see illustrations). 20 The arrow (marked 4Z) on the rear section of the upper timing belt upper cover aligns between the two lugs on the rear of the camshaft hub sender wheel (see illustration). 21 While in this position it should be possible to insert VAG tool T10050 to lock the crankshaft, and 6 mm diameter rod to lock the",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "19. С помощью гаечного ключа или головки на болте шкива коленчатого вала проверните коленчатый вал в обычном направлении вращения (по часовой стрелке) до тех пор, пока метка выравнивания на лице шкива почти не станет вертикальной (см. иллюстрации). \n\n20. Стрелка (обозначена как 4Z) на задней части верхней крышки верхнего ремня ГРМ выравнивается между двумя выступами на задней части ведомого колеса датчика распределительного вала (см. иллюстрацию). \n\n21. В этом положении должно быть возможно вставить инструмент VAG T10050 для блокировки коленчатого вала и стержень диаметром 6 мм для блокировки",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 121,
+    "source": "45 Further refitting is a reversal of the removal procedure. recommend that the dynamic injection timing is checked equipment. Once the dynamic timing has been checked, the fuel injection pump sprocket bolts can be tightened fully to their Stage 2 torque setting, where applicable, and the upper outer timing belt cover can be refitted",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "45. Дальнейшая установка производится в обратном порядке снятия. Рекомендуется проверить динамическую установку времени впрыска с помощью оборудования. После проверки динамического времени, болты шестерни топливного насоса можно затянуть полностью до их крутящего момента стадии 2, при наличии, и верхнюю внешнюю крышку зубчатого ремня можно установить обратно",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 124,
+    "source": "2 Starting with the outer bolts first, carefully and evenly slacken the rocker shaft retaining bolts. Discard the rocker shaft bolts, new ones must be fitted (see illustration) Refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Начинайте с внешних болтов: аккуратно и равномерно ослабьте болты крепления коромысла. Болты коромысел выбросьте, установите новые (см. иллюстрацию)",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Установка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 125,
+    "source": "12 Camshaft oil seals — renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "12 Сальники распределительного вала — замена"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 125,
+    "source": "26 Oil the upper surfaces of the camshaft",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "26. Смажьте верхние поверхности распределительного вала",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 126,
+    "source": "bracket on the cylinder head, or remove the reservoir with its bracket. 18 Make a final check to ensure that all relevant pipes, hoses and wires have been disconnected and moved clear of the working area to enable removal of the cylinder head",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "18. Проведите окончательную проверку, чтобы убедиться, что все соответствующие трубки, шланги и провода были отсоединены и отведены от рабочей зоны, чтобы обеспечить возможность снятия головки блока цилиндров.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 127,
+    "source": "35 Dismantling and inspection of the cylinder head is covered in Part Chapter 2D Cylinder head gasket selection",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "35. Разборка и проверка головки блока цилиндров описаны в главе 2D.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Выбор прокладки головки блока цилиндров"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 127,
+    "source": "required for this operation. 36 Examine the old cylinder head gasket for manufacturer’s identification markings (see illustration). These will be in the form of holes or notches, and a part number on the edge of the gasket. Unless new pistons have been fitted, the new cylinder head gasket must be of the same type as the old one. In this case, purchase a new gasket, and proceed to paragraph 43. 37 If new piston assemblies have been fitted as part of an engine overhaul, or if a new short engine is to be fitted, the projection of the",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "36. Осмотрите старую прокладку головки блока цилиндров на наличие маркировки производителя (см. рисунок). Она будет в виде отверстий или вырезов, а также номера детали на краю прокладки. Если новые поршни не были установлены, новая прокладка головки блока цилиндров должна быть того же типа, что и старая. В этом случае приобретите новую прокладку и перейдите к пункту 43.\n\n\n37. Если новые поршневые сборки были установлены в рамках капитального ремонта двигателя или если необходимо установить новый короткий двигатель, выступ",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 129,
+    "source": "15 Oil pump and drive chain removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "15 Масляный насос и приводная цепь — снятие и проверка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 129,
+    "source": "17 Crankshaft oil seals renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "17 Сальники коленчатого вала — замена"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 84,
+    "source": "1 TDC is the highest point in the cylinder that each piston reaches as it travels upeand down when the crankshaft turns, Each piston reaches TDC at the end of the compression stroke and again at the end of the exhaust",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. ВМТ — это верхняя точка в цилиндре, до которой каждый поршень поднимается и опускается при вращении коленчатого вала. Каждый поршень достигает ВМТ в конце такта сжатия и снова в конце такта выпуска.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 87,
+    "source": "15 Further refitting is a reversal of removal removal and refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "15. Дальнейшую установку выполняйте в порядке, обратном снятию.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 98,
+    "source": "signs damaged rockers. 8 Inspect the camshaft lobes, as described in Section 11 Refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "8. Проверьте кулачки распределительного вала, как описано в разделе 11.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Установка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 98,
+    "source": "9 Oil the tappet bores in the cylinder head, and the tappets themselves, then carefully slide the tappets into their original bores (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "9. Смажьте маслом отверстия компенсаторов в головке блока цилиндров и сами компенсаторы, затем аккуратно вставьте компенсаторы в их исходные отверстия (см. иллюстрацию).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 98,
+    "source": "10 Oil the rocker contact tappets, and the tops of the valve stems, then refit the rockers to their original locations, ensuring that the rockers are securely clipped onto the tappets",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Смажьте маслом контактные поверхности рокеров и верхушки штоков клапанов, затем установите рокеры на их исходные места, убедившись, что рокеры надежно защелкнуты на компенсаторах.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 102,
+    "source": "14 Camshaft oil seals — renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "14 Сальники распределительных валов — замена"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 104,
+    "source": "22 Dismantling and inspection of the cylinder head is covered in Part D of this Chapter. Additionally, check the condition of the coolant pump pipe-to-thermostat housing Oring, and renew if necessary",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "22. Разборка и осмотр головки блока цилиндров рассматриваются в Части D этой главы. Кроме того, проверьте состояние уплотнительного кольца трубки насоса охлаждающей жидкости к корпусу термостата и при необходимости замените его",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 105,
+    "source": "50 Dismantling and inspection of the cylinder head is covered in Part D of this Chapter Refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "50. Разборка и осмотр головки блока цилиндров рассматриваются в Части D этой главы.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Установка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 106,
+    "source": "10 No spare parts are available for the oil pump, and if worn or faulty, the complete pump must be renewed",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Запасных частей для масляного насоса нет, и если он изношен или неисправен, необходимо заменить весь насос",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 107,
+    "source": "the edge of the rotor with the line (2) on the oil pump rear cover — 1.4 litre engine bolted directly to the crankshaft flange, and the dished flywheel is then bolted to the pressure procedures for the clutch pressure plate and flywheel are given in Chapter 6. 2 On 1.4 and 1.6 litre engines with automatic transmission, removal, inspection and refitting of the driveplate is as described for 2.0 litre engines, in Chapter 2A, Section 15 Removal refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. На двигателях 1.4 и 1.6 литра с автоматической коробкой передач снятие, проверка и повторная установка приводного диска выполняются так же, как для двигателей 2.0 литра, в Главе 2A, Раздел 15 Снятие и установка",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 108,
+    "source": "26 New oil seal/housing assemblies are supplied with a fitting tools to prevent damage to the oil seal as it is being fitted. Locate the tool over the end of the crankshaft (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "26. Новые сборки сальника/корпуса поставляются с монтажными инструментами, чтобы предотвратить повреждение сальника при установке. Разместите инструмент на конце коленчатого вала (см. иллюстрацию).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 109,
+    "source": "23 Oil pressure relief valve removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "23 Редукционный клапан давления масла — снятие и проверка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 142,
+    "source": "connector 38 Connect a suitable hoist and lifting tackle to the engine lifting brackets on the cylinder head, then raise the hoist to just take the weight of the engine and transmission. Depending on the type of hoist and lifting tackle to be used, it may be necessary to remove the bonnet — refer to Chapter 11 for details. 39 Work around the engine and transmission, and make a final check to ensure that all relevant wiring, hoses and pipes have been disconnected and released to enable removal of the engine/transmission assembly",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "38. Подсоедините подходящий подъемник и подъемное оборудование к монтажным кронштейнам двигателя на головке блока цилиндров, затем поднимите подъемник так, чтобы он поддерживал вес двигателя и трансмиссии. В зависимости от типа используемого подъемника и подъемного оборудования может потребоваться снятие капота — см. подробности в главе 11.\n\n\n39. Обойдите двигатель и трансмиссию и проведите окончательную проверку, чтобы убедиться, что все соответствующие проводка, шланги и трубы отсоединены и освобождены для возможности снятия сборки двигателя/трансмиссии",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 146,
+    "source": "7 Engine overhaul preliminary information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "7 Капитальный ремонт двигателя — предварительные сведения"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 148,
+    "source": "9 Cylinder head and valves cleaning and inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "9 Головка блока и клапаны — очистка и проверка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 148,
+    "source": "1 Thorough cleaning of the cylinder head and valve components, followed by a detailed inspection, will enable you to decide how",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Тщательная очистка головки блока цилиндров и компонентов клапанов, а затем детальный осмотр позволит вам определить, как",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 148,
+    "source": "10 Inspection of the camshaft is covered in Part A, B or C of this Chapter, as applicable. Valves and associated components",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Осмотр распределительного вала описан в Части А, В или С этой Главы, в зависимости от ситуации.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Клапаны и связанные с ними детали"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 152,
+    "source": "7 All threaded holes must be clean, to ensure accurate torque readings during reassembly. To clean the threads, run the correct-size tap into each of the holes to remove rust,",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "7. Все резьбовые отверстия должны быть чистыми, чтобы обеспечить точность показаний момента затяжки при сборке. Для очистки резьбы используйте метчик соответствующего размера и пропустите его через каждое из отверстий, чтобы удалить ржавчину.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 155,
+    "source": "1 Even though the main and big-end bearings should be renewed during the engine overhaul, the old bearings should be retained for close examination, as they may reveal valuable information about the condition of the engine (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Несмотря на то, что основные и шатунные подшипники следует заменять во время капитального ремонта двигателя, старые подшипники следует сохранить для внимательного осмотра, так как они могут дать ценную информацию о состоянии двигателя (см. иллюстрацию)",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 155,
+    "source": "2 Bearing failure can occur due to lack of lubrication, the presence of dirt or other foreign particles, overloading the engine, or corrosion. Regardless of the cause of bearing failure, the cause must be corrected before the engine is reassembled, to prevent it from happening again",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Отказ подшипника может произойти из-за недостаточной смазки, присутствия грязи или других посторонних частиц, перегрузки двигателя или коррозии. Независимо от причины отказа подшипника, ее необходимо устранить до повторной сборки двигателя, чтобы предотвратить повторное возникновение проблемы.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 157,
+    "source": "",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "14. Проверьте осевой люфт коленчатого вала, как описано в начале раздела 15. Если упорные поверхности исправны и установлены новые полукольца, люфт должен соответствовать техническим данным.",
+        "role": "steps"
+      }
+    ],
+    "matchText": "14 Проверьте осевой люфт коленчатого вала, как описано в начале раздела 15. Если упорные поверхности исправны и установлены новые полукольца, люфт должен соответствовать техническим данным."
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 157,
+    "source": "",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "16. Дальнейшие работы зависят от двигателя.",
+        "role": "steps"
+      }
+    ],
+    "matchText": "16 Дальнейшие работы зависят от двигателя."
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 62,
+    "source": "2 Compression test description and interpretation",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "2 Проверка компрессии — описание и оценка результатов"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 62,
+    "source": "required for this test. 1 When engine performance is down, or if misfiring occurs which cannot be attributed to the ignition or fuel systems, a compression test can provide diagnostic clues as to the engine’s condition. If the test is performed regularly it can give warning of trouble before any other symptoms become apparent. 2 The engine must be fully warmed-up to normal operating temperature, the battery must be fully-charged and the spark plugs must be removed. The aid of an assistant will be required. 3 Disable",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Когда производительность двигателя снижается или возникают пропуски зажигания, которые невозможно отнести к системе зажигания или подачи топлива, тест на компрессию может дать диагностические подсказки о состоянии двигателя. Если тест проводится регулярно, он может предупредить о проблемах до появления любых других симптомов. \n\n2. Двигатель должен быть полностью прогрет до нормальной рабочей температуры, аккумулятор должен быть полностью заряжен, а свечи зажигания должны быть сняты. Понадобится помощь ассистента. \n\n3. Отключите",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 62,
+    "source": "1 TDC is the highest point in the cylinder that each piston reaches as it travels up and down when the crankshaft turns. Each piston reaches TDC at the end of the compression stroke and again at the end of the exhaust stroke, but TDC generally refers to piston position on the compression stroke. No 1 piston is at the timing belt end of the engine",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. ВМТ является самой высокой точкой в цилиндре, которую достигает каждый поршень при движении вверх и вниз при вращении коленчатого вала. Каждый поршень достигает ВМТ в конце такта сжатия и снова в конце такта выпуска, но ВМТ обычно относится к положению поршня на такте сжатия. Поршень № 1 находится со стороны ремня ГРМ двигателя",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 62,
+    "source": "2 Positioning No 1 piston at TDC is an essential part of many procedures, such as timing belt removal and camshaft removal",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Установка поршня №1 в ВМТ — важная часть многих процедур, таких как снятие ремня ГРМ и снятие распределительного вала",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 67,
+    "source": "24 Oil the upper surfaces of the camshaft bearing journals, then fit Nos 2 and 4 bearing caps. Ensure that they are fitted the right way round and in the correct locations (see paragraph 4), then progressively tighten the retaining nuts in a diagonal sequence to the specified torque. Note that as the nuts are tightened, the camshaft will be forced down against the pressure of the valve springs",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "24. Смажьте маслом верхние поверхности шеек подшипников распределительного вала, затем установите крышки подшипников № 2 и 4. Убедитесь, что они установлены в правильном положении и в правильных местах (см. пункт 4), затем постепенно затяните фиксирующие гайки по диагонали до указанного момента. Обратите внимание, что при затяжке гаек распределительный вал будет прижиматься вниз под действием давления клапанных пружин.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 67,
+    "source": "12 Valve spring 13 Valve stem seal 14 Valve guide 15 Camshaft end sealing cap 16 Cylinder head 17 Valve caps 1, 3 and 5 over the camshaft and pro- (VW sealant- AMV 17400401 = gressively tighten the nuts to the specified torque",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "12. Пружина клапана 13 Сальник стержня клапана 14 Направляющая клапана 15 Заглушка торца распределительного вала 16 головка блока цилиндров 17 Крышки клапанов 1, 3 и 5 над распределительным валом и постепенно затянуть гайки до указанного момента (герметик VW - AMV 17400401)",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 68,
+    "source": "27 Oil the upper surfaces of the camshaft bearing journals in the retaining ladder frame, without getting oil onto the sealing surface, where it meets the cylinder head",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "27. Смажьте верхние поверхности коренных шеек распределительного вала в фиксирующей рамке, не допуская попадания масла на уплотняемую поверхность, где она соприкасается с головкой блока цилиндров.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 68,
+    "source": "11 Camshaft oil seal renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "11 Сальник распределительного вала — замена"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 69,
+    "source": "23 Dismantling and inspection of the cylinder head is covered in Part D of this Chapter Refitting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "23. Разборка и осмотр головки блока цилиндров описаны в Части D этой главы Установка на место",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 71,
+    "source": "7 Drive chain tensioner",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "7. Натяжитель приводной цепи",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 71,
+    "source": "71 Oil pump Oil pump sprocket",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Масляный насос\n2. Шестерня масляного насоса",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 71,
+    "source": "16 Oil level/ temperature sender",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "16. Датчик уровня/температуры масла",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 71,
+    "source": "13 Oil level/ temperature sender",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "13. Датчик уровня/температуры масла",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 71,
+    "source": "7 Drive chain tensioner",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "7. Натяжитель приводной цепи",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 72,
+    "source": "15 Flywheel/driveplate removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "15 Маховик/приводной диск — снятие и проверка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 73,
+    "source": "16 Crankshaft oil seals renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "16 Сальники коленчатого вала — замена"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 73,
+    "source": "17 New oil seal/housing assemblies are supplied with a fitting tool to prevent damage to the oil seal as it is being fitted. Locate the tool over the end of the crankshaft",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "17. Новые сборки сальника/корпуса поставляются с монтажным инструментом, чтобы предотвратить повреждение сальника при его установке. Разместите инструмент на конце коленчатого вала.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 75,
+    "source": "3 Oll pressure relief valve spring A Oil pressure relief valve piston 5 Gasket 6 Non-return valve",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Пружина редукционного клапана давления масла\n4. Поршень редукционного клапана давления масла\n5. Прокладка\n6. Обратный клапан",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 75,
+    "source": "12 Oil pressure warning light switch",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "12. Выключатель сигнальной лампы давления масла",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 75,
+    "source": "4 Sealing cap (except AVU and BFQ engines) 9 Retaining clip 10 Sealing plug",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "8. Заглушка (кроме двигателей AVU и BFQ)\n9. Стопорный зажим\n10. Резьбовая заглушка",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 76,
+    "source": "7 Cover to prevent oi! frothing",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "7. Крышка для предотвращения вспенивания масла",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 76,
+    "source": "19 Oil pressure relief valve and refitting removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "19 Редукционный клапан давления масла — снятие, проверка и установка"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 76,
+    "source": "8 Qil return element with",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "8. Элемент возврата масла с уплотнением",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "engine_sohc",
+    "page": 76,
+    "source": "27 Oil pump anve sprocket 22 Oil Dump Cover Inspection",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "21. Приводная шестерня масляного насоса\n22. Крышка масляного насоса",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      },
+      {
+        "type": "heading",
+        "text": "Проверка"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 195,
+    "source": "10 All models have an air temperature sensor built into the air mass meter. This sensor is an integral part of the air mass meter, and cannot be renewed separately. An additional air temperature/pressure sensor is fitted, either on top of the intercooler, or on the air hose from the intercooler to the inlet manifold, and this can be renewed as described below",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Все модели имеют датчик температуры воздуха, встроенный в расходомер воздуха. Этот датчик является единым узлом расходомера воздуха и не может быть заменен отдельно. Дополнительный датчик температуры/давления воздуха устанавливается либо на верхней части интеркулера, либо на воздушном шланге от интеркулера к впускному коллектору, и его можно заменить, как описано ниже.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 195,
+    "source": "1 Fuel temperature sensor, quantity adjuster, shut-off valve and commencement of injection valve",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Датчик температуры топлива, регулятор количества, запорный клапан и клапан начала впрыска",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 196,
+    "source": "solenoid valve. 32 Unclip the solenoid valve for the inlet manifold flap operating vacuum capsule; disconnect the wiring plug and vacuum hose from the solenoid, and remove it (see illustrations). 33 Unscrew and remove the three housing retaining bolts, and withdraw the housing from the inlet manifold. Recover the O-ring seal",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "32. Отсоедините электромагнитный клапан вакуумной камеры управления заслонки впускного коллектора; отсоедините электрическую вилку и вакуумный шланг от клапана и снимите его (см. иллюстрации). \n\n33. Выкрутите и снимите три болта, удерживающие корпус, и извлеките корпус из впускного коллектора. Снимите уплотнительное кольцо.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 196,
+    "source": "1 Injectors do deteriorate with prolonged use, and it is reasonable to expect them to need reconditioning or renewal after 60 000 miles (100 000 km) or so. Accurate testing, overhaul and calibration of the injectors must be left to a specialist. 2A defective injector which is causing knocking or smoking can be located without dismantling as follows",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Форсунки действительно изнашиваются при длительном использовании, и разумно ожидать, что их потребуется восстановить или заменить примерно после 60 000 миль (100 000 км). Точное тестирование, капитальный ремонт и калибровку форсунок необходимо доверять специалисту. 2 Неисправную форсунку, вызывающую стук или дымление, можно определить без разборки следующим образом",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 196,
+    "source": "5 Cover the alternator with a clean cloth or plastic bag, to protect it from any fuel being spilt onto it",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Накройте генератор чистой тряпкой или пластиковым пакетом, чтобы защитить его от любого топлива, которое может на него пролиться",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 197,
+    "source": "14 Starting at the outside and working in, gradually and evenly slacken and remove the rocker shaft retaining bolts. Lift off the rocker shaft. Check the contact face of each adjustment screw, and renew any that show signs of",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "14. Начиная с внешней стороны и двигаясь внутрь, постепенно и равномерно ослабьте и снимите крепежные болты оси коромысел. Снимите ось коромысел. Проверьте контактную поверхность каждого регулировочного винта и замените те, которые имеют признаки",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 197,
+    "source": "17 VW technicians use a slide hammer (tool",
+    "replacements": [
+      {
+        "type": "text",
+        "role": "steps",
+        "text": "17. Для извлечения насос-форсунки из головки блока используют съёмник с обратным молотком VW T10055. Он зацепляется за боковую часть форсунки. Аналог можно изготовить из уголка, резьбового стержня, цилиндрического груза и двух контргаек. Приварите или припаяйте стержень к уголку, наденьте груз и законтрите две гайки на конце стержня, образовав упор (см. рисунок). Установите съёмник в паз сбоку форсунки и извлеките её несколькими лёгкими ударами. Снимите стопорное кольцо, теплозащитную шайбу и уплотнительные кольца; при установке замените их новыми."
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 201,
+    "source": "7 Fuel injection pump timing checking and adjustment",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "7 Момент впрыска топливного насоса — проверка и регулировка"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 201,
+    "source": "1 Inlet manifold upper section 2 Engine cover mounting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Верхняя часть впускного коллектора \n2. Крепление крышки двигателя",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 201,
+    "source": "5 Inlet manifold lower section 6 EGR valve 7 Mounting bolt 8 Gasket",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Нижняя часть впускного коллектора \n6. Клапан EGR \n7. Крепежный болт \n8. Прокладка",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 201,
+    "source": "3 Upper-to-lower section",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Болт соединения верхней и нижней частей",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 202,
+    "source": "10 Fuel filter renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "10 Топливный фильтр — замена"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 180,
+    "source": "1 Bracket 2 Position sensor wiring connector",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Кронштейн \n2. разъём проводки датчика положения",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 180,
+    "source": "37 All models except those with the 1.4 and",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "37. Все модели, кроме тех, которые оснащены 1,4- и",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 181,
+    "source": "47 All models have a sensor threaded into the exhaust downpipe or manifold, ahead of the catalytic converter. Most models have an additional downstream of the converter. Refer to Chapter 4C for more details",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "47. На всех моделях имеется датчик, вкрученный в выпускной патрубок или коллектор перед каталитическим нейтрализатором. На большинстве моделей имеется дополнительный датчик после нейтрализатора. Подробности см. в Главе 4C.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 182,
+    "source": "74 Fitted to 1.6, 1.8 and 2.0 litre engines, the clutch switch is mounted on the clutch pedal, and sends a signal to the ECU. The purpose of the switch is to disable the throttle closing damper during gearchanges, allowing the engine revs to die down more quickly than",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "74. Устанавливается на двигатели объемом 1,6, 1,8 и 2,0 литра, выключатель сцепления монтируется на педали сцепления и отправляет сигнал в ЭБУ. Цель выключателя - отключать демпфер закрытия дросселя во время переключения передач, позволяя оборотам двигателя быстрее снижаться, чем",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 187,
+    "source": "1 Inlet manifold upper section 2 Screw-on washer 3 Rubber bush (for engine top cover)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Верхняя часть впускного коллектора \n2. Прикрученная шайба \n3. Резиновая втулка (для крышки верхней части двигателя)",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 188,
+    "source": "30 Models with the 1.6 litre SOHC engine have a variable-length inlet manifold, described",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "30. Модели с двигателем 1,6 л SOHC имеют впускной коллектор переменной длины, описанный",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 189,
+    "source": "9 Gasket 10 Injector retaining clip 17 Fuel rail 12 Fuel rail mounting",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "9. Прокладка\n10. Фиксатор форсунки\n11. Топливная рампа\n12. Болт крепления топливной рампы",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 189,
+    "source": "11 Fuel injection system testing and adjustment",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "11 Система впрыска топлива — проверка и регулировка"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 189,
+    "source": "3 Fault codes can only be extracted from the ECU using a dedicated fault code reader. A",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Коды ошибок можно извлечь из ЭБУ только с помощью специального считывателя кодов ошибок. A",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 190,
+    "source": "13 Cruise control system general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "13 Круиз-контроль — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 190,
+    "source": "1 Certain models may be equipped with a",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Некоторые модели могут быть оснащены",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 190,
+    "source": "6 Any problems with the system which are not caused by wiring faults or failure of the components mentioned in this Section should be referred to a VW dealer. In the event of a problem occurring, it is advisable to first take the car to a suitablyequipped diagnosis, using a fault code reader — refer to Section 11",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "6. Любые проблемы с системой, которые не вызваны неисправностями проводки или отказом компонентов, упомянутых в этом разделе, должны быть направлены к дилеру VW. В случае возникновения проблемы рекомендуется сначала отвезти автомобиль для проведения диагностики с соответствующим оборудованием, используя считыватель кодов ошибок — см. Раздел 11",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "ignition",
+    "page": 234,
+    "source": "2 Ignition system testing",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "2 Система зажигания — проверка"
+      }
+    ]
+  },
+  {
+    "slug": "ignition",
+    "page": 235,
+    "source": "1 Ifa fault appears in the engine management (fuel injection/ignition) system which is thought to ignition related, first ensure that the fault is not due to a poor electrical connection or poor maintenance; ie, check that the air cleaner filter element is clean, the spark plugs are in good condition and correctly gapped, that the engine breather hoses are clear and undamaged, referring to Chapter 1A for further information. Also check that the accelerator cable (where fitted) is correctly adjusted as described in Chapter 4A. If the",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Если в системе управления двигателем (впрыск топлива/зажигание) появляется неисправность, которая, как предполагается, связана с зажиганием, сначала убедитесь, что неисправность не вызвана плохим электрическим соединением или недостаточным обслуживанием; т.е. проверьте, что элемент фильтра воздушного очистителя чист, свечи зажигания находятся в хорошем состоянии и правильно зазированы, что вентиляционные шланги двигателя чисты и не повреждены, обращаясь к Главе 1A для получения дополнительной информации. Также проверьте, что трос акселератора (где установлен) правильно отрегулирован, как описано в Главе 4A. Если",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "inspection",
+    "page": 364,
+    "source": "1 Checks carried out FROM THE DRIVER’S",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "1 Проверки с места водителя"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 47,
+    "source": "1 Frequent oil and filter changes are the most important procedures which can be undertaken by the DIY owner. As engine oil ages, it becomes diluted and contaminated, which leads to premature engine wear",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Частая замена масла и фильтра является одной из самых важных процедур, которые может выполнять владелец самостоятельно. По мере старения моторное масло становится разбавленным и загрязненным, что приводит к преждевременному износу двигателя.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 48,
+    "source": "1 Periodically, the water collected from the fuel by the filter unit must be drained out",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Периодически воду, собранную из топлива фильтрующим блоком, необходимо сливать",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 49,
+    "source": "3 Rattles and other noises can often be traced to the exhaust system, especially the brackets and mountings. Try to move the pipes and silencers. If the components are able to come into contact with the body or suspension parts, secure the system with new mountings. Otherwise separate the joints (if possible) and twist the pipes as necessary to provide additional clearance",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Скрипы и другие шумы часто можно отследить до выхлопной системы, особенно до кронштейнов и креплений. Попробуйте подвигать трубы и глушители. Если компоненты способны соприкасаться с кузовом или деталями подвески, закрепите систему новыми креплениями. В противном случае разъедините соединения (если возможно) и поверните трубы по мере необходимости, чтобы обеспечить дополнительный зазор",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 51,
+    "source": "3 Antifreeze checkers are available from car",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Проверители антифриза доступны в автомобильных магазинах",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 51,
+    "source": "1 Accurate adjustment of the headlight beam is only possible using optical beam-setting equipment, and this work should therefore be",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Точная регулировка светового пучка фар возможна только с использованием оптического оборудования для настройки пучка, и поэтому эту работу следует",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 53,
+    "source": "24 Engine management selfdiagnosis memory fault check",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "24 Проверка памяти неисправностей системы управления двигателем"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 54,
+    "source": "4 Drive the vehicle, and check that there are no unusual vibrations or noises which may indicate wear in the driveshafts, wheel bearings, etc",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "4. Ведите автомобиль и проверьте, что нет необычных вибраций или шумов, которые могут указывать на износ приводных валов, подшипников колес и т. д.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_diesel",
+    "page": 56,
+    "source": "10 Frequent need for topping-up indicates that there is a leak, which should be found and corrected before it becomes serious",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Чаще всего необходимость подливать жидкость указывает на утечку, которую следует выявить и устранить до того, как она станет серьезной",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 28,
+    "source": "3 Engine oil and filter renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "3 Замена моторного масла и фильтра"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 28,
+    "source": "1 Frequent oil and filter changes are the most important maintenance procedures which can be undertaken by the DIY owner. As engine oil ages, it becomes diluted and contaminated, which leads to premature engine wear",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Частая замена масла и фильтров является наиболее важными процедурами технического обслуживания, которые может выполнять владелец самостоятельно. С возрастом моторное масло разбавляется и загрязняется, что приводит к преждевременному износу двигателя",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 29,
+    "source": "3 Rattles and other noises can often be traced to the exhaust system, especially the brackets and mountings. Try to move the pipes and silencers. If the components are able to come into contact with the body or",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Дребезжание и другие шумы часто можно связать с выхлопной системой, особенно с кронштейнами и креплениями. Попробуйте пошевелить трубы и глушители. Если компоненты могут соприкасаться с кузовом или",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 30,
+    "source": "3 Antifreeze checkers are available from car accessory shops. Draw some coolant from",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "3. Проверители антифриза доступны в магазинах автомобильных аксессуаров. Отберите немного охлаждающей жидкости из",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 30,
+    "source": "1 Accurate adjustment of the headlight beam is only possible using optical beam-setting equipment, and this work should therefore be carried out by a VW dealer or service station with the necessary facilities",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Точная регулировка светового потока фар возможна только с использованием оптического оборудования для настройки света, и поэтому эту работу следует выполнять у дилера VW или на сервисной станции с необходимыми средствами",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 30,
+    "source": "2 Basic adjustments can be carried out in an emergency, and further details are given in Chapter 12",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "2. Базовые регулировки могут выполняться в экстренных случаях, подробная информация приведена в главе 12",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 33,
+    "source": "5 Especially during the winter months, make sure that the washer fluid frost concentration is sufficient",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Особенно в зимние месяцы убедитесь, что концентрация антифриза в жидкости омывателя достаточна.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 33,
+    "source": "21 Engine management selfdiagnosis memory fault check",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "21 Проверка памяти неисправностей системы управления двигателем"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 33,
+    "source": "4 Drive the vehicle, and check that there are no unusual vibrations or noises which may indicate wear in the driveshafts, wheel bearings, etc",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "4. Ведите автомобиль и проверьте, что нет необычных вибраций или шумов, которые могут указывать на износ приводных валов, подшипников колес и т. д.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 33,
+    "source": "16 Test the operation of the brake servo unit as follows. With the engine off, depress the footbrake four or five times to exhaust the vacuum. Hold the brake pedal depressed, then start the engine. As the engine starts, there should be a noticeable ‘give’ in the brake pedal as vacuum builds-up. Allow the engine to run for at least two minutes, and then switch it off. If the brake pedal is depressed now, it should be possible to detect a hiss from the servo as the pedal is depressed. After about four or five applications, no further hissing",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "16. Проверьте работу вакуумного усилителя тормозов следующим образом. С заглушенным двигателем несколько раз нажмите на педаль тормоза (четыре-пять раз), чтобы удалить вакуум. Удерживая педаль тормоза нажатой, запустите двигатель. При запуске двигателя должна ощущаться заметная «подпружиненость» педали тормоза по мере накопления вакуума. Дайте двигателю проработать как минимум две минуты, затем выключите его. Если теперь нажать на педаль тормоза, должно быть слышно шипение от сервоусилителя при нажатии на педаль. После примерно четырех-пяти нажатий шипение больше не должно быть слышно, а педаль должна ощущаться значительно жестче.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 33,
+    "source": "should be heard, and the pedal should feel considerably harder. 17 Under controlled emergency braking, the pulsing of the ABS unit must be felt at the footbrake pedal Exhaust emissions check",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "17. При контролируемом экстренном торможении должна ощущаться пульсация блока ABS на педали тормоза.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Проверка состава отработавших газов"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 34,
+    "source": "10 Examination of the spark plugs will give a good indication of the condition of the engine. If the insulator nose of the spark plug is clean and white, with no deposits, this is indicative",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "10. Осмотр свечей зажигания даст хорошее представление о состоянии двигателя. Если носик изолятора свечи чистый и белый, без отложений, это указывает",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 34,
+    "source": "15 Special adjusting tools are available from most motor accessory shops, or from some spark plug manufacturers (see illustration)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "15. Специальные регулировочные инструменты доступны в большинстве магазинов автомобильных аксессуаров или у некоторых производителей свечей зажигания (см. иллюстрацию)",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 35,
+    "source": "7 Power steering pump pulley 2 Idler roller 3. Alternator pulley",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Шкив насоса гидроусилителя\n2. Обводной ролик\n3. Шкив генератора",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 36,
+    "source": "5 Power steering pump pulley",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Шкив насоса гидроусилителя руля",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "manual_transmission",
+    "page": 251,
+    "source": "4  overhaul general information",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "4 Капитальный ремонт механической коробки передач — общие сведения"
+      }
+    ]
+  },
+  {
+    "slug": "manual_transmission",
+    "page": 251,
+    "source": "5 Reversing light switch testing, removal and refitting HHS",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "5 Выключатель фонарей заднего хода — проверка, снятие и установка"
+      }
+    ]
+  },
+  {
+    "slug": "manual_transmission",
+    "page": 251,
+    "source": "1 All transmissions are fitted with an electronic speedometer transducer. This device measures the rotational speed of the transmission final drive and converts the information into an electronic signal, which is then sent to the speedometer module in the instrument panel. On certain models, the signal is also used as an input by the engine management system ECU Removal",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Все трансмиссии оснащены электронным датчиком скорости спидометра. Это устройство измеряет скорость вращения конечного привода трансмиссии и преобразует информацию в электронный сигнал, который затем отправляется в модуль спидометра на панели приборов. На некоторых моделях этот сигнал также используется системой управления двигателем (ECU) в качестве входного.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "starting",
+    "page": 230,
+    "source": "6 Alternator brush holder/regulator module renewal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "6 Щёткодержатель и регулятор генератора — замена"
+      }
+    ]
+  },
+  {
+    "slug": "starting",
+    "page": 230,
+    "source": "7 Starting system testing",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "7 Система пуска — проверка"
+      }
+    ]
+  },
+  {
+    "slug": "starting",
+    "page": 231,
+    "source": "9 Starter motor testing and overhaul",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "9 Стартер — проверка и ремонт"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 283,
+    "source": "4 Front suspension strut removal, overhaul and refitting",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "4 Передняя амортизаторная стойка — снятие, ремонт и установка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 290,
+    "source": "12 Ratit the roadwheel and lower the vehicle to the ground, Coil spring",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "12. Установите колесо и опустите автомобиль на землю.",
+        "role": "steps"
+      },
+      {
+        "type": "heading",
+        "text": "Пружина"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 291,
+    "source": "12 Rear anti-roll bar and refitting removal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "12 Задний стабилизатор поперечной устойчивости — снятие и установка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 291,
+    "source": "13 Rear axle assembly and refitting removal",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "13 Задняя балка в сборе — снятие и установка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 293,
+    "source": "17 Steering column and refitting removal, inspection",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "17 Рулевая колонка — снятие, проверка и установка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 298,
+    "source": "19 Steering gear assembly removal, overhaul and refitting",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "19 Рулевой механизм — снятие, ремонт и установка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 299,
+    "source": "21 Power steering system bleeding",
+    "replacements": [
+      {
+        "type": "heading",
+        "text": "21 Гидроусилитель рулевого управления — прокачка"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 300,
+    "source": "4 Castor is the angle between the steering axis and a vertical line drawn through each roadwheel’s centre and tyre contact patch, when viewed from the side of the car. Positive castor is when the steering axis is tilted so that it contacts the ground ahead of the vertical; negative castor is when it contacts the ground behind the vertical. Slight castor angle adjustment is possible by loosening the front suspension subframe bolts and moving it slightly to one side. This also alters the Camber angle",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "4. Кастер — это угол между осью рулевого управления и вертикальной линией, проведённой через центр каждого колеса и контактную пяту шины, если смотреть на автомобиль сбоку. Положительный кастер — это когда ось рулевого управления наклонена так, что она касается земли перед вертикалью; отрицательный кастер — когда она касается земли за вертикалью. Незначительная регулировка угла кастера возможна путём ослабления болтов переднего подрамника подвески и небольшого смещения его в сторону. Это также изменяет угол развала.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "suspension",
+    "page": 300,
+    "source": "5 Castor is not easily adjustable, and is given for reference only; while it can be checked using a castor checking gauge, if the figure obtained is significantly different from that specified, the car must be taken for careful checking by a professional, as the fault can",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "5. Кастер трудно поддаётся регулировке и приведён только для справки; его можно проверить с помощью индикатора проверки кастера, однако если полученное значение значительно отличается от указанного, автомобиль необходимо внимательно проверить у специалиста, так как неисправность может",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "emissions_petrol",
+    "page": 217,
+    "source": "1 Exhaust centre cradle - four mounting bracket bolts arrowed",
+    "replacements": [
+      {
+        "type": "caption",
+        "text": "Рисунок 8.1. Центральный кронштейн системы выпуска — стрелками показаны четыре крепёжных болта."
+      }
+    ]
+  },
+  {
+    "slug": "engine_diesel",
+    "page": 114,
+    "source": "0) Flywheel/driveplate and refitting removal, inspection",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "o) Маховик/приводной диск — снятие, проверка и установка.",
+        "role": "bullets"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_petrol",
+    "page": 175,
+    "source": "3 Unclipping the accelerator cable from the air cleaner",
+    "replacements": [
+      {
+        "type": "caption",
+        "text": "Рисунок 2.3. Отсоединение троса акселератора от воздушного фильтра."
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 197,
+    "source": "4 Retaining bolt 5 Retaining plate 6 Glow plug wiring connector No 110055) to pull the injector from the cylinder head. This is a slide hammer which engages in the side of the injector. If this tool is not available, it is possible to fabricate an equivalent using a short section of angle-iron, a length of threaded rod, a cylindrical weight, and two locknuts. Weld/braze the rod to the angle-iron, slide the weight over the rod, and lock the two nuts together at the end of the rod to provide the stop for the weight (see",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "4. Крепёжный болт\n5. Прижимная пластина\n6. Разъём проводки свечи накаливания",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 202,
+    "source": "4 Inlet manifold flap housing remove the six retaining bolts. Separate the manifold lower section from the cylinder head, and recover the gasket. Lower section refitting 11 Refitting is a reversal of removal. Ensure that the mating surfaces are clean. Use new gaskets and tighten all bolts to the specified torque Engine codes",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "4. Корпус заслонки впускного коллектора",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      },
+      {
+        "type": "text",
+        "text": "Отверните шесть крепёжных болтов. Отделите нижнюю часть коллектора от головки блока и снимите прокладку."
+      },
+      {
+        "type": "heading",
+        "text": "Нижняя часть — установка"
+      },
+      {
+        "type": "text",
+        "text": "11. Установка выполняется в порядке, обратном снятию. Очистите сопрягаемые поверхности, используйте новые прокладки и затяните все болты указанными моментами.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "inspection",
+    "page": 367,
+    "source": "[1] The engine should be warmed up, and running well (ignition system in good order, air filter element clean, etc). C] Before testing, run the engine at around 2500 rpm for 20 seconds. Let the engine drop for smoke from",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "• Двигатель должен быть прогрет и исправен: система зажигания в порядке, воздушный фильтр чист.\n\n• Перед проверкой дайте двигателю поработать около 20 секунд при 2500 об/мин. Затем снизьте обороты до холостого хода и проверьте наличие дыма из выпускной трубы.",
+        "role": "bullets"
+      }
+    ]
+  },
+  {
+    "slug": "maintenance_petrol",
+    "page": 36,
+    "source": "1 Crankshaft pulley 2 Tensioner 7 Locate the new drivebelt on the pulleys, then release the tensioner. Check that the belt is located correctly in the multi-grooves in the pulleys",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "1. Шкив коленчатого вала\n2. Натяжитель",
+        "role": "legend",
+        "label": "Обозначения на рисунке"
+      },
+      {
+        "type": "text",
+        "text": "7. Уложите новый ремень на шкивы и отпустите натяжитель. Убедитесь, что ремень правильно расположен в ручьях всех шкивов.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 309,
+    "source": "41 Guide the wiring back through the hole in the pillar and refit the gaiter",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "11. Проведите провод обратно через отверстие в стойке и установите чехол на место.",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "bodywork",
+    "page": 311,
+    "source": "41 Loosen the securing bolts approximately two turns (do not remove) to release the clamps securing the window, then push the window upwards and secure it in position (see illustrations)",
+    "replacements": [
+      {
+        "type": "text",
+        "text": "11. Ослабьте крепежные болты примерно на два оборота (не снимайте), чтобы освободить зажимы, удерживающие окно, затем нажмите на окно вверх и зафиксируйте его на месте (см. рисунки).",
+        "role": "steps"
+      }
+    ]
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 197,
+    "source": "illustration). Seat the slide hammer/tool in the slot on the side on the injector, and pull the injector out using a few gently taps. Recover circlip, the heat shield and O-rings and",
+    "replacements": []
+  },
+  {
+    "slug": "fuel_diesel",
+    "page": 198,
+    "source": "discard. New ones must be used for refitting (see illustration). 18 If required, the injector wiring loom/rail can be removed from the cylinder head by undoing the two retaining nuts/bolts at the back of the head. To prevent the wiring connectors fouling the cylinder head casting as the assembly is withdrawn, insert the connectors into the storage slots in the plastic wiring rail. Carefully push the assembly to the rear, and out of the casting (see illustrations)",
+    "replacements": [
+      {
+        "type": "text",
+        "role": "steps",
+        "text": "18. При необходимости жгут/рейка форсунки может быть снят с головки блока цилиндров путем отвинчивания двух крепежных гаек/болтов на задней части головки. Чтобы соединители проводки не задевали корпус головки блока цилиндров при вынимании узла, вставьте соединители в слоты для хранения на пластиковой рейке проводки. Аккуратно двигайте узел назад и выводите из корпуса (см. иллюстрации)"
+      }
+    ]
+  }
+]

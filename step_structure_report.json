@@ -1,0 +1,38 @@
+{
+  "app": "ru.vagguides.golf4manual",
+  "versionCode": 10,
+  "changes": {
+    "steps": 879,
+    "legend": 30,
+    "bullets": 2,
+    "headings": 64
+  },
+  "articles": [
+    "automatic_transmission",
+    "bodywork",
+    "body_electrical",
+    "brakes",
+    "clutch",
+    "cooling",
+    "driveshafts",
+    "emissions_diesel",
+    "emissions_petrol",
+    "engine_diesel",
+    "engine_dohc",
+    "engine_overhaul",
+    "engine_sohc",
+    "fuel_diesel",
+    "fuel_petrol",
+    "ignition",
+    "inspection",
+    "maintenance_diesel",
+    "maintenance_petrol",
+    "manual_transmission",
+    "preheating",
+    "starting",
+    "suspension"
+  ],
+  "sourceRules": 178,
+  "scope": "Structure audit across all three apps; selected source fragments checked, not a complete new semantic review of the manual.",
+  "tests": 69
+}

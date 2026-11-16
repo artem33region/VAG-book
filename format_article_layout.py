@@ -19,6 +19,45 @@ ROOTS = [ROOT / app / "app/src/main/assets" for app in ("android-manual", "andro
 NUM = re.compile(r"(?<![\w.,])(\d{1,3})[.)]?\s+(?=[A-ZА-ЯЁ])")
 UNITS = re.compile(r"^(?:Nm|mm|cm|bar|rpm|litre|volts?|amps?|Н(?:·м)?|В|А|Нм|МПа|кПа|Ом|°C)(?:\b|\s)", re.I)
 VERBS = re.compile(r"^(?:Remove|Refit|Disconnect|Connect|Unscrew|Slacken|Tighten|Check|Ensure|Raise|Lower|Apply|Pull|Push|Prise|Use|Turn|With|When|If|The|This|It|Do|Note|Before|After|On|To|Carefully|Support|Position|Working|Lift|Release|Locate|Fit|Withdraw|Detach|Drain|Fill|Renew|Clean|Lubricate|Make|Obtain)\b", re.I)
+# The leading paragraph marker is independent of numbers in references or units.
+# In particular, a short instruction is still a step. Do not use text length as
+# evidence: it excluded exactly the short 7B paragraphs reported in screenshots.
+LEADING_NUMBER = re.compile(r"^(\d{1,3})[.)]?\s+")
+STEP_OPENING = re.compile(
+    r"^(?:Refitting|Where|Using|Undo|Reconnect|Unclip|Proceed|Examine|Slide|Unbolt|"
+    r"Switch|Open|Loosen|Inspect|Insert|Wipe|Visually|Work|Refer|As|For|Trace|"
+    r"Thoroughly|Once|Press|Smear|A|Securely|Prior|Progressively|Mark|Commence|"
+    r"Engage|At|From|Unplug|Screw|Chock|Hold|Ease|Start|Separate|Install|"
+    r"Manoeuvre|Move|Lightly|Listen|Fold|Depress|Repeat|Slowly|Again|Place|Spin|"
+    r"In|Depressurise|Offer|Allow|Run|Have|Although|Tie|Relocate|Twist|Recover|"
+    r"Clamp|Set|Adjust|First|Minimise|Firmly|Refill|Squeeze|Reach|Fully|Similarly|"
+    r"Pack|Prevent|Wind|Lay|Attach|Park|Grasp|Now|Guide|Lever|Always|Unhook|"
+    r"Operate|Stick|Drill|Whichever|By|Thinly|Bleed|Discard|Lock|Suspend|Reaching|"
+    r"Swivel|Secure|Scoop|Loop|Relieve|Purchase|Finally|Alternatively|Coat|"
+    r"Continue|Scrape|Begin|Prime|Re-attach|Gain|Referring|Top-up|Select|Measure|"
+    r"Reassemble|Beneath|Tilt)\b", re.I)
+
+
+def leading_step(block):
+    """Return an attested paragraph marker, never infer one from a quantity."""
+    if block.get("type") != "text" or block.get("translationPart"):
+        return None
+    text = block.get("text", "")
+    translated = LEADING_NUMBER.match(text)
+    if not translated:
+        return None
+    if block.get("paragraph") == int(translated[1]):
+        return translated
+    source = block.get("source", "")
+    original = LEADING_NUMBER.match(source)
+    if not original or original[1] != translated[1]:
+        return None
+    body = source[original.end():]
+    # A few scans confuse the initial I of 'If'; keep the stored source intact.
+    body = re.sub(r"^(?:\|f|lf|\\f)\b", "If", body)
+    if VERBS.match(body) or STEP_OPENING.match(body):
+        return translated
+    return None
 HEADINGS = [
     ("Removal", "Снятие"), ("Refitting", "Установка"), ("Precautions", "Меры предосторожности"),
     ("Inspection", "Проверка"), ("Adjustment", "Регулировка"),
@@ -89,7 +128,7 @@ def format_lists(block):
     sn, tn = [int(m[1]) for m in sm], [int(m[1]) for m in tm]
     if len(sn) >= 2 and sn == tn and sn == list(range(sn[0], sn[0] + len(sn))) and sm[0].start() == 0 and tm[0].start() == 0:
         parts = [source[m.end():sm[i+1].start() if i+1 < len(sm) else None].strip() for i,m in enumerate(sm)]
-        is_legend = all(len(p) <= 125 and len(p.split()) <= 18 and not VERBS.match(p) and not re.search(r"[.!?](?:\s|$)", p) for p in parts)
+        is_legend = all(len(p) <= 125 and len(p.split()) <= 18 and not (VERBS.match(p) or STEP_OPENING.match(p)) and not re.search(r"[.!?](?:\s|$)", p) for p in parts)
         lines = [f"{m[1]}. {text[m.end():tm[i+1].start() if i+1 < len(tm) else None].strip()}" for i,m in enumerate(tm)]
         result.update(text=("\n" if is_legend else "\n\n").join(lines), role="legend" if is_legend else "steps")
         if is_legend:
@@ -97,12 +136,10 @@ def format_lists(block):
         return result
     if re.match(r"^(?:•|[a-z]\))\s+", text, re.I):
         result["role"] = "bullets"
-    elif tm and tm[0].start() == 0 and len(tm) == 1 and (
-        (sm and sm[0].start() == 0 and VERBS.match(source[sm[0].end():]))
-        or (block.get("curated") and len(text) > 55)
-    ):
-        m = tm[0]
+    elif (m := leading_step(block)) is not None:
         result.update(text=f"{m[1]}. {text[m.end():]}", role="steps")
+    if result.get("role") == "steps":
+        result["text"] = re.sub(r"^(\d{1,3})\s+", r"\1. ", result["text"], flags=re.M)
     return result
 
 
@@ -179,6 +216,7 @@ def review_diesel(blocks):
 
 
 def format_articles():
+    from repair_step_layout import apply_structure_blocks
     stats = Counter()
     for root in ROOTS:
         index_path = root / "content_index.json"
@@ -194,7 +232,7 @@ def format_articles():
             stats["headings_separated"] += len(expanded) - len(blocks)
             merged = merge_note_continuations(expanded)
             stats["note_fragments_joined"] += len(expanded) - len(merged)
-            result = [format_lists(b) for b in merged]
+            result = apply_structure_blocks(section["slug"], merged, None if root == ROOTS[0] else [])
             for before, after in zip(merged, result):
                 if before != after:
                     stats[after.get("role", "other")] += 1

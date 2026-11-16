@@ -135,5 +135,7 @@ def blocks():
             number = re.match(r"^(\d+) ", text) if kind == "text" else None
             if number:
                 item["paragraph"] = int(number[1])
+                item["role"] = "steps"
+                item["text"] = f"{number[1]}. {text[number.end():]}"
             result.append(item)
     return result

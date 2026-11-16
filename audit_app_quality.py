@@ -10,6 +10,8 @@ from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 
+from format_article_layout import leading_step
+
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_ASSETS = (
@@ -199,6 +201,8 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
             if not stripped:
                 issues.append(Issue("structure", location, "пустой текстовый блок", ""))
                 continue
+            if not block.get("role") and leading_step(block):
+                issues.append(Issue("format", location, "номерной пункт не оформлен как шаг", stripped[:220]))
             stats["characters"] += len(stripped)
             if not block.get("translationPart") and not block.get("sourceReview"):
                 for term in source_term_conflicts(str(block.get("source", "")), stripped):

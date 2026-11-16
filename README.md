@@ -6,7 +6,7 @@
 
 ## Скачать
 
-- [Golf IV / Bora 9.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-9.apk)
+- [Golf IV / Bora 10.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-10.apk)
 - [BFQ 1.6 8.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-8.apk)
 - [BCA 1.4 16V 1.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bca-1.apk)
 
@@ -15,7 +15,19 @@ BCA — отдельное приложение с 14 разделами, дву
 отдельно по оригиналу; включены 23 иллюстрации и таблицы с увеличением и полными
 страницами. [Описание и сборка BCA](android-bca/README.md).
 
-В версии 9.0 повторно сверены с печатным оригиналом десять страниц целиком
+В версии 10.0 исправлено оформление 879 пунктов, 64 заголовков и 30 блоков
+обозначений в 23 разделах. Короткие шаги главы 7B теперь оформляются так же,
+как соседние длинные пункты. Исправлены проверенные по скану номера и места,
+где обозначения рисунка попали в инструкцию. BFQ и BCA проверены; их выпуски
+остались прежними. Это проверка структуры и выбранных фрагментов оригинала,
+а не новая полная техническая вычитка всей книги.
+
+Правила хранятся в [reviewed_structure_rules.json](reviewed_structure_rules.json).
+После генерации и остальных редакторских проходов выполните
+`python repair_step_layout.py`, затем проверки. Повторный запуск не меняет
+уже исправленное содержимое. Нумерация отдельных процедур сохраняется.
+
+В версии 9.0 были повторно сверены с печатным оригиналом десять страниц целиком
 и 37 отдельных фрагментов. Исправлены потерянные отрицания, подмена названий
 валов и коллекторов, номера шагов и ссылки на главы. Восстановлены порядок
 колонок, таблица плотности электролита и полные иллюстрации на этих страницах.
@@ -113,6 +125,7 @@ APK создаются в `<проект>/app/build/outputs/apk/debug/`.
 
 ```powershell
 python -m unittest discover -s tests -v
+python repair_step_layout.py
 python audit_app_quality.py --strict
 python audit_bfq_content.py
 python audit_native_content.py --assets android-manual/app/src/main/assets --strict

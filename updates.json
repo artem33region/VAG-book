@@ -3,11 +3,11 @@
   "apps": {
     "ru.vagguides.golf4manual": {
       "packageName": "ru.vagguides.golf4manual",
-      "versionCode": 9,
-      "versionName": "9.0",
-      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-9.apk",
-      "sha256": "eef6af0ed212255a6873ff294828aecfba5dc7a227a4b35ee8d48659a43110fb",
-      "size": 82807782
+      "versionCode": 10,
+      "versionName": "10.0",
+      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-10.apk",
+      "sha256": "d51ab8a64c688b9bdb004d787a0597e883e0c6a6fb27b29b33a26aa8d0581e39",
+      "size": 82926552
     },
     "ru.vagguides.bfqmanual": {
       "packageName": "ru.vagguides.bfqmanual",
