@@ -941,13 +941,12 @@ def polish(assets: Path, selected_slugs: set[str] | None = None) -> dict[str, in
                     blocks.append(block)
                     continue
                 page = int(block.get("page", 0))
-                if page in LAYOUT_PAGES:
-                    stats["layout_blocks_removed"] += 1
-                    continue
+                # Chapter opening pages also contain procedure text. Do not
+                # discard an entire page merely because its top has a table.
                 source = str(block.get("source", ""))
                 kind = str(block.get("type", "text"))
                 text = clean_text(source, str(block.get("text", "")), kind)
-                if kind == "heading" and (len(text) > 95 or re.match(r"^\d+\s+", text)):
+                if kind == "heading" and len(text) > 180:
                     kind = "text"
                     stats["headings_reclassified"] += 1
                 if is_damaged(text, source, kind):

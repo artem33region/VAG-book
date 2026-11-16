@@ -1,0 +1,565 @@
+{
+  "stats": {
+    "paragraphs_separated": 4,
+    "source_paragraph_numbers_reviewed": 19,
+    "automatic_transmission_reviewed_blocks": 106,
+    "running_headers_removed": 110,
+    "procedure_headings_restored": 140,
+    "omitted_source_pages_restored": 45,
+    "procedure_pages_recovered": 12,
+    "procedure_blocks_recovered": 152,
+    "number_or_repetition_repairs": 23
+  },
+  "headerRepairs": [
+    {
+      "article": "maintenance_petrol",
+      "page": 27,
+      "headerSource": "Component location — petrol models j,-7"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 31,
+      "headerSource": "Every 20 000 miles — petrol models 1.11"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 32,
+      "headerSource": "iaei2 Every 20 000 miles — petrol models"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 33,
+      "headerSource": "Every 20 000 miles — petrol models:a+13"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 34,
+      "headerSource": "1ae14 Every 40 000 miles — petrol models"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 35,
+      "headerSource": "Every 40 000 miles — petrol models iA+15"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 36,
+      "headerSource": "iasie Every 40 000 miles — petrol models"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 37,
+      "headerSource": "Every 40 000 miles — petrol models 14+17"
+    },
+    {
+      "article": "maintenance_petrol",
+      "page": 39,
+      "headerSource": "21 If the recommended VW coolant is not Every 2 years — petrol models 1a+19"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 43,
+      "headerSource": "Component location — diesel models ia-3"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 47,
+      "headerSource": "Maintenance procedures — diesel models 15-7"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 49,
+      "headerSource": "Every 10 000 miles — diesel models peg"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 51,
+      "headerSource": "Every 20 000 miles — diesel models 18-11"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 53,
+      "headerSource": "Every 20 000 miles — diesel models i8+13"
+    },
+    {
+      "article": "maintenance_diesel",
+      "page": 57,
+      "headerSource": "Maintenance procedures — diesel models 1-17"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 138,
+      "headerSource": "2De6 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 140,
+      "headerSource": "2De*8 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 142,
+      "headerSource": "2De10 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 144,
+      "headerSource": "2De12 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 146,
+      "headerSource": "2De14 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 148,
+      "headerSource": "2De16 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 150,
+      "headerSource": "2De18 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 152,
+      "headerSource": "2De20 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 154,
+      "headerSource": "2De22 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 156,
+      "headerSource": "2D*24 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "engine_overhaul",
+      "page": 158,
+      "headerSource": "2De26 Engine removal and overhaul procedures"
+    },
+    {
+      "article": "cooling",
+      "page": 164,
+      "headerSource": "3°4 Cooling, heating and air conditioning systems"
+    },
+    {
+      "article": "cooling",
+      "page": 166,
+      "headerSource": "3°6 Cooling, heating and air conditioning systems"
+    },
+    {
+      "article": "cooling",
+      "page": 168,
+      "headerSource": "3°8 Cooling, heating and air conditioning systems"
+    },
+    {
+      "article": "cooling",
+      "page": 170,
+      "headerSource": "38°10 Cooling, heating and air conditioning systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 176,
+      "headerSource": "4A*4 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 178,
+      "headerSource": "4Ae6 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 180,
+      "headerSource": "4Ae*8 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 182,
+      "headerSource": "4A®*10 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 184,
+      "headerSource": "4Ae12 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 186,
+      "headerSource": "4Ae¢14 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 188,
+      "headerSource": "4A*16 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_petrol",
+      "page": 190,
+      "headerSource": "4Ae18 Petrol engine fuel systems"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 194,
+      "headerSource": "4Be4 Diesel engine fuel system"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 196,
+      "headerSource": "4Be6 Diesel engine fuel system"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 198,
+      "headerSource": "4Be8 Diesel engine fuel system"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 200,
+      "headerSource": "4Be10 Diesel engine fuel system"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 202,
+      "headerSource": "4Be12 Diesel engine fuel system"
+    },
+    {
+      "article": "fuel_diesel",
+      "page": 204,
+      "headerSource": "4Be14 Diesel engine fuel system"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 206,
+      "headerSource": "operating temperature. The sensor’s tip is sensitive to oxygen, and sends a voltage signal to the ECU that varies according on the amount of oxygen in the exhaust gas. If the inlet air/fuel mixture is too rich, the exhaust gases are low in oxygen so the sensor sends a low-voltage signal, the voltage rising as the mixture weakens and the amount of oxygen rises in the exhaust gases 4Ce2 Emission control and exhaust systems — petrol engines"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 207,
+      "headerSource": "EGR valve - mounting bolts arrowed Emission control and exhaust systems — petrol engines 4Ce3"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 208,
+      "headerSource": "1 Gasket 2 EGR pipe flange bolt 3 EGR pipework 4 Mounting bolt 5 Exhaust manifold EGR pipe connection 4Ce4 Emission control and exhaust systems — petrol engines"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 209,
+      "headerSource": "Emission control and exhaust systems — petrol engines 4Ce5"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 211,
+      "headerSource": "6.6 Turbocharger and associated components Emission control and exhaust systems — petrol engines 4Ce7 Removal"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 212,
+      "headerSource": "1 Air inlet duct 2 Intercooler 3 Rubber mounting 4 Mounting bolt 5 Intercooler-to-throttle housing hose 4Ce8 Emission control and exhaust systems — petrol engines"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 213,
+      "headerSource": "out from under the car Emission control and exhaust systems — petrol engines 4Ce#9"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 214,
+      "headerSource": "8.5 Unclip the oxygen sensor wiring from 4Ce10 Emission control and exhaust systems — petrol engines"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 215,
+      "headerSource": "11 Oxygen sensor 2 12 To centre silencer Emission control and exhaust systems — petrol engines 4Ce11"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 216,
+      "headerSource": "38 Working from below, unscrew and remove the six nuts securing the exhaust downpipe to 4Ce12 Emission control and exhaust systems — petrol engines Se ae NE Sess OMEN Hn"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 217,
+      "headerSource": "6 Centre marking for cutting point 7 Rear silencer rear mounting 8 Bracket 9 Rear silencer Emission control and exhaust systems — petrol engines 4Ce13"
+    },
+    {
+      "article": "emissions_petrol",
+      "page": 218,
+      "headerSource": "1 The catalytic converter is a reliable and simple device which needs no maintenance in itself, but there are some facts of which an owner should be aware if the converter is to function properly for its full service life: a) DO NOT use leaded or lead-replacement petrol in a car equipped with a catalytic converter — the lead (or other additives) will coat the precious metals, reducing their converting efficiency and will eventually destroy the converter 4Ce14 Emission control and exhaust systems — petrol engines"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 220,
+      "headerSource": "2 The system requires no attention other than to check at regular intervals that the hoses and pressure-regulating valve are free of blockages and in good condition 4De2 Emission control and exhaust systems — diesel engines"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 221,
+      "headerSource": "4 EGR valve 5 Mounting bolt 6 From intercooler 7 Gasket Emission control and exhaust systems — diesel engines 4De3"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 222,
+      "headerSource": "4De4 Emission control and exhaust systems — diesel engines OO errr"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 223,
+      "headerSource": "d) Tighten all nuts and bolts to the specified torque, where given. e) Ensure that the air hose clips are securely tightened, to prevent air leaks. f) When the engine is started after refitting, allow it to idle for approximately one Emission control and exhaust systems — diesel engines 4De5"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 224,
+      "headerSource": "1 Locknut 2 Flange bolt 4De6 Emission control and exhaust systems — diesel engines"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 225,
+      "headerSource": "exhaust system to cool before starting work. In particular, note Emission control and exhaust systems — diesel engines 4De7"
+    },
+    {
+      "article": "emissions_diesel",
+      "page": 226,
+      "headerSource": "Section 9. 8 If the factory-fitted VW rear section is being 4De8 Emission control and exhaust systems — diesel engines"
+    },
+    {
+      "article": "starting",
+      "page": 228,
+      "headerSource": "SAe*2 Starting and charging systems"
+    },
+    {
+      "article": "starting",
+      "page": 230,
+      "headerSource": "SAe*4 Starting and charging systems"
+    },
+    {
+      "article": "ignition",
+      "page": 234,
+      "headerSource": "SBe2 Ignition system — petrol engines Leerssen"
+    },
+    {
+      "article": "ignition",
+      "page": 236,
+      "headerSource": "5Be4 Ignition system — petrol engines"
+    },
+    {
+      "article": "preheating",
+      "page": 238,
+      "headerSource": "SCe2 Preheating system - diesel engines"
+    },
+    {
+      "article": "clutch",
+      "page": 240,
+      "headerSource": "6e2 Clutch"
+    },
+    {
+      "article": "clutch",
+      "page": 242,
+      "headerSource": "6°4 Clutch"
+    },
+    {
+      "article": "clutch",
+      "page": 244,
+      "headerSource": "6e6 Clutch"
+    },
+    {
+      "article": "clutch",
+      "page": 246,
+      "headerSource": "6e8 Clutch"
+    },
+    {
+      "article": "manual_transmission",
+      "page": 248,
+      "headerSource": "7Ae®2 Manual transmission"
+    },
+    {
+      "article": "manual_transmission",
+      "page": 250,
+      "headerSource": "7Ae4 Manual transmission"
+    },
+    {
+      "article": "manual_transmission",
+      "page": 251,
+      "headerSource": "4 Manual transmission overhaul general information"
+    },
+    {
+      "article": "manual_transmission",
+      "page": 251,
+      "headerSource": "The overhaul of a manual transmission is a complex (and often expensive) task for the DIY home mechanic to undertake, which requires access to specialist equipment. It involves dismantling and reassembly of many small components, measuring clearances"
+    },
+    {
+      "article": "manual_transmission",
+      "page": 252,
+      "headerSource": "7A®6 Manual transmission"
+    },
+    {
+      "article": "automatic_transmission",
+      "page": 254,
+      "headerSource": "7Be2 Automatic transmission"
+    },
+    {
+      "article": "automatic_transmission",
+      "page": 256,
+      "headerSource": "7Be4 Automatic transmission"
+    },
+    {
+      "article": "driveshafts",
+      "page": 262,
+      "headerSource": "8e6 Driveshafts"
+    },
+    {
+      "article": "brakes",
+      "page": 268,
+      "headerSource": "9*4 Braking system"
+    },
+    {
+      "article": "brakes",
+      "page": 270,
+      "headerSource": "9°6 Braking system"
+    },
+    {
+      "article": "brakes",
+      "page": 272,
+      "headerSource": "9°8 Braking system"
+    },
+    {
+      "article": "brakes",
+      "page": 274,
+      "headerSource": "9°10 Braking system"
+    },
+    {
+      "article": "brakes",
+      "page": 276,
+      "headerSource": "9e12 Braking system"
+    },
+    {
+      "article": "brakes",
+      "page": 278,
+      "headerSource": "9°14 Braking system"
+    },
+    {
+      "article": "bodywork",
+      "page": 304,
+      "headerSource": "11°92 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 306,
+      "headerSource": "11°4 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 308,
+      "headerSource": "11°6 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 310,
+      "headerSource": "11°8 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 312,
+      "headerSource": "11°10 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 314,
+      "headerSource": "11°12 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 316,
+      "headerSource": "11°14 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 318,
+      "headerSource": "11°16 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 320,
+      "headerSource": "11°18 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 322,
+      "headerSource": "11°20 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 324,
+      "headerSource": "11°22 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 326,
+      "headerSource": "11°24 Bodywork and fittings"
+    },
+    {
+      "article": "bodywork",
+      "page": 328,
+      "headerSource": "11°26 Bodywork and fittings"
+    },
+    {
+      "article": "body_electrical",
+      "page": 330,
+      "headerSource": "12¢2 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 332,
+      "headerSource": "12¢4 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 334,
+      "headerSource": "12°6 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 336,
+      "headerSource": "12°8 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 338,
+      "headerSource": "12°10 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 340,
+      "headerSource": "12°12 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 342,
+      "headerSource": "12°14 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 344,
+      "headerSource": "12°16 Body electrical system"
+    },
+    {
+      "article": "body_electrical",
+      "page": 346,
+      "headerSource": "12°18 Body electrical system"
+    },
+    {
+      "article": "inspection",
+      "page": 364,
+      "headerSource": "reres MOT test checks"
+    },
+    {
+      "article": "inspection",
+      "page": 366,
+      "headerSource": "reFei0 MOT test checks"
+    }
+  ]
+}

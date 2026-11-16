@@ -8,6 +8,7 @@ builder deliberately emits a smaller, editorially curated corpus for the BFQ
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from pathlib import Path
 from typing import Iterable
@@ -433,7 +434,15 @@ def build() -> None:
             if asset_name not in copied:
                 shutil.copy2(source, media_dir / asset_name)
                 copied.add(asset_name)
-            blocks.append(image(asset_name, description))
+            block = image(asset_name, description)
+            match = re.search(r"_(\d{4})_\d{2}\.webp$", asset_name)
+            if match:
+                full_page = f"source/haynes_{match[1]}.webp"
+                if (SOURCE_MEDIA / full_page).is_file():
+                    (media_dir / "source").mkdir(exist_ok=True)
+                    shutil.copy2(SOURCE_MEDIA / full_page, media_dir / full_page)
+                    block["sourceAsset"] = f"media/{full_page}"
+            blocks.append(block)
 
         payload = {
             "code": section["code"],

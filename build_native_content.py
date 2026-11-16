@@ -643,29 +643,10 @@ def _sample_fill(image: Image.Image, rect: tuple[int, int, int, int]) -> tuple[i
 
 
 def redact_media_crop(image: Image.Image, box: MediaBox, lines: Sequence[OcrLine]) -> Image.Image:
-    crop = image.crop((box.x0, box.y0, box.x1, box.y1)).convert("RGB")
-    draw = ImageDraw.Draw(crop)
-    for line in lines:
-        if box.intersection_ratio(line) < 0.18 or _latin_letters(line.text) < 2:
-            continue
-        x0 = max(0, int(line.x - box.x0) - 3)
-        y0 = max(0, int(line.y - box.y0) - 2)
-        x1 = min(crop.width, int(math.ceil(line.right - box.x0)) + 3)
-        y1 = min(crop.height, int(math.ceil(line.bottom - box.y0)) + 2)
-        if x1 <= x0 or y1 <= y0:
-            continue
-        fill = _sample_fill(crop, (x0, y0, x1, y1))
-        row = np.asarray(crop)[y0:y1]
-        bright_fraction = float((row.mean(axis=2) >= 178).mean()) if row.size else 0.0
-        if bright_fraction >= 0.58:
-            # Captions often contain an OCR-missed final word.  Clearing the
-            # whole light caption band guarantees that no English fragment is
-            # left inside the illustration; its translated wording is emitted
-            # as a native caption block next to the image.
-            draw.rectangle((0, max(0, y0 - 2), crop.width, min(crop.height, y1 + 2)), fill=fill)
-        else:
-            draw.rectangle((x0, y0, x1, y1), fill=fill)
-    return crop
+    # OCR frequently recognises drawing lines as words. Never paint over the
+    # source image: that used to erase entire horizontal bands of diagrams.
+    # Keep this entry point for callers of the original extraction pipeline.
+    return image.crop((box.x0, box.y0, box.x1, box.y1)).convert("RGB")
 
 
 def has_visual_content(image: Image.Image) -> bool:

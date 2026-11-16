@@ -23,8 +23,8 @@ def render(page: pymupdf.Page, page_number: int, scale: float = 2.0) -> Image.Im
         alpha=False,
     )
     image = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-    margin = max(8, round(8 * scale))
-    image = image.crop((margin, margin, image.width - margin, image.height - margin))
+    # Edge labels and continuation connectors belong to the wiring diagram.
+    # Preserve the whole scanned page, including its margins.
     if page_number >= 483:
         image = image.transpose(Image.Transpose.ROTATE_270)
     return image

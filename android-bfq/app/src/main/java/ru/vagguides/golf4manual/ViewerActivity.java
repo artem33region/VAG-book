@@ -204,7 +204,8 @@ public final class ViewerActivity extends Activity {
                     String asset = row.optString("asset", "").trim();
                     String description = row.optString("description", "Иллюстрация из справочника");
                     if ("image".equals(type) ? !asset.isEmpty() : !text.isEmpty()) {
-                        blocks.add(new ArticleBlock(type, text, asset, description));
+                        blocks.add(new ArticleBlock(type, text, asset, description,
+                                row.optString("sourceAsset", "")));
                     }
                 }
                 runOnUiThread(() -> showArticle(blocks));
@@ -378,17 +379,29 @@ public final class ViewerActivity extends Activity {
                     hint.setGravity(Gravity.CENTER);
                     hint.setPadding(0, Ui.dp(ViewerActivity.this, 7), 0, 0);
                     card.addView(hint);
-                    holder = new ImageHolder(image);
+                    TextView source = Ui.text(ViewerActivity.this, "Полная страница оригинала", 13, Ui.NAVY_DARK, true);
+                    source.setGravity(Gravity.CENTER);
+                    source.setMinHeight(Ui.dp(ViewerActivity.this, 48));
+                    card.addView(source);
+                    holder = new ImageHolder(image, source, hint);
                     card.setTag(holder);
                     convertView = card;
                 } else {
                     holder = (ImageHolder) convertView.getTag();
                 }
                 holder.image.setContentDescription(block.description);
+                holder.hint.setText(block.description + "\nНажмите, чтобы увеличить");
                 holder.image.setOnClickListener(view -> {
                     Intent intent = new Intent(ViewerActivity.this, ImageActivity.class);
                     intent.putExtra(ImageActivity.EXTRA_ASSET, block.asset);
                     intent.putExtra(ImageActivity.EXTRA_DESCRIPTION, block.description);
+                    startActivity(intent);
+                });
+                holder.source.setVisibility(block.sourceAsset.isEmpty() ? View.GONE : View.VISIBLE);
+                holder.source.setOnClickListener(view -> {
+                    Intent intent = new Intent(ViewerActivity.this, ImageActivity.class);
+                    intent.putExtra(ImageActivity.EXTRA_ASSET, block.sourceAsset);
+                    intent.putExtra(ImageActivity.EXTRA_DESCRIPTION, "Полная страница оригинала");
                     startActivity(intent);
                 });
                 loadImage(block.asset, holder.image);
@@ -451,9 +464,13 @@ public final class ViewerActivity extends Activity {
 
     private static final class ImageHolder {
         final ImageView image;
+        final TextView source;
+        final TextView hint;
 
-        ImageHolder(ImageView image) {
+        ImageHolder(ImageView image, TextView source, TextView hint) {
             this.image = image;
+            this.source = source;
+            this.hint = hint;
         }
     }
 
@@ -462,12 +479,14 @@ public final class ViewerActivity extends Activity {
         final String text;
         final String asset;
         final String description;
+        final String sourceAsset;
 
-        ArticleBlock(String type, String text, String asset, String description) {
+        ArticleBlock(String type, String text, String asset, String description, String sourceAsset) {
             this.type = type;
             this.text = text;
             this.asset = asset;
             this.description = description;
+            this.sourceAsset = sourceAsset;
         }
     }
 }

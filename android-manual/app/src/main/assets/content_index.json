@@ -38,8 +38,8 @@
       "title": "Бензиновые модели",
       "startPage": 21,
       "endPage": 40,
-      "blockCount": 388,
-      "imageCount": 36
+      "blockCount": 386,
+      "imageCount": 39
     },
     {
       "code": "1B",
@@ -48,8 +48,8 @@
       "title": "Дизельные модели",
       "startPage": 41,
       "endPage": 58,
-      "blockCount": 386,
-      "imageCount": 36
+      "blockCount": 384,
+      "imageCount": 38
     },
     {
       "code": "2A",
@@ -58,8 +58,8 @@
       "title": "Бензиновый двигатель SOHC",
       "startPage": 59,
       "endPage": 78,
-      "blockCount": 504,
-      "imageCount": 49
+      "blockCount": 516,
+      "imageCount": 52
     },
     {
       "code": "2B",
@@ -68,8 +68,8 @@
       "title": "Бензиновый двигатель DOHC",
       "startPage": 79,
       "endPage": 110,
-      "blockCount": 789,
-      "imageCount": 109
+      "blockCount": 818,
+      "imageCount": 115
     },
     {
       "code": "2C",
@@ -78,8 +78,8 @@
       "title": "Дизельный двигатель",
       "startPage": 111,
       "endPage": 132,
-      "blockCount": 550,
-      "imageCount": 68
+      "blockCount": 556,
+      "imageCount": 71
     },
     {
       "code": "2D",
@@ -88,8 +88,8 @@
       "title": "Снятие и капитальный ремонт двигателя",
       "startPage": 133,
       "endPage": 160,
-      "blockCount": 630,
-      "imageCount": 79
+      "blockCount": 660,
+      "imageCount": 84
     },
     {
       "code": "3",
@@ -98,8 +98,8 @@
       "title": "Охлаждение, отопление и кондиционер",
       "startPage": 161,
       "endPage": 172,
-      "blockCount": 263,
-      "imageCount": 29
+      "blockCount": 286,
+      "imageCount": 31
     },
     {
       "code": "4A",
@@ -108,8 +108,8 @@
       "title": "Топливная система бензиновых двигателей",
       "startPage": 173,
       "endPage": 190,
-      "blockCount": 447,
-      "imageCount": 60
+      "blockCount": 451,
+      "imageCount": 62
     },
     {
       "code": "4B",
@@ -118,8 +118,8 @@
       "title": "Топливная система дизельных двигателей",
       "startPage": 191,
       "endPage": 204,
-      "blockCount": 337,
-      "imageCount": 41
+      "blockCount": 343,
+      "imageCount": 43
     },
     {
       "code": "4C",
@@ -128,8 +128,8 @@
       "title": "Снижение токсичности и выпуск — бензин",
       "startPage": 205,
       "endPage": 218,
-      "blockCount": 292,
-      "imageCount": 30
+      "blockCount": 293,
+      "imageCount": 31
     },
     {
       "code": "4D",
@@ -138,8 +138,8 @@
       "title": "Снижение токсичности и выпуск — дизель",
       "startPage": 219,
       "endPage": 226,
-      "blockCount": 158,
-      "imageCount": 13
+      "blockCount": 166,
+      "imageCount": 14
     },
     {
       "code": "5A",
@@ -148,8 +148,8 @@
       "title": "Системы запуска и зарядки",
       "startPage": 227,
       "endPage": 232,
-      "blockCount": 112,
-      "imageCount": 13
+      "blockCount": 120,
+      "imageCount": 14
     },
     {
       "code": "5B",
@@ -158,8 +158,8 @@
       "title": "Зажигание бензиновых двигателей",
       "startPage": 233,
       "endPage": 236,
-      "blockCount": 69,
-      "imageCount": 7
+      "blockCount": 70,
+      "imageCount": 8
     },
     {
       "code": "5C",
@@ -168,8 +168,8 @@
       "title": "Предпусковой подогрев дизеля",
       "startPage": 237,
       "endPage": 238,
-      "blockCount": 17,
-      "imageCount": 1
+      "blockCount": 34,
+      "imageCount": 2
     },
     {
       "code": "6",
@@ -178,8 +178,8 @@
       "title": "Сцепление",
       "startPage": 239,
       "endPage": 246,
-      "blockCount": 241,
-      "imageCount": 34
+      "blockCount": 239,
+      "imageCount": 35
     },
     {
       "code": "7A",
@@ -188,8 +188,8 @@
       "title": "Механическая коробка передач",
       "startPage": 247,
       "endPage": 252,
-      "blockCount": 103,
-      "imageCount": 20
+      "blockCount": 102,
+      "imageCount": 21
     },
     {
       "code": "7B",
@@ -198,8 +198,8 @@
       "title": "Автоматическая коробка передач",
       "startPage": 253,
       "endPage": 256,
-      "blockCount": 49,
-      "imageCount": 3
+      "blockCount": 106,
+      "imageCount": 5
     },
     {
       "code": "8",
@@ -208,8 +208,8 @@
       "title": "Приводные валы и ШРУСы",
       "startPage": 257,
       "endPage": 264,
-      "blockCount": 152,
-      "imageCount": 19
+      "blockCount": 153,
+      "imageCount": 20
     },
     {
       "code": "9",
@@ -218,8 +218,8 @@
       "title": "Тормозная система",
       "startPage": 265,
       "endPage": 278,
-      "blockCount": 413,
-      "imageCount": 38
+      "blockCount": 429,
+      "imageCount": 40
     },
     {
       "code": "10",
@@ -228,8 +228,8 @@
       "title": "Подвеска и рулевое управление",
       "startPage": 279,
       "endPage": 302,
-      "blockCount": 599,
-      "imageCount": 87
+      "blockCount": 619,
+      "imageCount": 90
     },
     {
       "code": "11",
@@ -238,8 +238,8 @@
       "title": "Кузов и наружное оборудование",
       "startPage": 303,
       "endPage": 328,
-      "blockCount": 686,
-      "imageCount": 132
+      "blockCount": 675,
+      "imageCount": 133
     },
     {
       "code": "12",
@@ -248,8 +248,8 @@
       "title": "Электрооборудование кузова",
       "startPage": 329,
       "endPage": 347,
-      "blockCount": 534,
-      "imageCount": 84
+      "blockCount": 527,
+      "imageCount": 85
     },
     {
       "code": "12W",
@@ -268,8 +268,8 @@
       "title": "Данные, инструмент и общие приёмы",
       "startPage": 357,
       "endPage": 363,
-      "blockCount": 101,
-      "imageCount": 18
+      "blockCount": 105,
+      "imageCount": 20
     },
     {
       "code": "MOT",
@@ -278,7 +278,7 @@
       "title": "Проверка технического состояния",
       "startPage": 364,
       "endPage": 367,
-      "blockCount": 77,
+      "blockCount": 75,
       "imageCount": 14
     },
     {

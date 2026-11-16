@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "body_electrical",
+    "page": 345,
+    "source": "42 Disconnect the wiring from the rear of the CD player and unclip them from the bracket",
+    "number": 12
+  },
+  {
+    "slug": "body_electrical",
+    "page": 345,
+    "source": "4 Switch off the ignition and all electrical consumers",
+    "number": 1
+  },
+  {
+    "slug": "brakes",
+    "page": 271,
+    "source": "413 Use chalk or paint to mark the relationship of the disc to the hub, then remove the screw securing the brake disc to the hub, and remove the disc (see illustration). If it is tight, apply penetrating fluid, and tap its rear face gently with a hide or plastic mallet. The use of excessive force could cause the disc to be damaged Refitting",
+    "number": 13
+  },
+  {
+    "slug": "brakes",
+    "page": 273,
+    "source": "41 Thoroughly clean all components, using only methylated spirit, isopropyl! alcohol or clean hydraulic fluid as a cleaning medium. Never use mineral-based solvents such as petrol or paraffin, as they will attack the hydraulic system rubber components. Dry the components immediately, using compressed air or a clean, lint-free cloth. Use compressed air to blow clear the fluid passages",
+    "number": 11
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 98,
+    "source": "4 Disconnect the battery negative lead, then remove the engine top cover. Note: Before refer",
+    "number": 1
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 141,
+    "source": "26 Working under the vehicle, disconnect the knock sensor wiring connector. Note that access is difficult, and can be improved by unbolting the coolant/thermostat housing from the left-hand side of the cylinder head, and removing the plastic coolant pipe which connects the coolant pump to the coolant/ thermostat housing (pull the plastic pipe from the coolant pump). If the wiring connector proves particularly difficult to release, it may be necessary to remove the inlet manifold for access, with reference to Chapter 4A",
+    "number": 21
+  },
+  {
+    "slug": "engine_overhaul",
+    "page": 159,
+    "source": "8 Turn the engine using the starter motor until the oil pressure warning lamp goes out",
+    "number": 5
+  },
+  {
+    "slug": "suspension",
+    "page": 283,
+    "source": "41 Apply the handbrake, then jack up the front of the vehicle and support it on axle stands (see Jacking and vehicle support). Remove the appropriate roadwheel",
+    "number": 1
+  },
+  {
+    "slug": "suspension",
+    "page": 287,
+    "source": "4 Chock the front roadwheels, then jack up the rear of the vehicle and support on axle stands (see Jacking and vehicle support). Release the handbrake and remove the relevant rear roadwheel",
+    "number": 1
+  },
+  {
+    "slug": "suspension",
+    "page": 289,
+    "source": "4 Chock the front roadwheels, then jack up the rear of the vehicle and support on axle stands (see Jacking and vehicle support). Release the handbrake and remove the relevant roadwheel",
+    "number": 1
+  },
+  {
+    "slug": "suspension",
+    "page": 291,
+    "source": "23 Working on each side at a time, raise the trailing arm until the upper mounting bolts can be inserted. Tighten the bolts to the specified torque",
+    "number": 24
+  },
+  {
+    "slug": "suspension",
+    "page": 295,
+    "source": "45 Slacken and remove the clamp bolt and free the steering column universal joint from the steering gear pinion (the shaft is telescopic disconnected). Discard the clamp bolt; a new one should be used on refitting. Note that the pinion shaft has a cut-out to enable fitting of the clamp bolt, and the splined pinion shaft incorporates a flat making it impossible to assemble the joint to the shaft in the wrong position (see illustrations)",
+    "number": 15
+  },
+  {
+    "slug": "suspension",
+    "page": 297,
+    "source": "4 Disconnect the battery negative (earth) lead and position it away from the terminal",
+    "number": 1
+  },
+  {
+    "slug": "suspension",
+    "page": 297,
+    "source": "45 Refit the height and reach adjustment handle and tighten the screws",
+    "number": 15
+  },
+  {
+    "slug": "suspension",
+    "page": 297,
+    "source": "49 Remove the steering wheel as described in Section 16",
+    "number": 19
+  },
+  {
+    "slug": "bodywork",
+    "page": 321,
+    "source": "4 The various plastic covers fitted to the underside of the vehicle are secured in position by a mixture of screws, nuts and retaining clips and removal will be fairly obvious on inspection. Work methodically around the panel removing its retaining screws and releasing its retaining clips until the panel is free and can be removed from the underside of the vehicle. Most clips used on the vehicle are simply prised out of position. Remove the wheels to ease the removal of the wheel arch liners",
+    "number": 1
+  },
+  {
+    "slug": "brakes",
+    "page": 271,
+    "source": "4 Chock the front wheels, then jack up the rear of the vehicle and support it on axle stands (see Jacking and vehicle support). Remove the rear wheels",
+    "number": 1
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 98,
+    "source": "4 Remove the camshaft carrier, as described in Section 10",
+    "number": 1
+  },
+  {
+    "slug": "engine_dohc",
+    "page": 109,
+    "source": "41 The oil level/temperature sender is fitted to bottom of the sump (see illustration)",
+    "number": 1
+  }
+]

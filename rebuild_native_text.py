@@ -37,7 +37,7 @@ from translate_haynes import (
 ROOT = Path(__file__).resolve().parent
 DEFAULT_TEMPLATE = ROOT / "android-manual" / "app" / "src" / "main" / "assets"
 DEFAULT_OUTPUT = ROOT / ".work" / "native_content" / "clean_assets"
-SOURCE_CACHE = ROOT / ".work" / "native_content" / "source_blocks_v4"
+SOURCE_CACHE = ROOT / ".work" / "native_content" / "source_blocks_v5"
 
 ALLOWED_SHORT_WORDS = {
     "abs", "air", "bar", "dohc", "dot", "ecu", "egr", "golf", "gti",
@@ -233,11 +233,9 @@ def looks_meaningful(text: str, line: PdfLine, page: pymupdf.Page) -> bool:
         return False
     if line.font_size < 4.35 or line.height < 4.4:
         return False
-    if line.y1 <= 32 and (
-        line.x0 >= page.rect.width * 0.42
-        or PAGE_HEADER_RE.search(stripped)
-        or re.search(r"\brepair procedures\b", stripped, re.IGNORECASE)
-    ):
+    # The running title can be on either side and OCR reads the separator
+    # as e (7Be4), a bullet or a dot. This area is above the body text.
+    if line.y1 <= 32:
         return False
     if line.y0 >= page.rect.height - 25 and re.fullmatch(r"[0-9A-Z. -]{1,16}", stripped):
         return False
@@ -294,9 +292,8 @@ def extract_pdf_lines(page: pymupdf.Page) -> list[PdfLine]:
 
     # The Archive.org layer sometimes splits a visually continuous line into
     # several OCR records (often around italic words).  Merge close fragments
-    # on the same baseline before paragraph grouping.  The inter-column gutter
-    # is wider than this threshold, so neighbouring newspaper columns remain
-    # independent.
+    # on the same baseline before paragraph grouping. Some three-column pages
+    # have gutters narrower than this threshold; check column starts as well.
     merged: list[PdfLine] = []
     for line in sorted(output, key=lambda item: (item.y0, item.x0)):
         # Other columns may intervene in y-order between fragments of this line.
@@ -304,7 +301,10 @@ def extract_pdf_lines(page: pymupdf.Page) -> list[PdfLine]:
             previous = merged[index]
             gap = line.x0 - previous.x1
             same_baseline = abs(line.y0 - previous.y0) <= 1.4 and abs(line.y1 - previous.y1) <= 2.2
-            if same_baseline and -0.8 <= gap <= 10.5:
+            crosses_column = (previous.width > page.rect.width * 0.23
+                              and int(previous.x0 / page.rect.width * 3)
+                              != int(line.x0 / page.rect.width * 3))
+            if same_baseline and not crosses_column and -0.8 <= gap <= 10.5:
                 merged[index] = PdfLine(
                     text=normalise_source(f"{previous.text} {line.text}"),
                     x0=previous.x0,
@@ -328,6 +328,8 @@ def line_kind(line: PdfLine) -> str:
     if re.match(r"^\d{1,2}[.·]\d{1,2}[a-z]?\b", lower):
         return "caption"
     numbered_step = bool(re.match(r"^\d{1,3}\s+[A-Z]", line.text))
+    if numbered_step and line.font_size >= 8.1 and len(line.text) < 100:
+        return "heading"
     heading_words = bool(
         re.match(
             r"^(?:chapter|contents|specifications|general(?: continued)?|"
@@ -504,7 +506,7 @@ def page_is_layout_table(page: pymupdf.Page) -> bool:
     text = page.get_text()
     lower = text.casefold()
     leaders = len(re.findall(r"\.{4,}", text))
-    if "torque wrench settings" in lower:
+    if re.search(r"(?:^|\n)\s*torque wrench settings\s*(?:\n|$)", lower):
         return True
     if re.search(r"(?:^|\n)\s*contents\s*(?:\n|$)", text, re.IGNORECASE) and leaders >= 3:
         return True

@@ -146,6 +146,11 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
                 referenced.add(asset)
                 if not asset or not (assets / asset).is_file():
                     issues.append(Issue("structure", location, "отсутствует изображение", asset))
+                source_asset = block.get("sourceAsset", "")
+                if source_asset:
+                    referenced.add(source_asset)
+                    if not (assets / source_asset).is_file():
+                        issues.append(Issue("structure", location, "отсутствует полная страница", source_asset))
                 description = str(block.get("description", ""))
                 if description and not CYRILLIC_RE.search(description):
                     issues.append(Issue("translation", location, "описание изображения не на русском", description[:180]))
@@ -158,6 +163,10 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
                 issues.append(Issue("structure", location, "пустой текстовый блок", ""))
                 continue
             stats["characters"] += len(stripped)
+            if re.search(r"\b\d{1,2}[ABCDАБВГ]?[eе•·]\d{1,2}\b", stripped):
+                issues.append(Issue("format", location, "колонтитул попал в текст", stripped[:220]))
+            if re.search(r"\b([А-Яа-яЁё]{3,})/\1\b", stripped, re.I):
+                issues.append(Issue("format", location, "повтор слова через косую черту", stripped[:220]))
 
             for marker in MOJIBAKE:
                 if marker in stripped:
@@ -185,7 +194,8 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
                 issues.append(Issue("format", location, "повторяющаяся пунктуация", stripped[:220]))
             if re.search(r"\b[А-Яа-яЁё]{2,}\([А-Яа-яЁё]{1,4}\)", stripped):
                 issues.append(Issue("format", location, "OCR-нотация вариантного окончания", stripped[:220]))
-            if stripped.count("(") != stripped.count(")") or stripped.count("[") != stripped.count("]"):
+            bracket_text = re.sub(r"^[a-zа-я]\)\s+", "", stripped, flags=re.I)
+            if bracket_text.count("(") != bracket_text.count(")") or bracket_text.count("[") != bracket_text.count("]"):
                 issues.append(Issue("format", location, "несбалансированные скобки", stripped[:220]))
             if len(stripped) > 1800:
                 issues.append(Issue("format", location, "слишком длинный блок", stripped[:220]))
@@ -229,7 +239,7 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
         if int(section.get("imageCount", -1)) != image_count:
             issues.append(Issue("structure", slug, "не совпадает число изображений", ""))
 
-    media = {f"media/{path.name}" for path in (assets / "media").glob("*") if path.is_file()}
+    media = {path.relative_to(assets).as_posix() for path in (assets / "media").rglob("*.webp")}
     for orphan in sorted(media - referenced):
         issues.append(Issue("structure", "media", "неиспользуемое изображение", orphan))
     for path in sorted((assets / "articles").glob("*.json")):
