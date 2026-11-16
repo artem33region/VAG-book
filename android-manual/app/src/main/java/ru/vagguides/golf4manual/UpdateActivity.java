@@ -26,13 +26,9 @@ import android.widget.TextView;
 
 import org.json.JSONObject;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.HashSet;
 import java.util.Locale;
@@ -141,8 +137,7 @@ public final class UpdateActivity extends Activity {
     }
 
     private UpdateInfo parseRelease(JSONObject value) throws Exception {
-        return new UpdateInfo(getPackageName(), value.getString("packageName"), value.getLong("versionCode"),
-                value.getString("versionName"), value.getString("url"), value.getString("sha256"), value.getLong("size"));
+        return UpdateClient.parseRelease(getPackageName(), value);
     }
 
     private void checkForUpdate() {
@@ -156,9 +151,7 @@ public final class UpdateActivity extends Activity {
         action.setEnabled(false);
         executor.execute(() -> {
             try {
-                JSONObject manifest = new JSONObject(fetchManifest());
-                if (manifest.getInt("schemaVersion") != 1) throw new IllegalArgumentException("Unsupported schema");
-                JSONObject entry = manifest.getJSONObject("apps").getJSONObject(getPackageName());
+                JSONObject entry = UpdateClient.fetchRelease(getPackageName());
                 UpdateInfo found = parseRelease(entry);
                 runOnUiThread(() -> {
                     if (destroyed) return;
@@ -181,29 +174,6 @@ public final class UpdateActivity extends Activity {
                 runOnUiThread(() -> showError("Не удалось проверить обновления. Проверьте подключение к интернету и повторите попытку."));
             }
         });
-    }
-
-    private String fetchManifest() throws Exception {
-        HttpURLConnection connection = (HttpURLConnection) new URL(UpdateInfo.MANIFEST_URL).openConnection();
-        connection.setConnectTimeout(15000);
-        connection.setReadTimeout(15000);
-        connection.setInstanceFollowRedirects(false);
-        connection.setUseCaches(false);
-        connection.setRequestProperty("Cache-Control", "no-cache");
-        try {
-            if (connection.getResponseCode() != 200) throw new IllegalStateException("Manifest unavailable");
-            try (InputStream input = connection.getInputStream(); ByteArrayOutputStream output = new ByteArrayOutputStream()) {
-                byte[] buffer = new byte[4096];
-                int count;
-                while ((count = input.read(buffer)) != -1) {
-                    if (output.size() + count > 64 * 1024) throw new IllegalStateException("Manifest too large");
-                    output.write(buffer, 0, count);
-                }
-                return new String(output.toByteArray(), StandardCharsets.UTF_8);
-            }
-        } finally {
-            connection.disconnect();
-        }
     }
 
     private File downloadedFile() {

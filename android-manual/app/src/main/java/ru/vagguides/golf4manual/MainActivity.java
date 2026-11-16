@@ -30,6 +30,8 @@ public final class MainActivity extends Activity {
     private LinearLayout continueCard;
     private TextView continueTitle;
     private TextView continueMeta;
+    private TextView updates;
+    private AutoUpdateChecker updateChecker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,12 +78,22 @@ public final class MainActivity extends Activity {
 
         setContentView(root);
         updateSectionCount();
+        updateChecker = new AutoUpdateChecker(this, release -> updates.setText(release == null
+                ? getString(R.string.updates_button)
+                : getString(R.string.update_available_automatic, release.versionName)));
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         updateContinueCard();
+        updateChecker.checkIfDue();
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (updateChecker != null) updateChecker.close();
+        super.onDestroy();
     }
 
     private LinearLayout buildHero() {
@@ -116,7 +128,7 @@ public final class MainActivity extends Activity {
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT));
 
-        TextView updates = Ui.text(this, "Обновления", 15, Ui.ACCENT, true);
+        updates = Ui.text(this, getString(R.string.updates_button), 15, Ui.ACCENT, true);
         updates.setGravity(Gravity.CENTER_VERTICAL);
         updates.setMinHeight(Ui.dp(this, 48));
         updates.setOnClickListener(view -> startActivity(new Intent(this, UpdateActivity.class)));

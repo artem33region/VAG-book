@@ -3,19 +3,19 @@
   "apps": {
     "ru.vagguides.golf4manual": {
       "packageName": "ru.vagguides.golf4manual",
-      "versionCode": 5,
-      "versionName": "5.0",
-      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-5.apk",
-      "sha256": "a5cdc45099843f08159059c3fdceb3ae970faefba5a61492400d966143a6ae1d",
-      "size": 13261848
+      "versionCode": 6,
+      "versionName": "6.0",
+      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-6.apk",
+      "sha256": "586ddd579666ac81517512aca570dba94b2b96a56a6634cdfa30711b17a4af9b",
+      "size": 13231986
     },
     "ru.vagguides.bfqmanual": {
       "packageName": "ru.vagguides.bfqmanual",
-      "versionCode": 4,
-      "versionName": "4.0",
-      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-4.apk",
-      "sha256": "9878b52920222fc90a4c3c03c32c2dd331a425bdaf06a65133fa49fa78a52d18",
-      "size": 1800851
+      "versionCode": 5,
+      "versionName": "5.0",
+      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-5.apk",
+      "sha256": "889a8f3b34b9697d42c63d724d286d7b1c4f5cdfe1b187bd9138c55993103aef",
+      "size": 1772121
     }
   }
 }
