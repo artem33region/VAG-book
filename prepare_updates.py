@@ -17,6 +17,7 @@ SIGNER_SHA256 = "19fc0d40ae320a85c29c97258d1a798cc5c7e14782ecc2eac4e721f92338714
 APPS = (
     ("android-manual", "ru.vagguides.golf4manual", "golf4", "VW_Golf4_Bora_Manual_RU.apk"),
     ("android-bfq", "ru.vagguides.bfqmanual", "bfq", "VW_BFQ_1_6_Manual_RU.apk"),
+    ("android-bca", "ru.vagguides.bcamanual", "bca", "VW_BCA_1_4_Manual_RU.apk"),
 )
 
 

@@ -1,0 +1,204 @@
+{
+  "scale": 1.5,
+  "source": "Haynes_VW_Golf_&_Bora_Service_and_Repair_Manual_A_K_Legg,_Peter.pdf",
+  "images": [
+    {
+      "asset": "media/source/haynes_0079.webp",
+      "page": 79,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0079.webp"
+    },
+    {
+      "asset": "media/source/haynes_0080.webp",
+      "page": 80,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0080.webp"
+    },
+    {
+      "asset": "media/source/haynes_0022.webp",
+      "page": 22,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0022.webp"
+    },
+    {
+      "asset": "media/source/haynes_0024.webp",
+      "page": 24,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0024.webp"
+    },
+    {
+      "asset": "media/source/haynes_0090.webp",
+      "page": 90,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0090.webp"
+    },
+    {
+      "asset": "media/source/haynes_0091.webp",
+      "page": 91,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0091.webp"
+    },
+    {
+      "asset": "media/bca_timing_03.webp",
+      "page": 92,
+      "box": [
+        48,
+        65,
+        432,
+        385
+      ],
+      "sourceAsset": "media/source/haynes_0092.webp"
+    },
+    {
+      "asset": "media/bca_camshaft_01.webp",
+      "page": 97,
+      "box": [
+        260,
+        64,
+        516,
+        285
+      ],
+      "sourceAsset": "media/source/haynes_0097.webp"
+    },
+    {
+      "asset": "media/bca_camshaft_02.webp",
+      "page": 97,
+      "box": [
+        518,
+        810,
+        775,
+        1030
+      ],
+      "sourceAsset": "media/source/haynes_0097.webp"
+    },
+    {
+      "asset": "media/bca_cylinder_head_01.webp",
+      "page": 104,
+      "box": [
+        287,
+        70,
+        544,
+        323
+      ],
+      "sourceAsset": "media/source/haynes_0104.webp"
+    },
+    {
+      "asset": "media/bca_cylinder_head_02.webp",
+      "page": 104,
+      "box": [
+        549,
+        784,
+        810,
+        1035
+      ],
+      "sourceAsset": "media/source/haynes_0104.webp"
+    },
+    {
+      "asset": "media/bca_lubrication_01.webp",
+      "page": 106,
+      "box": [
+        30,
+        67,
+        286,
+        285
+      ],
+      "sourceAsset": "media/source/haynes_0106.webp"
+    },
+    {
+      "asset": "media/bca_lubrication_02.webp",
+      "page": 106,
+      "box": [
+        30,
+        800,
+        287,
+        1030
+      ],
+      "sourceAsset": "media/source/haynes_0106.webp"
+    },
+    {
+      "asset": "media/bca_cooling_01.webp",
+      "page": 89,
+      "box": [
+        271,
+        291,
+        528,
+        509
+      ],
+      "sourceAsset": "media/source/haynes_0089.webp"
+    },
+    {
+      "asset": "media/source/haynes_0173.webp",
+      "page": 173,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0173.webp"
+    },
+    {
+      "asset": "media/bca_ignition_01.webp",
+      "page": 236,
+      "box": [
+        39,
+        60,
+        297,
+        278
+      ],
+      "sourceAsset": "media/source/haynes_0236.webp"
+    },
+    {
+      "asset": "media/bca_ignition_02.webp",
+      "page": 236,
+      "box": [
+        555,
+        62,
+        812,
+        280
+      ],
+      "sourceAsset": "media/source/haynes_0236.webp"
+    },
+    {
+      "asset": "media/source/haynes_0205.webp",
+      "page": 205,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0205.webp"
+    },
+    {
+      "asset": "media/bca_mounts_01.webp",
+      "page": 91,
+      "box": [
+        265,
+        63,
+        522,
+        285
+      ],
+      "sourceAsset": "media/source/haynes_0091.webp"
+    },
+    {
+      "asset": "media/source/haynes_0233.webp",
+      "page": 233,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0233.webp"
+    },
+    {
+      "asset": "media/source/haynes_0081.webp",
+      "page": 81,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0081.webp"
+    },
+    {
+      "asset": "media/source/haynes_0082.webp",
+      "page": 82,
+      "box": null,
+      "sourceAsset": "media/source/haynes_0082.webp"
+    },
+    {
+      "asset": "media/bca_torques_03.webp",
+      "page": 83,
+      "box": [
+        9,
+        55,
+        785,
+        258
+      ],
+      "sourceAsset": "media/source/haynes_0083.webp"
+    }
+  ]
+}

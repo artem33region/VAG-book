@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_ASSETS = (
     ROOT / "android-manual" / "app" / "src" / "main" / "assets",
     ROOT / "android-bfq" / "app" / "src" / "main" / "assets",
+    ROOT / "android-bca" / "app" / "src" / "main" / "assets",
 )
 
 ALLOWED_LATIN = {

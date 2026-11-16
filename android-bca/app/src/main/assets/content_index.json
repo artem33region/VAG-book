@@ -1,0 +1,248 @@
+{
+  "title": "VW BCA 1.4 16V — сервисный справочник",
+  "format": "native-article-v1",
+  "sections": [
+    {
+      "code": "BCA",
+      "slug": "overview",
+      "category": "Двигатель BCA",
+      "title": "Паспорт двигателя",
+      "sourcePages": [
+        79,
+        80,
+        83,
+        173,
+        233
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 14,
+      "imageCount": 2
+    },
+    {
+      "code": "ТО",
+      "slug": "service",
+      "category": "Обслуживание",
+      "title": "Регламент и расходные материалы",
+      "sourcePages": [
+        22,
+        23,
+        24,
+        27,
+        34
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 11,
+      "imageCount": 2
+    },
+    {
+      "code": "ГРМ",
+      "slug": "timing",
+      "category": "Механика двигателя",
+      "title": "Два ремня ГРМ и установка фаз",
+      "sourcePages": [
+        83,
+        84,
+        85,
+        90,
+        91,
+        92
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 13,
+      "imageCount": 3
+    },
+    {
+      "code": "РВ",
+      "slug": "camshaft",
+      "category": "Механика двигателя",
+      "title": "Распредвалы и гидрокомпенсаторы",
+      "sourcePages": [
+        80,
+        96,
+        97,
+        98
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 12,
+      "imageCount": 2
+    },
+    {
+      "code": "ГБЦ",
+      "slug": "cylinder_head",
+      "category": "Механика двигателя",
+      "title": "Головка блока цилиндров",
+      "sourcePages": [
+        81,
+        103,
+        104,
+        105
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 9,
+      "imageCount": 2
+    },
+    {
+      "code": "МАСЛО",
+      "slug": "lubrication",
+      "category": "Системы двигателя",
+      "title": "Смазка, поддон и масляный насос",
+      "sourcePages": [
+        80,
+        82,
+        83,
+        106,
+        107
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 12,
+      "imageCount": 2
+    },
+    {
+      "code": "ОХЛ",
+      "slug": "cooling",
+      "category": "Системы двигателя",
+      "title": "Охлаждение и водяной насос",
+      "sourcePages": [
+        22,
+        81,
+        83,
+        89,
+        92
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 11,
+      "imageCount": 1
+    },
+    {
+      "code": "ВПУСК",
+      "slug": "intake",
+      "category": "Обслуживание",
+      "title": "Воздушный фильтр и впуск",
+      "sourcePages": [
+        33,
+        34,
+        175,
+        176
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 7,
+      "imageCount": 0
+    },
+    {
+      "code": "MPI",
+      "slug": "fuel",
+      "category": "Управление двигателем",
+      "title": "Впрыск и топливная система",
+      "sourcePages": [
+        173,
+        174,
+        175
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 8,
+      "imageCount": 1
+    },
+    {
+      "code": "ЗАЖ",
+      "slug": "ignition",
+      "category": "Управление двигателем",
+      "title": "Катушки зажигания и свечи",
+      "sourcePages": [
+        22,
+        23,
+        34,
+        233,
+        234,
+        235,
+        236
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 13,
+      "imageCount": 2
+    },
+    {
+      "code": "EGR",
+      "slug": "emissions",
+      "category": "Управление двигателем",
+      "title": "EGR, вентиляция картера и выпуск",
+      "sourcePages": [
+        82,
+        96,
+        97,
+        205,
+        206,
+        207
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 10,
+      "imageCount": 1
+    },
+    {
+      "code": "ОП",
+      "slug": "mounts",
+      "category": "Механика двигателя",
+      "title": "Опоры двигателя",
+      "sourcePages": [
+        81,
+        82,
+        90,
+        91,
+        92
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 8,
+      "imageCount": 1
+    },
+    {
+      "code": "DIAG",
+      "slug": "diagnostics",
+      "category": "Диагностика",
+      "title": "Проверки двигателя и электрооборудования",
+      "sourcePages": [
+        80,
+        83,
+        84,
+        173,
+        174,
+        233,
+        234,
+        236
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 13,
+      "imageCount": 1
+    },
+    {
+      "code": "Н·м",
+      "slug": "torques",
+      "category": "Справочные данные",
+      "title": "Моменты затяжки BCA",
+      "sourcePages": [
+        23,
+        80,
+        81,
+        82,
+        83,
+        205,
+        233
+      ],
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 13,
+      "imageCount": 3
+    }
+  ]
+}

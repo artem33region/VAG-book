@@ -1,6 +1,6 @@
 # VAG-book
 
-Два автономных Android-справочника: VW Golf IV / Bora и двигатель BFQ 1.6.
+Три автономных Android-справочника: VW Golf IV / Bora, BFQ 1.6 и BCA 1.4 16V.
 Статьи и иллюстрации доступны без интернета. На главном экране есть кнопка
 **«Обновления»** для проверки, загрузки и установки новой версии.
 
@@ -8,6 +8,12 @@
 
 - [Golf IV / Bora 9.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-9.apk)
 - [BFQ 1.6 8.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-8.apk)
+- [BCA 1.4 16V 1.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bca-1.apk)
+
+BCA — отдельное приложение с 14 разделами, двумя ремнями ГРМ, индивидуальными
+катушками, параметрами и моментами для двигателя 1,4 л. Русский текст составлен
+отдельно по оригиналу; включены 23 иллюстрации и таблицы с увеличением и полными
+страницами. [Описание и сборка BCA](android-bca/README.md).
 
 В версии 9.0 повторно сверены с печатным оригиналом десять страниц целиком
 и 37 отдельных фрагментов. Исправлены потерянные отрицания, подмена названий
@@ -63,6 +69,8 @@ cd android-manual
 .\gradlew.bat :app:lintDebug :app:assembleDebug
 cd ../android-bfq
 .\gradlew.bat :app:lintDebug :app:assembleDebug
+cd ../android-bca
+.\gradlew.bat :app:lintDebug :app:assembleDebug
 cd ..
 ```
 
@@ -79,7 +87,8 @@ APK создаются в `<проект>/app/build/outputs/apk/debug/`.
 ## Выпуск следующего обновления
 
 1. Увеличьте `versionCode` и `versionName` изменённого приложения в `app/build.gradle`.
-2. Соберите оба проекта и выполните проверки. Используйте прежний ключ подписи.
+2. Соберите изменённые проекты и выполните проверки. Сохраните APK и метаданные
+   текущих сборок остальных приложений для `prepare_updates.py`. Используйте прежний ключ подписи.
 3. Из корня запустите:
 
    ```powershell
@@ -91,9 +100,10 @@ APK создаются в `<проект>/app/build/outputs/apk/debug/`.
    затем выполните `git push origin main`.
 
 Скрипт сверяет фактические package ID и версии внутри APK, проверяет подписи,
-создаёт файлы `releases/golf4-<versionCode>.apk` и `releases/bfq-<versionCode>.apk`
+создаёт файлы `releases/golf4-<versionCode>.apk`, `releases/bfq-<versionCode>.apk`
+и `releases/bca-<versionCode>.apk`
 и вычисляет размеры и SHA-256. Существующий номер выпуска нельзя перезаписать
-другим APK. Манифест обновляется после подготовки файлов обоих приложений.
+другим APK. Манифест обновляется после подготовки файлов всех трёх приложений.
 Старые APK сохраняются, чтобы уже начатые загрузки могли завершиться.
 
 ## Проверки и материалы

@@ -16,6 +16,14 @@
       "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-8.apk",
       "sha256": "38aa83d55bf533bfa04ba67d4d41ff6d1dbbd60003949ce0c7a58728be74689b",
       "size": 10431654
+    },
+    "ru.vagguides.bcamanual": {
+      "packageName": "ru.vagguides.bcamanual",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "url": "https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bca-1.apk",
+      "sha256": "1fabe030a7a1fed4f23799483a8ce55bc3d986c45ac411bacfdbfe9eb1bd5c3f",
+      "size": 2909785
     }
   }
 }

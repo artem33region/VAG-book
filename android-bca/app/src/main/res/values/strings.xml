@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VW BCA 1.4 — Справочник</string>
+    <string name="update_installed_version">Установлена версия %1$s</string>
+    <string name="update_verifying">Проверяем загруженный APK…</string>
+    <string name="update_ready">Версия %1$s готова к установке.</string>
+    <string name="update_installer_unavailable">На устройстве недоступен системный установщик APK.</string>
+    <string name="updates_button">Обновления</string>
+    <string name="update_available_automatic">Доступна версия %1$s — обновить ›</string>
+</resources>

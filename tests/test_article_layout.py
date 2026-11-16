@@ -118,6 +118,7 @@ class ArticleLayoutTests(unittest.TestCase):
     def test_shared_reader_typography_is_identical(self):
         suffix = "app/src/main/java/ru/vagguides/golf4manual/ArticleTypography.java"
         self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bfq" / suffix).read_bytes())
+        self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bca" / suffix).read_bytes())
 
 
 if __name__ == "__main__":

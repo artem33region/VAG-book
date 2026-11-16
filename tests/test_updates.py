@@ -26,6 +26,7 @@ class UpdateTests(unittest.TestCase):
         for filename in ["UpdateInfo.java", "UpdateActivity.java", "UpdateClient.java", "AutoUpdateChecker.java", "AutoUpdatePolicy.java"]:
             suffix = Path("app/src/main/java/ru/vagguides/golf4manual") / filename
             self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bfq" / suffix).read_bytes())
+            self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bca" / suffix).read_bytes())
 
     @unittest.skipUnless(shutil.which("javac") and shutil.which("java"), "Java JDK is required")
     def test_automatic_update_schedule(self):
