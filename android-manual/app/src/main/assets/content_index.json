@@ -38,8 +38,8 @@
       "title": "Бензиновые модели",
       "startPage": 21,
       "endPage": 40,
-      "blockCount": 386,
-      "imageCount": 39
+      "blockCount": 391,
+      "imageCount": 36
     },
     {
       "code": "1B",
@@ -48,8 +48,8 @@
       "title": "Дизельные модели",
       "startPage": 41,
       "endPage": 58,
-      "blockCount": 383,
-      "imageCount": 38
+      "blockCount": 400,
+      "imageCount": 40
     },
     {
       "code": "2A",
@@ -58,8 +58,8 @@
       "title": "Бензиновый двигатель SOHC",
       "startPage": 59,
       "endPage": 78,
-      "blockCount": 527,
-      "imageCount": 52
+      "blockCount": 537,
+      "imageCount": 51
     },
     {
       "code": "2B",
@@ -68,8 +68,8 @@
       "title": "Бензиновый двигатель DOHC",
       "startPage": 79,
       "endPage": 110,
-      "blockCount": 830,
-      "imageCount": 115
+      "blockCount": 829,
+      "imageCount": 117
     },
     {
       "code": "2C",
@@ -78,8 +78,8 @@
       "title": "Дизельный двигатель",
       "startPage": 111,
       "endPage": 132,
-      "blockCount": 565,
-      "imageCount": 71
+      "blockCount": 571,
+      "imageCount": 75
     },
     {
       "code": "2D",
@@ -88,8 +88,8 @@
       "title": "Снятие и капитальный ремонт двигателя",
       "startPage": 133,
       "endPage": 160,
-      "blockCount": 660,
-      "imageCount": 84
+      "blockCount": 674,
+      "imageCount": 87
     },
     {
       "code": "3",
@@ -109,7 +109,7 @@
       "startPage": 173,
       "endPage": 190,
       "blockCount": 463,
-      "imageCount": 62
+      "imageCount": 64
     },
     {
       "code": "4B",
@@ -118,7 +118,7 @@
       "title": "Топливная система дизельных двигателей",
       "startPage": 191,
       "endPage": 204,
-      "blockCount": 359,
+      "blockCount": 360,
       "imageCount": 43
     },
     {
@@ -128,7 +128,7 @@
       "title": "Снижение токсичности и выпуск — бензин",
       "startPage": 205,
       "endPage": 218,
-      "blockCount": 297,
+      "blockCount": 298,
       "imageCount": 31
     },
     {
@@ -148,8 +148,8 @@
       "title": "Системы запуска и зарядки",
       "startPage": 227,
       "endPage": 232,
-      "blockCount": 119,
-      "imageCount": 14
+      "blockCount": 133,
+      "imageCount": 16
     },
     {
       "code": "5B",

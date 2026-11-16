@@ -498,61 +498,6 @@
       "sourceAsset": "media/source/haynes_0026.webp"
     },
     {
-      "asset": "media/maintenance_petrol_0027_01.webp",
-      "page": 27,
-      "box": [
-        158,
-        98,
-        472,
-        522
-      ],
-      "sourceAsset": "media/source/haynes_0027.webp"
-    },
-    {
-      "asset": "media/maintenance_petrol_0027_02.webp",
-      "page": 27,
-      "box": [
-        438,
-        98,
-        812,
-        522
-      ],
-      "sourceAsset": "media/source/haynes_0027.webp"
-    },
-    {
-      "asset": "media/maintenance_petrol_0027_03.webp",
-      "page": 27,
-      "box": [
-        508,
-        488,
-        802,
-        682
-      ],
-      "sourceAsset": "media/source/haynes_0027.webp"
-    },
-    {
-      "asset": "media/maintenance_petrol_0027_04.webp",
-      "page": 27,
-      "box": [
-        518,
-        668,
-        802,
-        912
-      ],
-      "sourceAsset": "media/source/haynes_0027.webp"
-    },
-    {
-      "asset": "media/maintenance_petrol_0027_05.webp",
-      "page": 27,
-      "box": [
-        518,
-        888,
-        802,
-        1052
-      ],
-      "sourceAsset": "media/source/haynes_0027.webp"
-    },
-    {
       "asset": "media/maintenance_petrol_0028_01.webp",
       "page": 28,
       "box": [
@@ -1741,61 +1686,6 @@
       "sourceAsset": "media/source/haynes_0076.webp"
     },
     {
-      "asset": "media/engine_sohc_0077_01.webp",
-      "page": 77,
-      "box": [
-        508,
-        8,
-        802,
-        312
-      ],
-      "sourceAsset": "media/source/haynes_0077.webp"
-    },
-    {
-      "asset": "media/engine_sohc_0077_02.webp",
-      "page": 77,
-      "box": [
-        0,
-        38,
-        282,
-        282
-      ],
-      "sourceAsset": "media/source/haynes_0077.webp"
-    },
-    {
-      "asset": "media/engine_sohc_0077_03.webp",
-      "page": 77,
-      "box": [
-        248,
-        38,
-        542,
-        372
-      ],
-      "sourceAsset": "media/source/haynes_0077.webp"
-    },
-    {
-      "asset": "media/engine_sohc_0077_04.webp",
-      "page": 77,
-      "box": [
-        508,
-        278,
-        802,
-        672
-      ],
-      "sourceAsset": "media/source/haynes_0077.webp"
-    },
-    {
-      "asset": "media/engine_sohc_0077_05.webp",
-      "page": 77,
-      "box": [
-        248,
-        348,
-        542,
-        672
-      ],
-      "sourceAsset": "media/source/haynes_0077.webp"
-    },
-    {
       "asset": "media/engine_dohc_0081_02.webp",
       "page": 81,
       "box": [
@@ -2091,83 +1981,6 @@
         1062
       ],
       "sourceAsset": "media/source/haynes_0089.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_01.webp",
-      "page": 90,
-      "box": [
-        538,
-        28,
-        813,
-        272
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_02.webp",
-      "page": 90,
-      "box": [
-        238,
-        38,
-        572,
-        272
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_03.webp",
-      "page": 90,
-      "box": [
-        18,
-        568,
-        312,
-        802
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_04.webp",
-      "page": 90,
-      "box": [
-        278,
-        568,
-        572,
-        802
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_05.webp",
-      "page": 90,
-      "box": [
-        18,
-        788,
-        312,
-        1042
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_06.webp",
-      "page": 90,
-      "box": [
-        278,
-        788,
-        572,
-        1012
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
-    },
-    {
-      "asset": "media/engine_dohc_0090_07.webp",
-      "page": 90,
-      "box": [
-        538,
-        788,
-        813,
-        1042
-      ],
-      "sourceAsset": "media/source/haynes_0090.webp"
     },
     {
       "asset": "media/engine_dohc_0091_01.webp",
@@ -3125,28 +2938,6 @@
         1062
       ],
       "sourceAsset": "media/source/haynes_0114.webp"
-    },
-    {
-      "asset": "media/engine_diesel_0115_01.webp",
-      "page": 115,
-      "box": [
-        0,
-        38,
-        802,
-        282
-      ],
-      "sourceAsset": "media/source/haynes_0115.webp"
-    },
-    {
-      "asset": "media/engine_diesel_0115_03.webp",
-      "page": 115,
-      "box": [
-        508,
-        758,
-        802,
-        1022
-      ],
-      "sourceAsset": "media/source/haynes_0115.webp"
     },
     {
       "asset": "media/engine_diesel_0116_01.webp",
@@ -5470,28 +5261,6 @@
       "sourceAsset": "media/source/haynes_0185.webp"
     },
     {
-      "asset": "media/fuel_petrol_0186_02.webp",
-      "page": 186,
-      "box": [
-        18,
-        728,
-        312,
-        1022
-      ],
-      "sourceAsset": "media/source/haynes_0186.webp"
-    },
-    {
-      "asset": "media/fuel_petrol_0186_03.webp",
-      "page": 186,
-      "box": [
-        278,
-        788,
-        602,
-        1022
-      ],
-      "sourceAsset": "media/source/haynes_0186.webp"
-    },
-    {
       "asset": "media/fuel_petrol_0187_01.webp",
       "page": 187,
       "box": [
@@ -6513,72 +6282,6 @@
         542
       ],
       "sourceAsset": "media/source/haynes_0226.webp"
-    },
-    {
-      "asset": "media/starting_0228_01.webp",
-      "page": 228,
-      "box": [
-        538,
-        268,
-        692,
-        492
-      ],
-      "sourceAsset": "media/source/haynes_0228.webp"
-    },
-    {
-      "asset": "media/starting_0229_01.webp",
-      "page": 229,
-      "box": [
-        238,
-        28,
-        532,
-        282
-      ],
-      "sourceAsset": "media/source/haynes_0229.webp"
-    },
-    {
-      "asset": "media/starting_0229_02.webp",
-      "page": 229,
-      "box": [
-        498,
-        28,
-        792,
-        272
-      ],
-      "sourceAsset": "media/source/haynes_0229.webp"
-    },
-    {
-      "asset": "media/starting_0229_03.webp",
-      "page": 229,
-      "box": [
-        238,
-        268,
-        532,
-        492
-      ],
-      "sourceAsset": "media/source/haynes_0229.webp"
-    },
-    {
-      "asset": "media/starting_0229_04.webp",
-      "page": 229,
-      "box": [
-        498,
-        268,
-        792,
-        492
-      ],
-      "sourceAsset": "media/source/haynes_0229.webp"
-    },
-    {
-      "asset": "media/starting_0229_06.webp",
-      "page": 229,
-      "box": [
-        0,
-        788,
-        272,
-        1022
-      ],
-      "sourceAsset": "media/source/haynes_0229.webp"
     },
     {
       "asset": "media/starting_0230_01.webp",
@@ -11859,6 +11562,370 @@
         1042
       ],
       "sourceAsset": "media/source/haynes_0378.webp"
+    },
+    {
+      "asset": "media/reviewed_0027_01.webp",
+      "page": 27,
+      "box": [
+        5,
+        70,
+        790,
+        515
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0027.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0077_01.webp",
+      "page": 77,
+      "box": [
+        5,
+        65,
+        260,
+        290
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0077.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0077_02.webp",
+      "page": 77,
+      "box": [
+        270,
+        65,
+        520,
+        290
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0077.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0077_03.webp",
+      "page": 77,
+      "box": [
+        525,
+        65,
+        795,
+        290
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0077.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_01.webp",
+      "page": 90,
+      "box": [
+        295,
+        70,
+        550,
+        285
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_02.webp",
+      "page": 90,
+      "box": [
+        550,
+        70,
+        812,
+        285
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_03.webp",
+      "page": 90,
+      "box": [
+        40,
+        595,
+        295,
+        810
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_04.webp",
+      "page": 90,
+      "box": [
+        295,
+        595,
+        555,
+        810
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_05.webp",
+      "page": 90,
+      "box": [
+        555,
+        595,
+        812,
+        810
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_06.webp",
+      "page": 90,
+      "box": [
+        40,
+        810,
+        295,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_07.webp",
+      "page": 90,
+      "box": [
+        295,
+        810,
+        555,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0090_08.webp",
+      "page": 90,
+      "box": [
+        555,
+        810,
+        812,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0090.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0115_01.webp",
+      "page": 115,
+      "box": [
+        5,
+        70,
+        260,
+        300
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0115.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0115_02.webp",
+      "page": 115,
+      "box": [
+        270,
+        70,
+        520,
+        300
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0115.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0115_03.webp",
+      "page": 115,
+      "box": [
+        525,
+        70,
+        795,
+        315
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0115.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0115_04.webp",
+      "page": 115,
+      "box": [
+        270,
+        835,
+        520,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0115.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0115_05.webp",
+      "page": 115,
+      "box": [
+        525,
+        820,
+        795,
+        1040
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0115.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0159_01.webp",
+      "page": 159,
+      "box": [
+        265,
+        65,
+        520,
+        285
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0159.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0159_02.webp",
+      "page": 159,
+      "box": [
+        525,
+        65,
+        790,
+        285
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0159.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0186_01.webp",
+      "page": 186,
+      "box": [
+        10,
+        390,
+        548,
+        812
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0186.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0186_02.webp",
+      "page": 186,
+      "box": [
+        40,
+        810,
+        290,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0186.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0186_03.webp",
+      "page": 186,
+      "box": [
+        295,
+        810,
+        550,
+        1035
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0186.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_01.webp",
+      "page": 229,
+      "box": [
+        255,
+        65,
+        510,
+        275
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_02.webp",
+      "page": 229,
+      "box": [
+        515,
+        65,
+        780,
+        275
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_03.webp",
+      "page": 229,
+      "box": [
+        255,
+        285,
+        510,
+        495
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_04.webp",
+      "page": 229,
+      "box": [
+        515,
+        285,
+        780,
+        495
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_05.webp",
+      "page": 229,
+      "box": [
+        5,
+        810,
+        255,
+        1020
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
+    },
+    {
+      "asset": "media/reviewed_0229_06.webp",
+      "page": 229,
+      "box": [
+        260,
+        810,
+        515,
+        1020
+      ],
+      "scale": 1.5,
+      "sourceAsset": "media/source/haynes_0229.webp",
+      "sourceReview": "printed-pdf-v2"
     }
   ]
 }

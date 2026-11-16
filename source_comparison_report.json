@@ -1,0 +1,73 @@
+{
+  "sourcePdfs": {
+    "Haynes_VW_Golf_&_Bora_Service_and_Repair_Manual_A_K_Legg,_Peter.pdf": "a396d2d61470fa6a568c17240a5db0c5646a4b7c75c35168c836e3774d07241a",
+    "VW Golf4 Bora Jetta 1997-2005-1.pdf": "d340a7c62e2847f0b5c4a89af0c2b2a465bc1e6a020c72df51aa26803d769a16"
+  },
+  "checks": {
+    "articles": 45,
+    "cataloguePages": 361,
+    "sourceCrops": 1079,
+    "fullSourcePages": 326,
+    "wiringSheets": 30,
+    "bfqImageCopies": 175
+  },
+  "reviewedWholePages": [
+    {
+      "slug": "maintenance_petrol",
+      "page": 27
+    },
+    {
+      "slug": "maintenance_diesel",
+      "page": 57
+    },
+    {
+      "slug": "engine_diesel",
+      "page": 115
+    },
+    {
+      "slug": "engine_sohc",
+      "page": 77
+    },
+    {
+      "slug": "engine_dohc",
+      "page": 90
+    },
+    {
+      "slug": "fuel_petrol",
+      "page": 186
+    },
+    {
+      "slug": "starting",
+      "page": 228
+    },
+    {
+      "slug": "maintenance_diesel",
+      "page": 58
+    },
+    {
+      "slug": "engine_overhaul",
+      "page": 159
+    },
+    {
+      "slug": "starting",
+      "page": 229
+    }
+  ],
+  "reviewedBlockRules": 37,
+  "intentionallyOmittedNotesPages": [
+    40,
+    78,
+    132,
+    160,
+    172,
+    232,
+    264,
+    302
+  ],
+  "limitations": [
+    "Automated checks cover provenance, file equality and page presence, not complete semantic accuracy.",
+    "Printed text was manually reviewed on listed pages and in source-anchored block rules.",
+    "BFQ prose is independently authored; the full manual is not a verbatim BFQ source."
+  ],
+  "failures": []
+}

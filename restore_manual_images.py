@@ -50,6 +50,13 @@ def restore() -> None:
             boxes = detect_media(original, load_ocr_lines(number))
             save_page(page, sources / f"haynes_{number:04d}.webp")
             for asset, index in sorted(assets):
+                if asset in known:
+                    # Reviewed crops need not match the legacy detector's
+                    # region count or numbering. Their stored box is definitive.
+                    rect = known[asset]["box"]
+                    original.crop(rect).save(MANUAL / asset, "WEBP", quality=88, method=4)
+                    report.append(dict(known[asset]))
+                    continue
                 old = Image.open(MANUAL / asset)
                 if index > len(boxes):
                     raise ValueError(f"Missing source region for {asset}")

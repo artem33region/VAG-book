@@ -6,16 +6,25 @@
 
 ## Скачать
 
-- [Golf IV / Bora 8.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-8.apk)
-- [BFQ 1.6 7.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-7.apk)
+- [Golf IV / Bora 9.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/golf4-9.apk)
+- [BFQ 1.6 8.0](https://raw.githubusercontent.com/artem33region/VAG-book/main/releases/bfq-8.apk)
 
-В этих версиях заголовки, шаги, примечания и обозначения к рисункам получили
-отдельное оформление. Восстановлены переносы пунктов списков по исходному тексту.
-В разделе 4D вручную сверены страницы 221–223: исправлены маркеры, полное
-примечание про AGR, обозначения деталей и границы трёх иллюстраций.
-Повторяемая обработка: `python format_article_layout.py`; неоднозначные номера
-автоматически не изменяются. Проверенные вручную исключения хранятся в
-`reviewed_diesel_turbo.py` и `reviewed_layout_fixes.py`.
+В версии 9.0 повторно сверены с печатным оригиналом десять страниц целиком
+и 37 отдельных фрагментов. Исправлены потерянные отрицания, подмена названий
+валов и коллекторов, номера шагов и ссылки на главы. Восстановлены порядок
+колонок, таблица плотности электролита и полные иллюстрации на этих страницах.
+В BFQ исправлено представление иллюстрации днища и оформление авторских шагов.
+
+Отчёт [source_comparison_report.json](source_comparison_report.json) содержит
+хеши исходных PDF, объём автоматической сверки и список вручную проверенных
+страниц. Проверка файлов и наличия страниц не означает полной семантической
+вычитки всего перевода. Текст BFQ составлен отдельно; его иллюстрации сверяются
+с теми же оригиналами.
+
+После пересборки содержимого выполните `python format_article_layout.py`,
+затем `python apply_source_review.py`. Для второй команды нужны локальный PDF
+и зависимости из `requirements.txt`. Проверенные страницы и фрагменты хранятся
+в `reviewed_source_pages.py` и `reviewed_source_blocks.json`.
 
 Эту версию нужно один раз установить поверх прежнего APK. Следующие версии
 можно получать через кнопку «Обновления». Приложения имеют разные package ID
@@ -97,6 +106,7 @@ python -m unittest discover -s tests -v
 python audit_app_quality.py --strict
 python audit_bfq_content.py
 python audit_native_content.py --assets android-manual/app/src/main/assets --strict
+python audit_source_comparison.py
 ```
 
 Большие исходные PDF, модели перевода и рабочие кеши хранятся локально;

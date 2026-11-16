@@ -1,0 +1,261 @@
+[
+  {
+    "id": "emissions_petrol-208-79",
+    "slug": "emissions_petrol",
+    "page": 208,
+    "source": "16 If required, unscrew the two bolts securing the adaptor elbow to the exhaust manifold. Withdraw the adaptor from the manifold, and recover the gasket",
+    "replacement": "16. При необходимости отвинтите два болта, крепящие переходное колено к выпускному коллектору. Снимите адаптер с коллектора и извлеките прокладку."
+  },
+  {
+    "id": "emissions_petrol-209-97",
+    "slug": "emissions_petrol",
+    "page": 209,
+    "source": "1 The secondary air injection system (also known as a ‘pulse-air’ system) comprises an electrically-operated air pump (fed with air from the air cleaner), a relay for the air pump, a vacuum-operated air supply combi-valve, a solenoid valve to regulate the vacuum supply, and pipework to feed the air into the exhaust manifold. For more information on the principles of operation, refer to Section 1 (see illustrations) Air pump",
+    "replacement": "1. Система вторичной подачи воздуха (также известная как система «импульсного воздуха») состоит из электроприводного воздушного насоса (подающего воздух от воздушного фильтра), реле для воздушного насоса, вакуумного комбинированного клапана подачи воздуха, соленоидного клапана для регулирования подачи вакуума и трубопроводов для подачи воздуха в выпускной коллектор. Для получения дополнительной информации о принципах работы обратитесь к Разделу 1 (см. иллюстрации)\n\n# Воздушный насос"
+  },
+  {
+    "id": "emissions_petrol-214-195",
+    "slug": "emissions_petrol",
+    "page": 214,
+    "source": "1 Heat shield 2 Heat shield bolts 3 Exhaust manifold 4 Manifold gasket 5 Manifold mounting nut",
+    "replacement": "1. Тепловой экран\n2. Болты крепления теплового экрана\n3. Выпускной коллектор\n4. Прокладка коллектора\n5. Гайка крепления коллектора"
+  },
+  {
+    "id": "engine_diesel-125-392",
+    "slug": "engine_diesel",
+    "page": 125,
+    "source": "8 Refit and tension the timing belt as described in Section 7. Left-hand oil seal 9 The left-hand camshaft oil seal is formed by the brake vacuum pump seal. Refer to Chapter 9 for details of brake vacuum pump removal and refitting",
+    "replacement": "8. Установите и натяните ремень ГРМ по разделу 7.\n\n# Левое уплотнение распределительного вала\n\n9. С левой стороны распределительный вал уплотняется уплотнением вакуумного насоса тормозной системы. Порядок снятия и установки насоса приведён в главе 9."
+  },
+  {
+    "id": "engine_sohc-65-140",
+    "slug": "engine_sohc",
+    "page": 65,
+    "source": "3 The camshaft must be held stationary as the sprocket bolt is slackened, and this can be achieved by making up a tool, and using it to hold the sprocket stationary by means of the holes in the sprocket face (see illustration)",
+    "replacement": "3. Распределительный вал должен оставаться неподвижным при ослаблении болта звездочки, и это можно обеспечить с помощью самодельного инструмента, используя его для удержания звездочки неподвижно через отверстия на лицевой стороне звездочки (см. иллюстрацию)"
+  },
+  {
+    "id": "glossary-377-51",
+    "slug": "glossary",
+    "page": 377,
+    "source": "stationary even though the brake pedal isn’t depressed. It usually consists of a hand lever that actuates either front or rear brakes mechanically through a series of cables and linkages. Also known as a handbrake or parking brake. Endfloat movement between two parts. As applied to a crankshaft, the distance that the crankshaft can move forward and back in the cylinder block. Engine management system (EMS) computer controlled system which manages the fuel injection and the ignition systems in an integrated fashion. Exhaust manifold",
+    "replacement": "Находящийся в неподвижном состоянии, даже если педаль тормоза не нажата. Обычно состоит из ручного рычага, который механически приводит в действие передние или задние тормоза через серию тросов и соединений. Также называется стояночным тормозом.\n\nОсевой зазор — осевое перемещение между двумя деталями. Применительно к коленчатому валу, расстояние, на которое коленчатый вал может перемещаться вперед и назад в цилиндровом блоке. Система управления двигателем (EMS) — компьютеризированная система, которая управляет системами впрыска топлива и зажигания в интегрированном режиме. Выпускной коллектор"
+  },
+  {
+    "id": "reference-360-41",
+    "slug": "reference",
+    "page": 360,
+    "source": "Any fastening which will rotate against a component or housing during tightening should always have a washer between it and the relevant component or housing. Spring or split washers should always be renewed when they are used to lock a critical component such as a big-end bearing retaining bolt or nut. Locktabs which are folded over to retain a nut or bolt should always be renewed. Self-locking nuts can be re-used in noncritical areas, providing resistance can be felt when the locking portion passes over the bolt",
+    "replacement": "Любое крепление, которое будет вращаться относительно детали или корпуса при затягивании, должно всегда иметь шайбу между ним и соответствующей деталью или корпусом. Пружинные или разрезные шайбы всегда должны заменяться, когда они используются для фиксирования критической детали, такой как болт или гайка крепления шатунного подшипника. Стопорные пластины, которые загибаются для удержания гайки или болта, всегда должны заменяться. Самоконтрящиеся гайки могут повторно использоваться в некритичных местах, при условии, что при прохождении замочной части по резьбе болта или шпильки чувствуется сопротивление."
+  },
+  {
+    "id": "glossary-378-83",
+    "slug": "glossary",
+    "page": 378,
+    "source": "transfer agent in an air-conditioning system. R-12 has been the principle refrigerant for many years; recently, however, manufacturers have begun using R-134a, a non-CFC substance that is considered less harmful to the ozone in the upper atmosphere",
+    "replacement": ""
+  },
+  {
+    "id": "glossary-378-84",
+    "slug": "glossary",
+    "page": 378,
+    "source": "Rocker arm A lever arm that rocks on a shaft or pivots on a stud. In an overhead valve engine, the rocker arm converts the upward movement of the pushrod into a downward movement to open a valve. Rotor In a distributor, the rotating device inside the cap that connects the centre electrode and the outer terminals as it turns, distributing the high voltage from the coil secondary winding to the proper spark plug. Also, that part of an alternator which rotates inside the stator. Also, the rotating assembly of a turbocharger, including the compressor",
+    "replacement": "Коромысло — рычаг, который качается на оси или поворачивается на шпильке. В двигателе с верхними клапанами коромысло преобразует движение толкателя вверх в движение вниз для открытия клапана. Ротор В распределителе вращающийся элемент внутри крышки, который соединяет центральный электрод и внешние клеммы при вращении, распределяя высокое напряжение от вторичной обмотки катушки на соответствующую свечу зажигания. Также это часть генератора, которая вращается внутри статора. Также вращающийся узел турбонагнетателя, включая компрессор, колесо, вал и колесо турбины."
+  },
+  {
+    "id": "engine_diesel-114-15",
+    "slug": "engine_diesel",
+    "page": 114,
+    "source": "Chapter 2 |s divided into four Parts; A, B, C",
+    "replacement": "Глава 2 разделена на четыре части: A, B, C"
+  },
+  {
+    "id": "engine_diesel-128-469",
+    "slug": "engine_diesel",
+    "page": 128,
+    "source": "enter the oil and water passages - this is particularly important for the oil circuit, as carbon could block the oil supply to the camshaft and crankshaft bearings. Using adhesive tape and paper, seal the water, oil and bolt holes in the cylinder block. 45 To prevent carbon entering the gap between the pistons and bores, smear a little grease in the gap. After cleaning a piston, rotate the crankshaft to that the piston moves down the bore, then wipe out the grease and carbon with a cloth rag. Clean the other piston crowns in the same way",
+    "replacement": "Не допускайте попадания нагара в масляные каналы и каналы охлаждающей жидкости – это особенно важно для масляной системы, так как нагар может заблокировать подачу масла к подшипникам распределительного и коленчатого валов. Используя клейкую ленту и бумагу, закройте водяные, масляные и болтовые отверстия в блоке цилиндров. \n\n45. Чтобы предотвратить попадание нагара в зазор между поршнями и цилиндрами, слегка смажьте этот зазор смазкой. После очистки поршня поверните коленчатый вал так, чтобы поршень опустился в цилиндр, затем вытрите смазку и нагар тряпкой. Очистите остальные поверхности поршней таким же образом."
+  },
+  {
+    "id": "engine_overhaul-148-361",
+    "slug": "engine_overhaul",
+    "page": 148,
+    "source": "from evidence of coolant or oil leakage. Pay particular attention to the areas around the valve seats and spark plug/fuel injector holes. If cracking is discovered in this area, VW state that on diesel engines and SOHC petrol engines, the cylinder head may be re-used, provided the cracks are no larger than 0.5 mm wide on diesel engines, or 0.38 mm wide on SOHC petrol engines. More serious damage will mean the renewal of the cylinder head casting. 6 Moderately pitted and scorched valve seats can be repaired by lapping the valves in",
+    "replacement": "На основании признаков утечки охлаждающей жидкости или масла. Обратите особое внимание на области вокруг седел клапанов и отверстий для свечей зажигания/форсунок. Если в этой области обнаружены трещины, VW утверждает, что на дизельных двигателях и бензиновых двигателях с SOHC головка блока цилиндров может быть повторно использована, при условии, что трещины не превышают 0,5 мм на дизельных двигателях или 0,38 мм на бензиновых двигателях с SOHC. Более серьёзные повреждения означают необходимость замены отливки головки блока цилиндров. \n\n6. Сёдла клапанов с небольшими раковинами или следами подгорания могут быть восстановлены путем притирки клапанов"
+  },
+  {
+    "id": "engine_overhaul-151-441",
+    "slug": "engine_overhaul",
+    "page": 151,
+    "source": "connecting rods with their cylinder numbers (arrowed) assembly. Note that No 1 cylinder is at the timing belt end of the engine. If no marks are present, using a hammer and centre-punch, paint or similar, mark each connecting rod and big-end bearing cap with its respective cylinder number — note on which side of the connecting rods and caps the marks are made (see illustration). 4 Similarly, check the piston crowns for direction markings. An arrow on each piston crown should point towards the timing belt end of the engine. On some engines, this",
+    "replacement": "Номера цилиндров должны быть нанесены на шатуны и их крышки; см. стрелки на рисунке. Обратите внимание, что цилиндр №1 находится у торца двигателя с ремнем ГРМ. Если меток нет, с помощью молотка и кернера, краски или аналогичных средств отметьте каждый шатун и крышку шатунного подшипника его соответствующим номером цилиндра — отметьте, с какой стороны шатунов и крышек сделаны метки (см. иллюстрацию). \n\n4. Также проверьте направляющие метки на верхних частях поршней. Стрелка на каждой верхней части поршня должна указывать на торец двигателя с ремнем ГРМ. На некоторых двигателях это"
+  },
+  {
+    "id": "engine_overhaul-152-469",
+    "slug": "engine_overhaul",
+    "page": 152,
+    "source": "crankshaft speed/position sensor fitted, lay the crankshaft on wooden blocks — do not rest the crankshaft on the sensor wheel. 8 Recover the upper bearing shells from the cylinder block, and tape them to their respective caps for safe-keeping. Similarly, recover the upper crankshaft endfloat control thrustwasher halves, noting their orientation. 9 On engines with a crankshaft speed/ position sensor wheel fitted, unscrew the securing bolts, and remove the sensor wheel, noting which way round it is fitted",
+    "replacement": "8. Извлеките верхние вкладыши коренных подшипников из блока цилиндров и закрепите их на соответствующих крышках, чтобы не перепутать при хранении. Снимите верхние половины упорных шайб коленчатого вала, запомнив их ориентацию.\n\n9. Если на коленчатом валу установлен задающий диск датчика частоты вращения/положения, выверните его крепёжные болты и снимите диск, запомнив сторону установки."
+  },
+  {
+    "id": "engine_overhaul-152-468",
+    "slug": "engine_overhaul",
+    "page": 152,
+    "source": "7 Lift the crankshaft from the cylinder block (see illustration). crankshaft is heavy. On engines with a",
+    "replacement": "7. Поднимите коленчатый вал из блока цилиндров (см. иллюстрацию). Коленчатый вал тяжелый. На двигателях с установленным датчиком частоты/положения коленчатого вала, уложите коленчатый вал на деревянные подкладки — не ставьте коленчатый вал на задающий диск датчика."
+  },
+  {
+    "id": "engine_overhaul-155-559",
+    "slug": "engine_overhaul",
+    "page": 155,
+    "source": "engine speeds) all contribute to lubrication breakdown. Blocked oil passages, which usually are the result of misaligned oil holes in a bearing shell, will also oil-starve a bearing, and destroy it. When lack of lubrication is the cause of bearing failure, the bearing material is wiped or extruded from the steel backing of the bearing. Temperatures may increase to the point where the steel backing turns blue from overheating. 6 Driving habits can have a definite effect on bearing life. Full-throttle, low-speed operation",
+    "replacement": "Скорости двигателя все способствуют разрушению смазки. Заблокированные масляные каналы, которые обычно являются результатом неправильно выровненных масляных отверстий в вкладыше подшипника, также приведут к недостатку масла у подшипника и его разрушению. Когда причиной выхода подшипника из строя является недостаток смазки, материал подшипника срезается или выдавливается со стальной основы подшипника. Температура может увеличиваться до такой степени, что стальная основа становится синей от перегрева. \n\n6. Привычки вождения могут существенно влиять на срок службы подшипника. Работа с полностью открытой дроссельной заслонкой на низких оборотах"
+  },
+  {
+    "id": "engine_overhaul-158-629",
+    "slug": "engine_overhaul",
+    "page": 158,
+    "source": "remove the insulating tape from the threaded ends of the connecting rod bolts, Oll the bolt threads, and on engines where the big-end Caps are secured by bolts, oil the undersides of the bolt heads, 16 Fit the big-end bearing cap, tightening its retaining nuts or bolts (as applicable) linger-tight at first, The connecting rod and its bearing cap both machined into them on one side, close to their mating surfaces = these recesses must both face the same way as the arrow on the",
+    "replacement": "Снимите изоляционную ленту с резьбовых концов болтов шатуна, смажьте маслом резьбу всех болтов, а на двигателях, где крышки шатунных подшипников закреплены болтами, смажьте маслом нижние части головок болтов. \n\n16. Установите крышку шатунного подшипника, затягивая удерживающие гайки или болты (в зависимости от применимости) сначала от руки. Шатун и его крышка подшипника имеют обработанную поверхность на одной стороне, ближе к сопрягаемым поверхностям — эти углубления должны быть направлены в одну сторону, как стрелка на"
+  },
+  {
+    "id": "engine_sohc-75-441",
+    "slug": "engine_sohc",
+    "page": 75,
+    "source": "mounting alignment details « edger (A) and (3) must be parallel 10 Hefitting ia @ reversal of removal, bearing In mind the following points a) The edge of the engine/tranamission mounting must be parallel with the body (see iluatration) b) Use new mounting bolts (there is no need to renew the amaller mounting -to- body bolt) ©) Tighten all fixings to the specified torque, Rear mounting",
+    "replacement": "> 17.19 Выравнивание левой опоры: кромки A и B должны быть параллельны.\n\n19. Установка выполняется в обратном порядке с учётом следующих указаний:\n\na) Кромка опоры двигателя/коробки передач должна быть параллельна кузову; см. рисунок.\nb) Используйте новые болты опоры. Малый болт крепления опоры к кузову заменять не требуется.\nc) Затяните весь крепёж указанными моментами.\n\n# Задняя опора"
+  },
+  {
+    "id": "engine_sohc-76-491",
+    "slug": "engine_sohc",
+    "page": 76,
+    "source": "4 Examine the sealing washer for signs of damage or deterioration and if necessary renew, 6 Refit the awiteh, complete with washer, and tiahten it to the specified torque, 6 Securely reconnect the wiring connector then check and, if necessary, top-up the engine oil as described in Weekly checks,",
+    "replacement": "4. Осмотрите уплотнительную шайбу и при повреждении или износе замените её.\n\n5. Установите датчик с шайбой и затяните указанным моментом.\n\n6. Надёжно подсоедините разъём. Проверьте уровень моторного масла и при необходимости долейте его; см. «Еженедельные проверки»."
+  },
+  {
+    "id": "engine_sohc-62-21",
+    "slug": "engine_sohc",
+    "page": 62,
+    "source": "i) Cylinder head — removal and refitting. J) Cylinder head and pistons — decarbonising. k) Sump — removal and refitting.!) Oil pump — removal, overhaul and refitting",
+    "replacement": "i) головка блока цилиндров — снятие и установка.\n\nj) головка блока цилиндров и поршни — удаление нагара.\n\nk) Поддон — снятие и установка.\n\nl) Масляный насос — снятие, капитальный ремонт и установка"
+  },
+  {
+    "id": "fuel_diesel-204-353",
+    "slug": "fuel_diesel",
+    "page": 204,
+    "source": "electrical supply to the valve is controlled by the engine management ECU. When the ignition key is turned to the ‘off’ position, the ECU signals the valve, which allows vacuurr to pull the flap shut. Approximately three seconds later, the power supply to the valve is cut, the vacuum to the actuator collapses and the flap opens. 10 The valve is located on the right-hand side of the engine compartment, on the top of the air filter housing. Note their fitted positions and disconnect the vacuum pipes from the valve (see illustration)",
+    "replacement": "Электроснабжение клапана контролируется блоком управления двигателем (ECU). Когда ключ зажигания поворачивается в положение «выключено», ECU подает сигнал клапану, что позволяет вакууму закрыть заслонку. Примерно через три секунды питание клапана отключается, вакуум в исполнительном механизме исчезает, и заслонка открывается. \n\n10. Клапан расположен с правой стороны моторного отсека, на верхней части корпуса воздушного фильтра. Отметьте их установочные позиции и отсоедините вакуумные трубки от клапана (см. иллюстрацию)"
+  },
+  {
+    "id": "fuel_petrol-190-448",
+    "slug": "fuel_petrol",
+    "page": 190,
+    "source": "VW dealer will obviously have such a reader, but they are also available from other suppliers. It is unlikely to be cost-effective for the private owner to purchase a fault code reader, but a well-equipped local garage or auto-electrical specialist will have one. 4 Using this equipment, faults can be pinpointed quickly and simply, even if their occurrence is intermittent. Testing all the system components individually in an attempt to locate the fault by elimination is a timeconsuming operation that is unlikely to be",
+    "replacement": "У дилера VW, очевидно, будет такой считыватель, но его также можно приобрести у других поставщиков. Маловероятно, что покупка считывателя кодов неисправностей будет рентабельной для частного владельца, но хорошо оборудованная местная мастерская или специалист по автоэлектрике будут иметь такой прибор. \n\n4. Используя это оборудование, неисправности можно определить быстро и просто, даже если они проявляются периодически. Проверка всех компонентов системы по отдельности в попытке найти неисправность методом исключения является времязатратной операцией, которая вряд ли будет"
+  },
+  {
+    "id": "maintenance_diesel-47-77",
+    "slug": "maintenance_diesel",
+    "page": 47,
+    "source": "a) Clean, inspect and test the battery (See ‘Weekly checks’). b) Check all the engine-related fluids (See ‘Weekly checks’). c) Drain the water from the fuel filter (Section 4). d) Check the condition and tension of the auxiliary drivebelt (Section 11). e) Check the condition of the air filter, and renew if necessary (Section 27). f) Check the condition of all hoses, and check for fluid leaks (Section 8). 5 If the above operations do not prove fully effective, carry out the following secondary operations Secondary operations",
+    "replacement": "a) Очистите, осмотрите и протестируйте аккумулятор (см. «Еженедельные проверки»).\n\nb) Проверьте все жидкости, связанные с двигателем (см. «Еженедельные проверки»).\n\nc) Слейте воду из топливного фильтра (Раздел 4).\n\nd) Проверьте состояние и натяжение вспомогательного приводного ремня (Раздел 11).\n\ne) Проверьте состояние воздушного фильтра и при необходимости замените его (Раздел 27).\n\nf) Проверьте состояние всех шлангов и наличие утечек жидкости (Раздел 8).\n\n5. Если вышеуказанные операции не оказались полностью эффективными, выполните следующие вторичные операции"
+  },
+  {
+    "id": "starting-231-95",
+    "slug": "starting",
+    "page": 231,
+    "source": "available at the battery positive connection to the solenoid, and that the earth is sound. 4 lf the battery and all connections are in good condition, disconnecting the wire from the solenoid blade terminal. Connect a voltmeter or test light between the wire end and a good earth (such as the battery negative terminal), and check that the wire is live when the ignition switch is turned to the start position. If it is, then the circuit is sound — if not the circuit wiring can be checked as described in Chapter 12",
+    "replacement": "Напряжение должно поступать на положительный вывод тягового реле, а соединение с массой должно быть исправным.\n\n4. Если аккумулятор и соединения исправны, отсоедините провод от плоского управляющего вывода тягового реле. Подключите вольтметр или контрольную лампу между концом провода и надёжной массой, например отрицательной клеммой аккумулятора. Проверьте наличие напряжения при повороте ключа в положение запуска. Если напряжение есть, цепь исправна; иначе проверьте проводку по главе 12."
+  },
+  {
+    "id": "fuel_petrol-178-108",
+    "slug": "fuel_petrol",
+    "page": 178,
+    "source": "It may be preferable not to drain the syatem, bul be prepared to plug the pipes onoe they have been disconnected 2 On Honeturbo models, remove (he alr cleaner aa desoribed in Section 2 3S On turbo models, remove the engine top oover(s), Removal details vary according to model, but the Gover retaining nuts are concealed under circular Covers, which are prised oul of the main Gover, Where plastic screws or lurh-fasteners are used, these Gan be removed using a wide bladed sarewdriver, Hemove the nuts or serews, and lift the cover",
+    "replacement": "Можно не сливать охлаждающую жидкость, но тогда приготовьте заглушки для отсоединённых шлангов.\n\n2. На моделях без турбонаддува снимите воздушный фильтр по разделу 2.\n\n3. На моделях с турбонаддувом снимите верхний кожух двигателя. В зависимости от исполнения гайки могут находиться под круглыми заглушками, которые нужно поддеть. Пластиковые винты или поворотные фиксаторы освобождаются широкой отвёрткой. Отверните гайки или винты и поднимите кожух."
+  },
+  {
+    "id": "maintenance_diesel-44-19",
+    "slug": "maintenance_diesel",
+    "page": 44,
+    "source": "imately 20 seconds with service information. With the standard non-variable display, the service intervals are in accordance with specific distances and time periods. With the LongLife display, the service interval is variable according to the number of starts, length of journeys, vehicle speeds, brake pad bonnet consumption, oil level and oil temperature, however the vehicle must be serviced at least every two years. At a distance of 2000 miles (3000 km) before the next service is due, ‘Service in 2000 miles’ (or ‘83000 km’) will",
+    "replacement": "При обычной индикации с фиксированными интервалами интервалы обслуживания соответствуют конкретным расстояниям и временным периодам. При индикации LongLife интервал обслуживания изменяется в зависимости от количества запусков, продолжительности поездок, скорости автомобиля, износа тормозных колодок, уровня масла и температуры масла, однако автомобиль должен проходить обслуживание как минимум каждые два года. За 2000 миль (3000 км) до следующего обслуживания появится сообщение «Сервис через 2000 миль» (или «3000 км»)."
+  },
+  {
+    "id": "maintenance_diesel-44-14",
+    "slug": "maintenance_diesel",
+    "page": 44,
+    "source": "18-4 Component location — diesel models",
+    "replacement": "# Расположение компонентов — дизельные модели"
+  },
+  {
+    "id": "starting-230-70",
+    "slug": "starting",
+    "page": 230,
+    "source": "bracket (see illustration). remove the power steering pump to improve access, as described in Chapter 10 Refitting",
+    "replacement": "При необходимости для улучшения доступа снимите насос гидроусилителя рулевого управления по главе 10.\n\n# Установка"
+  },
+  {
+    "id": "engine_dohc-91-244",
+    "slug": "engine_dohc",
+    "page": 91,
+    "source": "and the complete right-hand",
+    "replacement": "> 7.12b Правая опора двигателя в сборе — двигатель 1,4 л"
+  },
+  {
+    "id": "engine_dohc-91-245",
+    "slug": "engine_dohc",
+    "page": 91,
+    "source": "engine mounting assembly - 1.4 litre engine",
+    "replacement": ""
+  },
+  {
+    "id": "engine_dohc-91-247",
+    "slug": "engine_dohc",
+    "page": 91,
+    "source": "slacken the tensioner bolt, lever the tensioner anti-clockwise using the Allen key (to release the tension on the belt), and retighten the tensioner bolt (see illustration). 16 Temporarily sprocket locking tool, then slide the main timing belt from the sprockets, noting its routing (see illustration). Refit the camshaft sprocket locking tool once the timing belt has been removed. 17 Turn the crankshaft a quarter-turn (90°) anti-clockwise to position Nos 1 and 4 pistons slightly down their bores from the TDC",
+    "replacement": "Ослабьте болт натяжителя, поверните натяжитель против часовой стрелки шестигранным ключом для ослабления ремня и снова затяните болт; см. рисунок 7.15.\n\n16. Временно снимите фиксатор звёздочек распределительных валов и снимите основной ремень со звёздочек, запомнив его прокладку. После снятия ремня установите фиксатор обратно; см. рисунок 7.16.\n\n17. Поверните коленчатый вал на четверть оборота (90°) против часовой стрелки, чтобы поршни № 1 и 4 опустились немного ниже ВМТ. Это предотвращает контакт клапанов с поршнями при повороте распределительного вала со снятым ремнём."
+  },
+  {
+    "id": "engine_dohc-91-248",
+    "slug": "engine_dohc",
+    "page": 91,
+    "source": "position. This will eliminate any risk of pistonto-valve contact if a camshaft is turned whilst the timing belt is removed",
+    "replacement": ""
+  },
+  {
+    "id": "fuel_petrol-178-102",
+    "slug": "fuel_petrol",
+    "page": 178,
+    "source": "before working on any component in the fuel system, Information on the engine manage ment system sensors whieh are more directly related to the ignition system will be found In Chapter 68 Throttle housing",
+    "replacement": "Перед работой с любым компонентом топливной системы прочитайте меры предосторожности. Датчики системы управления двигателем, непосредственно связанные с зажиганием, описаны в главе 5B.\n\n# Дроссельный узел"
+  },
+  {
+    "id": "engine_overhaul-137-42",
+    "slug": "engine_overhaul",
+    "page": 137,
+    "source": "5 To allow improved access and clearance for removal of the engine/transmission, it is useful to unbolt and remove the body front panel as follows: a) Remove the front bumper as described in Chapter 17",
+    "replacement": "5 Для улучшения доступа и зазора при снятии двигателя/трансмиссии полезно открутить и снять переднюю панель кузова следующим образом:\n\na) Снимите передний бампер, как описано в главе 11"
+  },
+  {
+    "id": "engine_overhaul-139-88",
+    "slug": "engine_overhaul",
+    "page": 139,
+    "source": "8 To allow improved access and clearance for removal of the engine/transmission, it is now necessary to unbolt and remove the body front panel as follows: a) Remove the front bumper as described in Chapter 117",
+    "replacement": "8 Чтобы улучшить доступ и обеспечить место для снятия двигателя/трансмиссии, теперь необходимо открутить и снять переднюю панель кузова следующим образом:\n\na) Снять передний бампер, как описано в главе 11"
+  },
+  {
+    "id": "engine_overhaul-143-209",
+    "slug": "engine_overhaul",
+    "page": 143,
+    "source": "to ‘Disconnecting the battery’ at the rear of this manual. 65 To allow improved access and clearance for removal of the engine/transmission, it is useful to unbolt and remove the body front panel as follows: a) Remove the front bumper as described in Chapter 17",
+    "replacement": "См. «Отключение аккумулятора» в конце этого руководства. 65 Для обеспечения лучшего доступа и пространства при снятии двигателя/трансмиссии полезно открутить и снять переднюю панель кузова следующим образом:\n\na) Снимите передний бампер, как описано в главе 11"
+  },
+  {
+    "id": "engine_overhaul-143-210",
+    "slug": "engine_overhaul",
+    "page": 143,
+    "source": "b) Disconnect the bonnet release cable from the bonnet lock, with reference to Chapter 117",
+    "replacement": "b) Отключите трос открывания капота от замка капота, см. главу 11"
+  }
+]

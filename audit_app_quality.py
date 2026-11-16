@@ -103,6 +103,42 @@ def suspicious_english(text: str) -> list[str]:
     return suspicious
 
 
+def source_term_conflicts(source: str, text: str) -> list[str]:
+    """Flag opposing technical terms only when the source names one of them.
+
+This is a review aid, not an automatic replacement rule: a paragraph can
+legitimately mention both shafts/manifolds.
+"""
+    pairs = (
+        ("camshaft", "crankshaft", r"распред|распредел", r"колен"),
+        ("crankshaft", "camshaft", r"колен", r"распред|распредел"),
+        ("inlet manifold", "exhaust manifold", r"впуск", r"выпуск"),
+        ("exhaust manifold", "inlet manifold", r"выпуск", r"впуск"),
+    )
+    return [wanted for wanted, opposite, correct, wrong in pairs
+            if re.search(r"\b" + wanted + r"\b", source, re.I)
+            and not re.search(r"\b" + opposite + r"\b", source, re.I)
+            and re.search(wrong, text, re.I) and not re.search(correct, text, re.I)]
+
+
+def source_term_conflicts(source: str, text: str) -> list[str]:
+    """Flag opposing technical terms only when the source names one of them.
+
+This is a review aid, not an automatic replacement rule: a paragraph can
+legitimately mention both shafts/manifolds.
+"""
+    pairs = (
+        ("camshaft", "crankshaft", r"распред|распредел", r"колен"),
+        ("crankshaft", "camshaft", r"колен", r"распред|распредел"),
+        ("inlet manifold", "exhaust manifold", r"впуск", r"выпуск"),
+        ("exhaust manifold", "inlet manifold", r"выпуск", r"впуск"),
+    )
+    return [wanted for wanted, opposite, correct, wrong in pairs
+            if re.search(r"\b" + wanted + r"\b", source, re.I)
+            and not re.search(r"\b" + opposite + r"\b", source, re.I)
+            and re.search(wrong, text, re.I) and not re.search(correct, text, re.I)]
+
+
 def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
     index_path = assets / "content_index.json"
     index = json.loads(index_path.read_text(encoding="utf-8"))
@@ -163,6 +199,12 @@ def audit_assets(assets: Path) -> tuple[dict[str, int], list[Issue]]:
                 issues.append(Issue("structure", location, "пустой текстовый блок", ""))
                 continue
             stats["characters"] += len(stripped)
+            if not block.get("translationPart") and not block.get("sourceReview"):
+                for term in source_term_conflicts(str(block.get("source", "")), stripped):
+                    issues.append(Issue("source", location, f"возможная подмена термина оригинала: {term}", stripped[:220]))
+            if not block.get("translationPart") and not block.get("sourceReview"):
+                for term in source_term_conflicts(str(block.get("source", "")), stripped):
+                    issues.append(Issue("source", location, f"возможная подмена термина оригинала: {term}", stripped[:220]))
             if re.search(r"\b\d{1,2}[ABCDАБВГ]?[eе•·]\d{1,2}\b", stripped):
                 issues.append(Issue("format", location, "колонтитул попал в текст", stripped[:220]))
             if re.search(r"\b([А-Яа-яЁё]{3,})/\1\b", stripped, re.I):
