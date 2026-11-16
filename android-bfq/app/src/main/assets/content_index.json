@@ -1,0 +1,146 @@
+{
+  "title": "VW BFQ 1.6 — сервисный справочник",
+  "format": "native-article-v1",
+  "sections": [
+    {
+      "code": "BFQ",
+      "slug": "overview",
+      "category": "Двигатель BFQ",
+      "title": "Паспорт двигателя",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 17,
+      "imageCount": 1
+    },
+    {
+      "code": "ТО",
+      "slug": "service",
+      "category": "Обслуживание",
+      "title": "Регламент и расходные материалы",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 39,
+      "imageCount": 19
+    },
+    {
+      "code": "ГРМ",
+      "slug": "timing",
+      "category": "Механика двигателя",
+      "title": "Ремень ГРМ и установка фаз",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 31,
+      "imageCount": 8
+    },
+    {
+      "code": "РВ",
+      "slug": "camshaft",
+      "category": "Механика двигателя",
+      "title": "Распределительный вал и коромысла",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 23,
+      "imageCount": 4
+    },
+    {
+      "code": "ГБЦ",
+      "slug": "cylinder_head",
+      "category": "Механика двигателя",
+      "title": "Головка блока цилиндров",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 22,
+      "imageCount": 4
+    },
+    {
+      "code": "МАСЛО",
+      "slug": "lubrication",
+      "category": "Системы двигателя",
+      "title": "Смазка, поддон и масляный насос",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 26,
+      "imageCount": 8
+    },
+    {
+      "code": "ОХЛ",
+      "slug": "cooling",
+      "category": "Системы двигателя",
+      "title": "Охлаждение и насос",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 36,
+      "imageCount": 22
+    },
+    {
+      "code": "MPI",
+      "slug": "fuel",
+      "category": "Управление двигателем",
+      "title": "Впрыск, впуск и топливо",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 53,
+      "imageCount": 37
+    },
+    {
+      "code": "DIS",
+      "slug": "ignition",
+      "category": "Управление двигателем",
+      "title": "Зажигание и свечи",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 19,
+      "imageCount": 7
+    },
+    {
+      "code": "EGR",
+      "slug": "emissions",
+      "category": "Управление двигателем",
+      "title": "EGR, вторичный воздух и выпуск",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 28,
+      "imageCount": 14
+    },
+    {
+      "code": "ОП",
+      "slug": "mounts",
+      "category": "Механика двигателя",
+      "title": "Опоры двигателя",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 27,
+      "imageCount": 16
+    },
+    {
+      "code": "DIAG",
+      "slug": "diagnostics",
+      "category": "Диагностика",
+      "title": "Алгоритмы поиска неисправностей",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 14,
+      "imageCount": 0
+    },
+    {
+      "code": "Н·м",
+      "slug": "torques",
+      "category": "Справочные данные",
+      "title": "Моменты затяжки BFQ",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 20,
+      "imageCount": 0
+    },
+    {
+      "code": "ЭЛ",
+      "slug": "wiring",
+      "category": "Справочные данные",
+      "title": "Схема Simos 1.6",
+      "startPage": 0,
+      "endPage": 0,
+      "blockCount": 9,
+      "imageCount": 4
+    }
+  ]
+}

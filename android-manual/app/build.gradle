@@ -1,0 +1,28 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "ru.vagguides.golf4manual"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "ru.vagguides.golf4manual"
+        minSdk 23
+        targetSdk 34
+        versionCode 5
+        versionName "5.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}

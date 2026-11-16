@@ -1,0 +1,315 @@
+{
+  "version": 2,
+  "sections": [
+    {
+      "code": "00",
+      "slug": "about",
+      "category": "О книге",
+      "title": "Обзор моделей и введение",
+      "startPage": 3,
+      "endPage": 8,
+      "blockCount": 7,
+      "imageCount": 2
+    },
+    {
+      "code": "0.1",
+      "slug": "roadside",
+      "category": "В дороге",
+      "title": "Ремонт в пути",
+      "startPage": 9,
+      "endPage": 12,
+      "blockCount": 43,
+      "imageCount": 16
+    },
+    {
+      "code": "0.2",
+      "slug": "weekly",
+      "category": "В дороге",
+      "title": "Еженедельные проверки",
+      "startPage": 13,
+      "endPage": 19,
+      "blockCount": 50,
+      "imageCount": 24
+    },
+    {
+      "code": "1A",
+      "slug": "maintenance_petrol",
+      "category": "Обслуживание",
+      "title": "Бензиновые модели",
+      "startPage": 21,
+      "endPage": 40,
+      "blockCount": 388,
+      "imageCount": 36
+    },
+    {
+      "code": "1B",
+      "slug": "maintenance_diesel",
+      "category": "Обслуживание",
+      "title": "Дизельные модели",
+      "startPage": 41,
+      "endPage": 58,
+      "blockCount": 386,
+      "imageCount": 36
+    },
+    {
+      "code": "2A",
+      "slug": "engine_sohc",
+      "category": "Двигатель",
+      "title": "Бензиновый двигатель SOHC",
+      "startPage": 59,
+      "endPage": 78,
+      "blockCount": 504,
+      "imageCount": 49
+    },
+    {
+      "code": "2B",
+      "slug": "engine_dohc",
+      "category": "Двигатель",
+      "title": "Бензиновый двигатель DOHC",
+      "startPage": 79,
+      "endPage": 110,
+      "blockCount": 789,
+      "imageCount": 109
+    },
+    {
+      "code": "2C",
+      "slug": "engine_diesel",
+      "category": "Двигатель",
+      "title": "Дизельный двигатель",
+      "startPage": 111,
+      "endPage": 132,
+      "blockCount": 550,
+      "imageCount": 68
+    },
+    {
+      "code": "2D",
+      "slug": "engine_overhaul",
+      "category": "Двигатель",
+      "title": "Снятие и капитальный ремонт двигателя",
+      "startPage": 133,
+      "endPage": 160,
+      "blockCount": 630,
+      "imageCount": 79
+    },
+    {
+      "code": "3",
+      "slug": "cooling",
+      "category": "Системы двигателя",
+      "title": "Охлаждение, отопление и кондиционер",
+      "startPage": 161,
+      "endPage": 172,
+      "blockCount": 263,
+      "imageCount": 29
+    },
+    {
+      "code": "4A",
+      "slug": "fuel_petrol",
+      "category": "Питание и выпуск",
+      "title": "Топливная система бензиновых двигателей",
+      "startPage": 173,
+      "endPage": 190,
+      "blockCount": 447,
+      "imageCount": 60
+    },
+    {
+      "code": "4B",
+      "slug": "fuel_diesel",
+      "category": "Питание и выпуск",
+      "title": "Топливная система дизельных двигателей",
+      "startPage": 191,
+      "endPage": 204,
+      "blockCount": 337,
+      "imageCount": 41
+    },
+    {
+      "code": "4C",
+      "slug": "emissions_petrol",
+      "category": "Питание и выпуск",
+      "title": "Снижение токсичности и выпуск — бензин",
+      "startPage": 205,
+      "endPage": 218,
+      "blockCount": 292,
+      "imageCount": 30
+    },
+    {
+      "code": "4D",
+      "slug": "emissions_diesel",
+      "category": "Питание и выпуск",
+      "title": "Снижение токсичности и выпуск — дизель",
+      "startPage": 219,
+      "endPage": 226,
+      "blockCount": 158,
+      "imageCount": 13
+    },
+    {
+      "code": "5A",
+      "slug": "starting",
+      "category": "Электрооборудование",
+      "title": "Системы запуска и зарядки",
+      "startPage": 227,
+      "endPage": 232,
+      "blockCount": 112,
+      "imageCount": 13
+    },
+    {
+      "code": "5B",
+      "slug": "ignition",
+      "category": "Электрооборудование",
+      "title": "Зажигание бензиновых двигателей",
+      "startPage": 233,
+      "endPage": 236,
+      "blockCount": 69,
+      "imageCount": 7
+    },
+    {
+      "code": "5C",
+      "slug": "preheating",
+      "category": "Электрооборудование",
+      "title": "Предпусковой подогрев дизеля",
+      "startPage": 237,
+      "endPage": 238,
+      "blockCount": 17,
+      "imageCount": 1
+    },
+    {
+      "code": "6",
+      "slug": "clutch",
+      "category": "Трансмиссия",
+      "title": "Сцепление",
+      "startPage": 239,
+      "endPage": 246,
+      "blockCount": 241,
+      "imageCount": 34
+    },
+    {
+      "code": "7A",
+      "slug": "manual_transmission",
+      "category": "Трансмиссия",
+      "title": "Механическая коробка передач",
+      "startPage": 247,
+      "endPage": 252,
+      "blockCount": 103,
+      "imageCount": 20
+    },
+    {
+      "code": "7B",
+      "slug": "automatic_transmission",
+      "category": "Трансмиссия",
+      "title": "Автоматическая коробка передач",
+      "startPage": 253,
+      "endPage": 256,
+      "blockCount": 49,
+      "imageCount": 3
+    },
+    {
+      "code": "8",
+      "slug": "driveshafts",
+      "category": "Трансмиссия",
+      "title": "Приводные валы и ШРУСы",
+      "startPage": 257,
+      "endPage": 264,
+      "blockCount": 152,
+      "imageCount": 19
+    },
+    {
+      "code": "9",
+      "slug": "brakes",
+      "category": "Ходовая часть",
+      "title": "Тормозная система",
+      "startPage": 265,
+      "endPage": 278,
+      "blockCount": 413,
+      "imageCount": 38
+    },
+    {
+      "code": "10",
+      "slug": "suspension",
+      "category": "Ходовая часть",
+      "title": "Подвеска и рулевое управление",
+      "startPage": 279,
+      "endPage": 302,
+      "blockCount": 599,
+      "imageCount": 87
+    },
+    {
+      "code": "11",
+      "slug": "bodywork",
+      "category": "Кузов",
+      "title": "Кузов и наружное оборудование",
+      "startPage": 303,
+      "endPage": 328,
+      "blockCount": 686,
+      "imageCount": 132
+    },
+    {
+      "code": "12",
+      "slug": "body_electrical",
+      "category": "Кузов",
+      "title": "Электрооборудование кузова",
+      "startPage": 329,
+      "endPage": 347,
+      "blockCount": 534,
+      "imageCount": 84
+    },
+    {
+      "code": "12W",
+      "slug": "wiring",
+      "category": "Схемы",
+      "title": "Электрические схемы",
+      "startPage": 348,
+      "endPage": 356,
+      "blockCount": 63,
+      "imageCount": 30
+    },
+    {
+      "code": "REF",
+      "slug": "reference",
+      "category": "Справочник",
+      "title": "Данные, инструмент и общие приёмы",
+      "startPage": 357,
+      "endPage": 363,
+      "blockCount": 101,
+      "imageCount": 18
+    },
+    {
+      "code": "MOT",
+      "slug": "inspection",
+      "category": "Справочник",
+      "title": "Проверка технического состояния",
+      "startPage": 364,
+      "endPage": 367,
+      "blockCount": 77,
+      "imageCount": 14
+    },
+    {
+      "code": "DIAG",
+      "slug": "diagnostics",
+      "category": "Справочник",
+      "title": "Поиск неисправностей",
+      "startPage": 368,
+      "endPage": 374,
+      "blockCount": 20,
+      "imageCount": 0
+    },
+    {
+      "code": "GLO",
+      "slug": "glossary",
+      "category": "Справочник",
+      "title": "Словарь технических терминов",
+      "startPage": 375,
+      "endPage": 379,
+      "blockCount": 106,
+      "imageCount": 16
+    },
+    {
+      "code": "IDX",
+      "slug": "index",
+      "category": "Справочник",
+      "title": "Предметный указатель",
+      "startPage": 380,
+      "endPage": 383,
+      "blockCount": 3,
+      "imageCount": 0
+    }
+  ]
+}

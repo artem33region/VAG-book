@@ -1,0 +1,30 @@
+# Machine-local tools, models, work files and credentials
+.work/
+.tools/
+.models/
+.android/
+.adb-home/
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+**/.gradle/
+**/build/
+**/local.properties
+
+# Source scans and local convenience copies; published APKs live in releases/.
+/*.pdf
+/*.apk
+*.sqlite3
+*.prof
+*.tmp
