@@ -2,6 +2,7 @@ package ru.vagguides.golf4manual;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
@@ -12,6 +13,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
@@ -26,6 +29,12 @@ import java.util.Locale;
 
 public final class MainActivity extends Activity {
     private SectionAdapter adapter;
+    private EditText search;
+    private ArticleSearch articleSearch;
+    private TextView catalogueTitle;
+    private TextView emptyMessage;
+    private ListView list;
+    private boolean destroyed;
     private TextView sectionCount;
     private LinearLayout continueCard;
     private TextView continueTitle;
@@ -44,6 +53,7 @@ public final class MainActivity extends Activity {
         root.setOrientation(LinearLayout.VERTICAL);
         root.setBackgroundColor(Ui.PAPER);
 
+        articleSearch = new ArticleSearch(this);
         LinearLayout hero = buildHero();
         root.addView(hero, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
@@ -52,7 +62,7 @@ public final class MainActivity extends Activity {
         LinearLayout catalogueHeader = new LinearLayout(this);
         catalogueHeader.setGravity(Gravity.CENTER_VERTICAL);
         catalogueHeader.setPadding(Ui.dp(this, 18), Ui.dp(this, 14), Ui.dp(this, 18), Ui.dp(this, 8));
-        TextView catalogueTitle = Ui.text(this, "Разделы двигателя", 18, Ui.INK, true);
+        catalogueTitle = Ui.text(this, "Разделы двигателя", 18, Ui.INK, true);
         sectionCount = Ui.text(this, "", 12, Ui.MUTED, false);
         sectionCount.setGravity(Gravity.END | Gravity.CENTER_VERTICAL);
         catalogueHeader.addView(catalogueTitle, new LinearLayout.LayoutParams(0, Ui.dp(this, 30), 1f));
@@ -61,7 +71,7 @@ public final class MainActivity extends Activity {
                 Ui.dp(this, 30)));
         root.addView(catalogueHeader);
 
-        ListView list = new ListView(this);
+        list = new ListView(this);
         list.setDivider(null);
         list.setDividerHeight(0);
         list.setClipToPadding(false);
@@ -70,14 +80,28 @@ public final class MainActivity extends Activity {
         list.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         adapter = new SectionAdapter();
         list.setAdapter(adapter);
-        list.setOnItemClickListener((parent, view, position, id) -> openSection(adapter.getItem(position), 0));
-        root.addView(list, new LinearLayout.LayoutParams(
+        list.setOnItemClickListener((parent, view, position, id) -> {
+            SearchIndex.Hit hit = adapter.getItem(position);
+            hideKeyboard();
+            openSection(hit.section, hit.position);
+        });
+        FrameLayout results = new FrameLayout(this);
+        results.addView(list, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        emptyMessage = Ui.text(this, "", 16, Ui.MUTED, false);
+        emptyMessage.setGravity(Gravity.CENTER);
+        emptyMessage.setPadding(Ui.dp(this, 24), Ui.dp(this, 16), Ui.dp(this, 24), Ui.dp(this, 16));
+        results.addView(emptyMessage, new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        list.setEmptyView(emptyMessage);
+        root.addView(results, new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 0,
                 1f));
 
         setContentView(root);
-        updateSectionCount();
+        if (savedInstanceState != null) search.setText(savedInstanceState.getString("searchQuery", ""));
+        runSearch();
         updateChecker = new AutoUpdateChecker(this, release -> updates.setText(release == null
                 ? getString(R.string.updates_button)
                 : getString(R.string.update_available_automatic, release.versionName)));
@@ -92,6 +116,8 @@ public final class MainActivity extends Activity {
 
     @Override
     protected void onDestroy() {
+        destroyed = true;
+        if (articleSearch != null) articleSearch.close();
         if (updateChecker != null) updateChecker.close();
         super.onDestroy();
     }
@@ -150,9 +176,10 @@ public final class MainActivity extends Activity {
         continueParams.topMargin = Ui.dp(this, 14);
         hero.addView(continueCard, continueParams);
 
-        EditText search = new EditText(this);
+        search = new EditText(this);
+        search.setImeOptions(EditorInfo.IME_ACTION_SEARCH);
         search.setSingleLine(true);
-        search.setHint("Поиск: ГРМ, масло, зажигание…");
+        search.setHint("Поиск по тексту и разделам…");
         search.setHintTextColor(0xFF72808C);
         search.setTextColor(Ui.INK);
         search.setTextSize(14);
@@ -162,11 +189,18 @@ public final class MainActivity extends Activity {
             @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
             @Override public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (adapter != null) {
-                    adapter.filter(s.toString());
-                    updateSectionCount();
+                    runSearch();
                 }
             }
             @Override public void afterTextChanged(Editable s) { }
+        });
+        search.setOnEditorActionListener((view, action, event) -> {
+            if (action == EditorInfo.IME_ACTION_SEARCH) {
+                hideKeyboard();
+                runSearch();
+                return true;
+            }
+            return false;
         });
         LinearLayout.LayoutParams searchParams = new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
@@ -177,6 +211,10 @@ public final class MainActivity extends Activity {
     }
 
     private void updateContinueCard() {
+        if (search != null && !SearchIndex.isEmptyQuery(search.getText().toString())) {
+            continueCard.setVisibility(View.GONE);
+            return;
+        }
         SharedPreferences preferences = getSharedPreferences(ViewerActivity.PREFS, MODE_PRIVATE);
         String slug = preferences.getString(ViewerActivity.KEY_LAST_SLUG, null);
         if (slug == null) {
@@ -201,10 +239,45 @@ public final class MainActivity extends Activity {
         continueCard.setVisibility(View.VISIBLE);
     }
 
-    private void updateSectionCount() {
-        if (adapter != null && sectionCount != null) {
-            sectionCount.setText(sectionCountLabel(adapter.getCount()));
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        outState.putString("searchQuery", search.getText().toString());
+        super.onSaveInstanceState(outState);
+    }
+
+    private void hideKeyboard() {
+        InputMethodManager keyboard = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (keyboard != null) keyboard.hideSoftInputFromWindow(search.getWindowToken(), 0);
+        search.clearFocus();
+    }
+
+    private void runSearch() {
+        String query = search.getText().toString();
+        boolean searching = !SearchIndex.isEmptyQuery(query);
+        catalogueTitle.setText(searching ? "Результаты поиска" : "Разделы справочника");
+        updateContinueCard();
+        if (searching) {
+            emptyMessage.setText("Поиск по справочнику…");
+            sectionCount.setText("Поиск…");
+            adapter.show(new SearchIndex.Result(new ArrayList<>(), 0));
         }
+        articleSearch.search(query, new ArticleSearch.Listener() {
+            @Override public void onResult(SearchIndex.Result result) {
+                if (destroyed) return;
+                emptyMessage.setText("Ничего не найдено. Попробуйте другое слово или часть слова.");
+                adapter.show(result);
+                list.setSelection(0);
+                sectionCount.setText(!searching ? sectionCountLabel(result.total)
+                        : result.total > SearchIndex.LIMIT
+                        ? String.format(Locale.getDefault(), "%d из %d", result.hits.size(), result.total)
+                        : String.format(Locale.getDefault(), "Найдено: %d", result.total));
+            }
+            @Override public void onError() {
+                if (destroyed) return;
+                sectionCount.setText("Ошибка поиска");
+                emptyMessage.setText("Не удалось прочитать статьи. Повторите поиск или переустановите обновление приложения.");
+            }
+        });
     }
 
     private static String sectionCountLabel(int count) {
@@ -238,20 +311,16 @@ public final class MainActivity extends Activity {
     }
 
     private final class SectionAdapter extends BaseAdapter {
-        private final List<Section> visible = new ArrayList<>(ManualSections.ALL);
+        private final List<SearchIndex.Hit> visible = new ArrayList<>();
 
-        void filter(String query) {
+        void show(SearchIndex.Result result) {
             visible.clear();
-            for (Section section : ManualSections.ALL) {
-                if (section.matches(query)) {
-                    visible.add(section);
-                }
-            }
+            visible.addAll(result.hits);
             notifyDataSetChanged();
         }
 
         @Override public int getCount() { return visible.size(); }
-        @Override public Section getItem(int position) { return visible.get(position); }
+        @Override public SearchIndex.Hit getItem(int position) { return visible.get(position); }
         @Override public long getItemId(int position) { return position; }
 
         @Override
@@ -309,14 +378,14 @@ public final class MainActivity extends Activity {
                 holder = (RowHolder) convertView.getTag();
             }
 
-            Section section = getItem(position);
+            SearchIndex.Hit hit = getItem(position);
+            Section section = hit.section;
             holder.code.setText(section.code);
             holder.code.setTextSize(section.code.length() > 4 ? 11 : section.code.length() > 3 ? 12 : 14);
             holder.category.setText(section.category.toUpperCase(Locale.getDefault()));
             holder.name.setText(section.title);
-            holder.meta.setText(String.format(
-                    Locale.getDefault(),
-                    "Инструкции · фото · схемы"));
+            holder.meta.setMaxLines(4);
+            holder.meta.setText(hit.snippet.isEmpty() ? "Инструкции · фото · схемы" : hit.snippet);
             return convertView;
         }
     }
