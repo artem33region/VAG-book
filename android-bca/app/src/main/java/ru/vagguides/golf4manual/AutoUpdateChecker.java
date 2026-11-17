@@ -34,30 +34,25 @@ public final class AutoUpdateChecker {
         preferences.registerOnSharedPreferenceChangeListener(cacheListener);
     }
 
-    public void checkIfDue() {
+    /** Called on every main-screen resume, including a new launch or return from background. */
+    public void checkOnOpen() {
         if (destroyed || working) return;
         try {
             PackageInfo installed = activity.getPackageManager().getPackageInfo(activity.getPackageName(), 0);
             long version = Build.VERSION.SDK_INT >= 28 ? installed.getLongVersionCode() : installed.versionCode;
             installedVersion = version;
             String packageName = activity.getPackageName();
-            // An earlier successful result remains useful while offline or throttled.
+            // Keep an earlier result visible while the fresh request runs or the device is offline.
             showCached(packageName, version);
-            long now = System.currentTimeMillis();
-            if (!AutoUpdatePolicy.shouldCheck(now, preferences.getLong("lastAttempt", 0),
-                    preferences.getLong("lastSuccess", 0), preferences.getLong("checkedVersion", -1), version)) return;
             working = true;
-            // Persist before starting so rotation/relaunch does not flood the server.
-            preferences.edit().putLong("lastAttempt", now).putLong("checkedVersion", version)
-                    .putLong("lastSuccess", 0).apply();
             executor.execute(() -> {
                 try {
                     JSONObject entry = UpdateClient.fetchRelease(packageName);
                     UpdateInfo found = UpdateClient.parseRelease(packageName, entry);
-                    preferences.edit().putString("release", entry.toString()).putLong("lastSuccess", now).apply();
                     activity.runOnUiThread(() -> {
                         if (destroyed) return;
                         working = false;
+                        preferences.edit().putString("release", entry.toString()).apply();
                         listener.onUpdate(found.isNewerThan(version) ? found : null);
                     });
                 } catch (Exception ignored) {

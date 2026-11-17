@@ -23,20 +23,10 @@ class UpdateTests(unittest.TestCase):
             self.assertIn("23 update policy checks passed", result.stdout)
 
     def test_shared_update_code_is_identical(self):
-        for filename in ["UpdateInfo.java", "UpdateActivity.java", "UpdateClient.java", "AutoUpdateChecker.java", "AutoUpdatePolicy.java"]:
+        for filename in ["UpdateInfo.java", "UpdateActivity.java", "UpdateClient.java", "AutoUpdateChecker.java"]:
             suffix = Path("app/src/main/java/ru/vagguides/golf4manual") / filename
             self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bfq" / suffix).read_bytes())
             self.assertEqual((ROOT / "android-manual" / suffix).read_bytes(), (ROOT / "android-bca" / suffix).read_bytes())
-
-    @unittest.skipUnless(shutil.which("javac") and shutil.which("java"), "Java JDK is required")
-    def test_automatic_update_schedule(self):
-        with tempfile.TemporaryDirectory() as directory:
-            source = ROOT / "android-manual/app/src/main/java/ru/vagguides/golf4manual/AutoUpdatePolicy.java"
-            subprocess.run(["javac", "-encoding", "UTF-8", "-d", directory, str(source),
-                            str(ROOT / "tests/java/AutoUpdatePolicyTest.java")], check=True, capture_output=True)
-            result = subprocess.run(["java", "-cp", directory, "ru.vagguides.golf4manual.AutoUpdatePolicyTest"],
-                                    check=True, capture_output=True, text=True)
-            self.assertIn("12 automatic update checks passed", result.stdout)
 
     def test_published_versions_are_immutable(self):
         with tempfile.TemporaryDirectory() as directory:

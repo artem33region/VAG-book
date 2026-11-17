@@ -111,7 +111,7 @@ public final class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         updateContinueCard();
-        updateChecker.checkIfDue();
+        updateChecker.checkOnOpen();
     }
 
     @Override
